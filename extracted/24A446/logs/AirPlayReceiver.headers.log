@@ -1,0 +1,14 @@
+   • Dumping ObjC headers      dylib=AirPlayReceiver
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/APAVAudioSessionManager.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/APAdvertiserBTLEManager.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/APGraphLayer.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/APHUDLayer.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/APLatencyVisualizationLayer.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/APLatencyVisualizationTrackingController.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/AirPlayControllerServer.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/AirPlayReceiverContext.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/AirPlayReceiverMediaRemoteHelper.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/AirPlayReceiverPlatform.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/BluetoothAddressMonitor.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/AirPlayControllerAsync-Protocol.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AirPlayReceiver/AirPlayReceiver/AirPlayReceiver.h

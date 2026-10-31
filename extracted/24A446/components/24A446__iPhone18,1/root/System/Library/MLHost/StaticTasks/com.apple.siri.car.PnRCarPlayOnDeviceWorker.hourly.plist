@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   com.apple.siri.car.PnRCarPlayOnDeviceWorker.daily.plist
+   PnROnDeviceFramework
+
+   Created by christopher sofian on 5/5/25.
+   Copyright (c) 2025 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>com.apple.siri.car.PnRCarPlayOnDeviceWorker.hourly</string>
+    <key>bundleIdentifier</key>
+    <string>com.apple.siri.car.PnRCarPlayOnDeviceWorker</string>
+    <key>taskRequest</key>
+    <dict>
+        <key>repeatingTask</key>
+        <dict>
+            <key>interval</key>
+            <real>3600</real>
+            <key>minDurationBetweenInstances</key>
+            <real>1800</real>
+        </dict>
+        <key>requiresUserInactivity</key>
+        <true/>
+        <key>requiresExternalPower</key>
+        <true/>
+        <key>priority</key>
+        <string>Maintenance</string>
+        <key>groupName</key>
+        <string>com.apple.siri.car.PnRCarPlayOnDeviceWorker</string>
+        <key>groupConcurrencyLimit</key>
+        <integer>1</integer>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+{
+  "firmware": "iPhone18,1_27.0.1_24A446_Restore.ipsw",
+  "ios_version": "27.0.1",
+  "build": "24A446",
+  "device": "iPhone 17 Pro",
+  "ipsw_release": "3.1.739",
+  "cache_family_files": 82,
+  "exported_cache_images": 42,
+  "reconstructed_header_files": 1299,
+  "filesystem_candidate_files": 1343,
+  "filesystem_mach_o_files": 35,
+  "failed_exports": 0,
+  "parser_verified": [
+    "CarKit",
+    "AirPlaySender",
+    "accessoryd"
+  ]
+}

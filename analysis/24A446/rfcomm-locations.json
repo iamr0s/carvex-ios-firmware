@@ -1,0 +1,51 @@
+{
+  "build": "24A446",
+  "binary": "analysis\\24A446\\bluetooth-components\\24A446__iPhone18,1\\root\\usr\\sbin\\bluetoothd",
+  "sha256": "cfd94854d0a2efd3ca4a2de6e55349f43fd0d274a4b8bfa9937f29d9f7208cb1",
+  "function_starts": 37368,
+  "method": "ADRP/ADD and ADR literal-reference candidates checked against RFCOMM diagnostics; boundaries from LC_FUNCTION_STARTS; names inferred from diagnostics, not original symbols",
+  "references": [
+    {
+      "string_address": "0x100a03488",
+      "string": "RFCOMM registration failed!\\n",
+      "reference": "0x1002f1440",
+      "function_start": "0x1002f1300",
+      "function_end": "0x1002f15e0"
+    },
+    {
+      "string_address": "0x100a36cca",
+      "string": "OI_Rfcomm_GetSessionByCID",
+      "reference": "0x1003c1924",
+      "function_start": "0x1003c18a4",
+      "function_end": "0x1003c1964"
+    },
+    {
+      "string_address": "0x100a36d54",
+      "string": "OI_RFCOMM_Connect failed",
+      "reference": "0x1003c2cf8",
+      "function_start": "0x1003c2b00",
+      "function_end": "0x1003c2d6c"
+    },
+    {
+      "string_address": "0x100a37686",
+      "string": "OI_Rfcomm_ReceiveFrame invalid frame length=%d",
+      "reference": "0x1003c59ec",
+      "function_start": "0x1003c59a0",
+      "function_end": "0x1003c5c70"
+    },
+    {
+      "string_address": "0x100a37872",
+      "string": "OI_RfcommMux_TEST invalid size=%d",
+      "reference": "0x1003c709c",
+      "function_start": "0x1003c6f94",
+      "function_end": "0x1003c7100"
+    },
+    {
+      "string_address": "0x100a37894",
+      "string": "Invalid RFCOMM packet received, command (%d), force disconnect the link",
+      "reference": "0x1003c74ac",
+      "function_start": "0x1003c73f0",
+      "function_end": "0x1003c8464"
+    }
+  ]
+}

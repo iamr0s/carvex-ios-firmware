@@ -1,0 +1,35 @@
+{
+  "path": "D:\\carplay-phone\\firmware\\extracted\\24A446\\binaries\\CarKit\\CarKit",
+  "size": 1091424,
+  "sha256": "d7a56e9b821f7cc5b6563ec239614fa37778a876fdf1403516e6cb9c458c6dbb",
+  "magic": "0xfeedfacf",
+  "cputype": 16777228,
+  "cpusubtype": 2147483650,
+  "filetype": 6,
+  "ncmds": 59,
+  "sizeofcmds": 8328,
+  "flags": "0x6100085",
+  "uuid": "62c181f8-d193-3f7a-ba03-6a263dcdd759",
+  "encryption": null,
+  "entry": null,
+  "segment_count": 7,
+  "section_count": 49,
+  "function_starts": 3044,
+  "symtab": {
+    "symoff": 725640,
+    "nsyms": 5671,
+    "stroff": 820208,
+    "strsize": 271216
+  },
+  "symbol_count": 5202,
+  "sect_create_date": null,
+  "text_section": {
+    "segment": "__TEXT",
+    "section": "__text",
+    "addr": 7555105144,
+    "size": 400684,
+    "fileoff": 8568,
+    "align": 2,
+    "flags": 2147484672
+  }
+}

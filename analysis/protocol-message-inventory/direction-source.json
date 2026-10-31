@@ -1,0 +1,11 @@
+{
+  "source_url": "https://github.com/wireshark/wireshark/blob/master/epan/dissectors/packet-packetlogger.c",
+  "reviewed_source": "PacketLogger type definitions and sent flag switch; reviewed 2026-10-18",
+  "snippet": "#define PKT_SENT_ACL_DATA 0x02\n#define PKT_RECV_ACL_DATA 0x03\n",
+  "mapping": {
+    "2": "local phone sent ACL",
+    "3": "local phone received ACL"
+  },
+  "peer_identity": "Remote Bluetooth peer on this connection; CarPlay business identity requires separate proof",
+  "parser_direction": "type-1, hence1/2"
+}

@@ -1,0 +1,64 @@
+{
+    "title": "Listen in Your Car",
+    "message": "Play audiobooks in your car with CarPlay.",
+    "icon": "systemimage://car.circle.fill",
+    "style": 4,
+    "actions": [
+        {
+            "style": "cancel",
+            "identifier": "cancel",
+            "value": "DeepLinkCancel"
+        },
+        {
+            "title": "Learn More...",
+            "value": "ibooks://um/aboutCarplay",
+            "identifier": "aboutCarplay"
+        }
+    ],
+    "x-appearance": {
+        "accessoryButtonColor": {
+            "type": "named",
+            "name": "white"
+        },
+        "footerButtonColor": {
+            "type": "named",
+            "name": "white"
+        },
+        "imageTintColor": {
+            "type": "named",
+            "name": "white"
+        },
+        "titleColor": {
+            "type": "named",
+            "name": "white"
+        },
+        "subtitleColor": {
+            "type": "named",
+            "name": "white"
+        },
+        "separatorColor": {
+            "type": "named",
+            "name": "white"
+        },
+        "background": {
+            "backgroundType": "gradient",
+            "gradientType": "axial",
+            "colors": [
+                {
+                    "type": "rgb",
+                    "red": 0.945,
+                    "green": 0.039,
+                    "blue": 0.384
+                },
+                {
+                    "type": "rgb",
+                    "red": 0.561,
+                    "green": 0.09,
+                    "blue": 0.0239
+                }
+            ],
+            "startPoint": [0.0, 1.0],
+            "endPoint": [1.0, 0.0],
+        },
+    }
+}

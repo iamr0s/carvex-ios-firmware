@@ -1,0 +1,317 @@
+[
+  {
+    "segment": "__TEXT",
+    "section": "__text",
+    "addr": 4294972864,
+    "size": 1703344,
+    "fileoff": 5568,
+    "align": 6,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__auth_stubs",
+    "addr": 4296676208,
+    "size": 6288,
+    "fileoff": 1708912,
+    "align": 2,
+    "flags": 2147484680
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_stubs",
+    "addr": 4296682496,
+    "size": 38336,
+    "fileoff": 1715200,
+    "align": 5,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methlist",
+    "addr": 4296720832,
+    "size": 28332,
+    "fileoff": 1753536,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__const",
+    "addr": 4296749168,
+    "size": 8464,
+    "fileoff": 1781872,
+    "align": 4,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__gcc_except_tab__TEXT",
+    "addr": 4296757632,
+    "size": 8464,
+    "fileoff": 1790336,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_classname__TEXT",
+    "addr": 4296766096,
+    "size": 4051,
+    "fileoff": 1798800,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methname",
+    "addr": 4296770147,
+    "size": 65238,
+    "fileoff": 1802851,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methtype",
+    "addr": 4296835385,
+    "size": 12876,
+    "fileoff": 1868089,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__cstring",
+    "addr": 4296848261,
+    "size": 58869,
+    "fileoff": 1880965,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__oslogstring",
+    "addr": 4296907130,
+    "size": 233707,
+    "fileoff": 1939834,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__ustring",
+    "addr": 4297140838,
+    "size": 562,
+    "fileoff": 2173542,
+    "align": 1,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__info_plist",
+    "addr": 4297141400,
+    "size": 1358,
+    "fileoff": 2174104,
+    "align": 0,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__unwind_info",
+    "addr": 4297142760,
+    "size": 18480,
+    "fileoff": 2175464,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__const",
+    "addr": 4297162752,
+    "size": 41688,
+    "fileoff": 2195456,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__cfstring",
+    "addr": 4297204440,
+    "size": 29632,
+    "fileoff": 2237144,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_classlist__DATA_CONST",
+    "addr": 4297234072,
+    "size": 792,
+    "fileoff": 2266776,
+    "align": 3,
+    "flags": 268435456
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_catlist",
+    "addr": 4297234864,
+    "size": 16,
+    "fileoff": 2267568,
+    "align": 3,
+    "flags": 268435456
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_protolist__DATA_CONST",
+    "addr": 4297234880,
+    "size": 376,
+    "fileoff": 2267584,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_imageinfo__DATA_CONST",
+    "addr": 4297235256,
+    "size": 8,
+    "fileoff": 2267960,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_protorefs__DATA_CONST",
+    "addr": 4297235264,
+    "size": 304,
+    "fileoff": 2267968,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_superrefs__DATA_CONST",
+    "addr": 4297235568,
+    "size": 752,
+    "fileoff": 2268272,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_arraydata__DATA_CONST",
+    "addr": 4297236320,
+    "size": 256,
+    "fileoff": 2269024,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_arrayobj",
+    "addr": 4297236576,
+    "size": 216,
+    "fileoff": 2269280,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_intobj",
+    "addr": 4297236792,
+    "size": 264,
+    "fileoff": 2269496,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__auth_got",
+    "addr": 4297237056,
+    "size": 3160,
+    "fileoff": 2269760,
+    "align": 3,
+    "flags": 6
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__got",
+    "addr": 4297240216,
+    "size": 3832,
+    "fileoff": 2272920,
+    "align": 3,
+    "flags": 6
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__auth_ptr",
+    "addr": 4297244048,
+    "size": 152,
+    "fileoff": 2276752,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_const",
+    "addr": 4297244672,
+    "size": 45184,
+    "fileoff": 2277376,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_selrefs",
+    "addr": 4297289856,
+    "size": 13248,
+    "fileoff": 2322560,
+    "align": 3,
+    "flags": 268435461
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_ivar",
+    "addr": 4297303104,
+    "size": 1952,
+    "fileoff": 2335808,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_data",
+    "addr": 4297305056,
+    "size": 7920,
+    "fileoff": 2337760,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__data",
+    "addr": 4297312976,
+    "size": 6464,
+    "fileoff": 2345680,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__bss",
+    "addr": 4297319440,
+    "size": 5656,
+    "fileoff": 0,
+    "align": 4,
+    "flags": 1
+  },
+  {
+    "segment": "__DATA",
+    "section": "__common",
+    "addr": 4297325096,
+    "size": 40,
+    "fileoff": 0,
+    "align": 3,
+    "flags": 1
+  }
+]

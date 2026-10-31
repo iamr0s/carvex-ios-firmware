@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "scope": "CAPTURE_AND_CURRENT_INCOMING_REGISTRY_PROVENANCE_NOT_PROTOCOL_COMPLETENESS",
+  "captures": 4,
+  "messages": 95,
+  "observed_ids": 19,
+  "worklist_rows": 180,
+  "stages": 9,
+  "registered_current_incoming": 96,
+  "unchanged_prior_pseudocode_C_and_headers": 29,
+  "legacy_implementation_flags_used": false,
+  "current24A446_runtime_observed": false,
+  "full_host_executed": false,
+  "complete": false,
+  "live_verified": false,
+  "source_sha256": {
+    "docs/wireless-phone-host/protocol-message-inventory.md": "300a3d10a049b6ac423a8a85b14384b7b7bd10550cc399b0652b24791f2939df",
+    "docs/wireless-phone-host/protocol-message-inventory.json": "315cca5e9a80cfe6166c4f22b522effd05e556f145e8b518f7a693f459c9a063",
+    "docs/wireless-phone-host/project-goal.md": "8d47b8997b52e5bbca75932ea27d82a03595e6b1ba7bd8d26e2d5c635908492d",
+    "docs/wireless-phone-host/README.md": "9761328b9b18bf9a8adf3850365d704a98115cb907fa7ebb0d4948872bfb57de",
+    "AGENTS.md": "21f26d62f57e439a2d7dcc8c908372b6e591acb4c890d40577211a7827208ac9",
+    "analysis/protocol-message-inventory/capture-freeze.json": "d618d81c97cb5b6d17a56a6f067bed6642f046189f98e544e17a119a287bd274",
+    "analysis/protocol-message-inventory/comparison-after-freeze.json": "d5848d8b1b4549def7d8a7d27b6140d6b7d81af9dbcfe95d12656ae89c522a5d",
+    "analysis/protocol-message-inventory/timelines.json": "cfcdefd6e07d99c613fa9cc1fb119ef3ff86a2ca95a4e4b707a8e2ae7057f2ca",
+    "reference/reports/protocol-message-status.json": "46a49b1781feee31b37af59fcda79ced003f79fd1f1780a9ef4450f2e4cdd09b",
+    "tools/ipsw-research/verify-phone-message-inventory.py": "2a50ff04f22044190daa1bd6eee7fc68d714f76a02ed3b22c361fd3237895922",
+    "tools/ipsw-research/publish-phone-message-inventory.py": "fb14d3854f23eb22e250c26376325bdcf376419faf60222daf4cba00409bff00",
+    "tools/ipsw-research/publish-current-wire-map.py": "bd848b0edfb8ed4805d6141e17d45614712d607292da73e62baa69cf3d2cb0bd"
+  }
+}

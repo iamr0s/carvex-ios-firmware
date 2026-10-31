@@ -1,0 +1,330 @@
+[
+  {
+    "name": "dyld_shared_cache_arm64e",
+    "size": 786432
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.01",
+    "size": 131547136
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.02",
+    "size": 229376
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.03",
+    "size": 131072000
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.04",
+    "size": 294912
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.05",
+    "size": 131317760
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.06",
+    "size": 212992
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.07",
+    "size": 131268608
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.08",
+    "size": 262144
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.09",
+    "size": 131137536
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.10",
+    "size": 212992
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.11",
+    "size": 131481600
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.12",
+    "size": 278528
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.13",
+    "size": 131432448
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.14",
+    "size": 229376
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.15",
+    "size": 131399680
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.16",
+    "size": 245760
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.17",
+    "size": 131334144
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.18",
+    "size": 294912
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.19",
+    "size": 131563520
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.20",
+    "size": 344064
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.21",
+    "size": 130859008
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.22",
+    "size": 262144
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.23",
+    "size": 130891776
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.24",
+    "size": 311296
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.25.dylddata",
+    "size": 231194624
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.26.dyldreadonly",
+    "size": 193839104
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.27",
+    "size": 32768
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.28",
+    "size": 131252224
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.29",
+    "size": 344064
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.30",
+    "size": 130793472
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.31",
+    "size": 393216
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.32",
+    "size": 130973696
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.33",
+    "size": 393216
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.34",
+    "size": 130383872
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.35",
+    "size": 180224
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.36",
+    "size": 131563520
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.37",
+    "size": 425984
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.38",
+    "size": 131072000
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.39",
+    "size": 491520
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.40",
+    "size": 131170304
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.41",
+    "size": 507904
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.42",
+    "size": 131268608
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.43",
+    "size": 245760
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.44",
+    "size": 130859008
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.45",
+    "size": 212992
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.46",
+    "size": 130859008
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.47",
+    "size": 442368
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.48",
+    "size": 131268608
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.49",
+    "size": 344064
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.50",
+    "size": 131072000
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.51",
+    "size": 311296
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.52",
+    "size": 130826240
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.53",
+    "size": 294912
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.54.dylddata",
+    "size": 226328576
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.55.dyldreadonly",
+    "size": 3686400
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.56",
+    "size": 32768
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.57",
+    "size": 131088384
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.58",
+    "size": 294912
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.59",
+    "size": 130646016
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.60",
+    "size": 212992
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.61",
+    "size": 131153920
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.62",
+    "size": 262144
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.63",
+    "size": 130875392
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.64",
+    "size": 245760
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.65",
+    "size": 130859008
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.66",
+    "size": 262144
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.67",
+    "size": 131088384
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.68",
+    "size": 344064
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.69",
+    "size": 130859008
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.70",
+    "size": 245760
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.71",
+    "size": 131219456
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.72",
+    "size": 262144
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.73",
+    "size": 130416640
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.74",
+    "size": 294912
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.75",
+    "size": 130301952
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.76",
+    "size": 49152
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.77.dylddata",
+    "size": 153681920
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.78.dyldreadonly",
+    "size": 65536
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.79.dyldlinkedit",
+    "size": 678330368
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.atlas",
+    "size": 3070676
+  },
+  {
+    "name": "dyld_shared_cache_arm64e.symbols",
+    "size": 1223540736
+  }
+]

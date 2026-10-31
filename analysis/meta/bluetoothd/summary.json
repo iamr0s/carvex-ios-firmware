@@ -1,0 +1,38 @@
+{
+  "path": "D:\\carplay-phone\\firmware\\extracted\\24A446\\components\\24A446__iPhone18,1\\root\\usr\\sbin\\bluetoothd",
+  "size": 13092096,
+  "sha256": "cfd94854d0a2efd3ca4a2de6e55349f43fd0d274a4b8bfa9937f29d9f7208cb1",
+  "magic": "0xfeedfacf",
+  "cputype": 16777228,
+  "cpusubtype": 2147483650,
+  "filetype": 2,
+  "ncmds": 132,
+  "sizeofcmds": 14432,
+  "flags": "0x210085",
+  "uuid": "8e49197b-e6bc-3f3b-a8d3-df4bedd37f01",
+  "encryption": null,
+  "entry": {
+    "entryoff": 2046044,
+    "stacksize": 0
+  },
+  "segment_count": 5,
+  "section_count": 48,
+  "function_starts": 37368,
+  "symtab": {
+    "symoff": 12850704,
+    "nsyms": 1803,
+    "stroff": 12891944,
+    "strsize": 52320
+  },
+  "symbol_count": 2,
+  "sect_create_date": null,
+  "text_section": {
+    "segment": "__TEXT",
+    "section": "__text",
+    "addr": 4294982192,
+    "size": 9452608,
+    "fileoff": 14896,
+    "align": 2,
+    "flags": 2147484672
+  }
+}

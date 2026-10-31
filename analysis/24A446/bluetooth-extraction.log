@@ -1,0 +1,10 @@
+   • Extracting files matching pattern "(?i)(^|/)(bluetoothd|bluetoothuserd)$"
+      • Mounting DMG /mnt/d/ios-carplay/.tmp/ipsw_extract_dmg104288717/043-69297-793.dmg
+   • Using pure Go implementation for AEA decryption
+      • Mounting DMG /mnt/d/ios-carplay/.tmp/ipsw_extract_dmg1465517429/043-69814-710.dmg
+   • Using pure Go implementation for AEA decryption
+      • Mounting DMG /mnt/d/ios-carplay/.tmp/ipsw_extract_dmg474490634/043-68786-664.dmg
+   • Using pure Go implementation for AEA decryption
+      • Mounting DMG /mnt/d/ios-carplay/.tmp/ipsw_extract_dmg13940111/043-69399-761.dmg
+      • Created analysis/24A446/bluetooth-components/24A446__iPhone18,1/root/usr/libexec/bluetoothuserd
+      • Created analysis/24A446/bluetooth-components/24A446__iPhone18,1/root/usr/sbin/bluetoothd

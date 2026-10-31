@@ -1,0 +1,4906 @@
+{
+  "kind": "FRESH_RAW_CAPTURE_REASSEMBLY",
+  "prior_metadata_used_as_input": false,
+  "parser": "tools/ipsw-research/reassemble-audit-captures.py",
+  "parser_sha256": "5b5e2a977ed0b91e372e9c013e296d8803f8bbc10aa6aa3bf248e11f633dbb00",
+  "cases": [
+    {
+      "case": "23G90",
+      "build_label": "23G90",
+      "build_source": "sysdiagnose directory label; not a current24A446 capture",
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.16_22-11-51+0800_iPhone-OS_iPhone_23G90/logs/Bluetooth/bluetoothd-hci-latest.pklg",
+      "sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "size": 205582,
+      "record_count": 4508,
+      "link_frames": 33,
+      "messages": 15,
+      "message_ids": {
+        "1d00": 1,
+        "1d01": 1,
+        "1d02": 1,
+        "4e0d": 1,
+        "4e0e": 1,
+        "5702": 2,
+        "5703": 1,
+        "aa00": 2,
+        "aa01": 1,
+        "aa02": 1,
+        "aa03": 1,
+        "aa05": 1,
+        "aa06": 1
+      },
+      "warnings": {},
+      "current24A446": false
+    },
+    {
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "build_source": "sysdiagnose directory label; not a current24A446 capture",
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.14_19-51-56+0800_iPhone-OS_iPhone_22H374/logs/Bluetooth/bluetoothd-hci-latest.pklg",
+      "sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "size": 890558,
+      "record_count": 16686,
+      "link_frames": 22,
+      "messages": 16,
+      "message_ids": {
+        "1d00": 1,
+        "1d01": 1,
+        "1d02": 1,
+        "4e09": 1,
+        "4e0c": 1,
+        "4e0d": 1,
+        "4e0e": 1,
+        "5702": 2,
+        "5703": 2,
+        "aa00": 1,
+        "aa01": 1,
+        "aa02": 1,
+        "aa03": 1,
+        "aa05": 1
+      },
+      "warnings": {},
+      "current24A446": false
+    },
+    {
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "build_source": "sysdiagnose directory label; not a current24A446 capture",
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.14_19-51-56+0800_iPhone-OS_iPhone_22H374/logs/Bluetooth/bluetoothd-hci-2026_10_14-19_48_35.pklg",
+      "sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "size": 3180972,
+      "record_count": 61230,
+      "link_frames": 63,
+      "messages": 32,
+      "message_ids": {
+        "1d00": 2,
+        "1d01": 2,
+        "1d02": 2,
+        "4e09": 2,
+        "4e0c": 2,
+        "4e0d": 2,
+        "4e0e": 2,
+        "5702": 4,
+        "5703": 4,
+        "aa00": 2,
+        "aa01": 2,
+        "aa02": 2,
+        "aa03": 2,
+        "aa05": 2
+      },
+      "warnings": {},
+      "current24A446": false
+    },
+    {
+      "case": "21G93",
+      "build_label": "21G93",
+      "build_source": "sysdiagnose directory label; not a current24A446 capture",
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.16_22-24-53+0800_iPhone-OS_iPhone_21G93/logs/Bluetooth/bluetoothd-hci-latest.pklg",
+      "sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "size": 286777,
+      "record_count": 4392,
+      "link_frames": 52,
+      "messages": 32,
+      "message_ids": {
+        "1d00": 2,
+        "1d01": 2,
+        "1d02": 2,
+        "4300": 7,
+        "4301": 1,
+        "4e09": 2,
+        "4e0a": 2,
+        "4e0b": 2,
+        "4e0c": 2,
+        "aa00": 2,
+        "aa02": 2,
+        "aa03": 2,
+        "aa05": 2,
+        "aa06": 2
+      },
+      "warnings": {
+        "sequence_gap": 4,
+        "data_without_syn": 1
+      },
+      "current24A446": false
+    }
+  ],
+  "occurrences": [
+    {
+      "occurrence": "23G90:0",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "1d00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188676,
+      "timestamp_microseconds": 939000,
+      "total": 6,
+      "header_hex": "404000061d00",
+      "sha256": "16bc2e91fa43a9d3a6075d758f68ba6938e749f47ad57526bba3004a0ce90a55",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 3189,
+          "offset": 132156,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:1",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "1d01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188677,
+      "timestamp_microseconds": 313000,
+      "total": 357,
+      "header_hex": "404001651d01",
+      "sha256": "fdbe7d832d6a47596ae1c6787136052a10dd894203543c4f87456ac2d76af52d",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 29,
+          "value_length": 25,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 9,
+          "value_length": 5,
+          "offset_in_message": 35
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 49,
+          "value_length": 45,
+          "offset_in_message": 44
+        },
+        {
+          "parameter_id": 34,
+          "encoded_length": 21,
+          "value_length": 17,
+          "offset_in_message": 93
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 114
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 13,
+          "value_length": 9,
+          "offset_in_message": 133
+        },
+        {
+          "parameter_id": 5,
+          "encoded_length": 16,
+          "value_length": 12,
+          "offset_in_message": 146
+        },
+        {
+          "parameter_id": 6,
+          "encoded_length": 10,
+          "value_length": 6,
+          "offset_in_message": 162
+        },
+        {
+          "parameter_id": 7,
+          "encoded_length": 12,
+          "value_length": 8,
+          "offset_in_message": 172
+        },
+        {
+          "parameter_id": 8,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 184
+        },
+        {
+          "parameter_id": 9,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 189
+        },
+        {
+          "parameter_id": 12,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 195
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 202
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 209
+        },
+        {
+          "parameter_id": 17,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 216
+        },
+        {
+          "parameter_id": 20,
+          "encoded_length": 41,
+          "value_length": 37,
+          "offset_in_message": 254
+        },
+        {
+          "parameter_id": 22,
+          "encoded_length": 35,
+          "value_length": 31,
+          "offset_in_message": 295
+        },
+        {
+          "parameter_id": 24,
+          "encoded_length": 27,
+          "value_length": 23,
+          "offset_in_message": 330
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3196,
+          "offset": 132368,
+          "length": 247
+        },
+        {
+          "record": 3219,
+          "offset": 133437,
+          "length": 110
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:2",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "1d02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188677,
+      "timestamp_microseconds": 403000,
+      "total": 6,
+      "header_hex": "404000061d02",
+      "sha256": "9c0d0028ce515e99c3a4f7eed1f87ba829f7da9ef2edf48203d0ffaa54ad63b1",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 3224,
+          "offset": 133710,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:3",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "aa00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188677,
+      "timestamp_microseconds": 445000,
+      "total": 10,
+      "header_hex": "4040000aaa00",
+      "sha256": "fd761c290bec385db1f3d178f51d4a6bbef598b8c484eff2d2a9f7b7aa1d039e",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 4,
+          "value_length": 0,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3237,
+          "offset": 134105,
+          "length": 10
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:4",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "aa06",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188677,
+      "timestamp_microseconds": 527000,
+      "total": 42,
+      "header_hex": "4040002aaa06",
+      "sha256": "c793bc209447bafecf685ad4b0775e53f2baddc024bc3ca7405f9b09af4773e3",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 36,
+          "value_length": 32,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3268,
+          "offset": 135210,
+          "length": 42
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:5",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "aa00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188677,
+      "timestamp_microseconds": 529000,
+      "total": 6,
+      "header_hex": "40400006aa00",
+      "sha256": "a1276bd37c26c431ce45cb6ed18715adb5bf38d22e68f89611f615aa0f2a3a90",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 3272,
+          "offset": 135361,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:6",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "aa01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188677,
+      "timestamp_microseconds": 772000,
+      "total": 617,
+      "header_hex": "40400269aa01",
+      "sha256": "ceea5ca786841bdfbc49a62ae1702c559916080e3b8c2e2161e2cc16d6419d81",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 611,
+          "value_length": 607,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3400,
+          "offset": 140050,
+          "length": 247
+        },
+        {
+          "record": 3401,
+          "offset": 140323,
+          "length": 256
+        },
+        {
+          "record": 3402,
+          "offset": 140604,
+          "length": 114
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:7",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "aa02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188677,
+      "timestamp_microseconds": 896000,
+      "total": 42,
+      "header_hex": "4040002aaa02",
+      "sha256": "25cbe42b8fcbac221da31eba4e85ccec7ca1aa700f8b93ab3303768ea16e3964",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 36,
+          "value_length": 32,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3404,
+          "offset": 140787,
+          "length": 42
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:8",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "aa03",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188678,
+      "timestamp_microseconds": 476000,
+      "total": 74,
+      "header_hex": "4040004aaa03",
+      "sha256": "e72f9f1f94459a06882797c3ebdbb09fd0782220bdbc423842e245c688a2e981",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 68,
+          "value_length": 64,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3463,
+          "offset": 142932,
+          "length": 74
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:9",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "aa05",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188678,
+      "timestamp_microseconds": 522000,
+      "total": 6,
+      "header_hex": "40400006aa05",
+      "sha256": "7cf2d2001643c5b790a8d7327523eb31d0af4da35d8c7c8623bbad94d7945af5",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 3464,
+          "offset": 143050,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:10",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188678,
+      "timestamp_microseconds": 674000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 3497,
+          "offset": 143877,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:11",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "4e0d",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188678,
+      "timestamp_microseconds": 810000,
+      "total": 11,
+      "header_hex": "4040000b4e0d",
+      "sha256": "a907652d1c76708e29c8ea4c097ef45f6f0868c4bd94ea1727d07787379eae2a",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3544,
+          "offset": 145542,
+          "length": 11
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:12",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "4e0e",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188679,
+      "timestamp_microseconds": 982000,
+      "total": 57,
+      "header_hex": "404000394e0e",
+      "sha256": "9cb7a2eb1ac8a7d3b6d80bd3ed11b179800edac598a205bb78c07e1d7b7501f4",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 22,
+          "value_length": 18,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 29,
+          "value_length": 25,
+          "offset_in_message": 28
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3550,
+          "offset": 145729,
+          "length": 57
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:13",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188680,
+      "timestamp_microseconds": 71000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 3552,
+          "offset": 145856,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "23G90:14",
+      "case": "23G90",
+      "build_label": "23G90",
+      "id": "5703",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        12,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 1,
+      "session": 2,
+      "timestamp_seconds": 1792188693,
+      "timestamp_microseconds": 730000,
+      "total": 44,
+      "header_hex": "4040002c5703",
+      "sha256": "82b0b9feddc95be364447bde7e69b12f3ad73686770c68fdb1b487452bc405a3",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 15,
+          "value_length": 11,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 13,
+          "value_length": 9,
+          "offset_in_message": 21
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 34
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 39
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3760,
+          "offset": 177656,
+          "length": 44
+        }
+      ],
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:0",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "aa00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007409,
+      "timestamp_microseconds": 385000,
+      "total": 6,
+      "header_hex": "40400006aa00",
+      "sha256": "a1276bd37c26c431ce45cb6ed18715adb5bf38d22e68f89611f615aa0f2a3a90",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 365,
+          "offset": 13234,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:1",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "aa01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007409,
+      "timestamp_microseconds": 488000,
+      "total": 918,
+      "header_hex": "40400396aa01",
+      "sha256": "5be55bad3683dfad9cb2181de0a0c4bb5a97815575d3bc929cd5941ad2e2d181",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 912,
+          "value_length": 908,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 367,
+          "offset": 13296,
+          "length": 918
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:2",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "aa02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007409,
+      "timestamp_microseconds": 498000,
+      "total": 30,
+      "header_hex": "4040001eaa02",
+      "sha256": "a18b046396ecbe58b344421a07f4a49f1728e1176074a852ab3f5c77a751d013",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 24,
+          "value_length": 20,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 368,
+          "offset": 14249,
+          "length": 30
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:3",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "aa03",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007409,
+      "timestamp_microseconds": 945000,
+      "total": 138,
+      "header_hex": "4040008aaa03",
+      "sha256": "2de7d222ff5828b008ffb721b65088dfba2dba8ee227824285b285e6443e318f",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 132,
+          "value_length": 128,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 419,
+          "offset": 15785,
+          "length": 138
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:4",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "aa05",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007409,
+      "timestamp_microseconds": 964000,
+      "total": 6,
+      "header_hex": "40400006aa05",
+      "sha256": "7cf2d2001643c5b790a8d7327523eb31d0af4da35d8c7c8623bbad94d7945af5",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 422,
+          "offset": 16055,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:5",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "1d00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007409,
+      "timestamp_microseconds": 964000,
+      "total": 6,
+      "header_hex": "404000061d00",
+      "sha256": "16bc2e91fa43a9d3a6075d758f68ba6938e749f47ad57526bba3004a0ce90a55",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 424,
+          "offset": 16116,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:6",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "1d01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 63000,
+      "total": 303,
+      "header_hex": "4040012f1d01",
+      "sha256": "16be1976cc0bc26ea16cd272118b53c0ab47c27cc3dcba255a386da1afa31d41",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 18,
+          "value_length": 14,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 14,
+          "value_length": 10,
+          "offset_in_message": 24
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 11,
+          "value_length": 7,
+          "offset_in_message": 38
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 37,
+          "value_length": 33,
+          "offset_in_message": 49
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 37,
+          "value_length": 33,
+          "offset_in_message": 86
+        },
+        {
+          "parameter_id": 5,
+          "encoded_length": 10,
+          "value_length": 6,
+          "offset_in_message": 123
+        },
+        {
+          "parameter_id": 6,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 133
+        },
+        {
+          "parameter_id": 7,
+          "encoded_length": 14,
+          "value_length": 10,
+          "offset_in_message": 139
+        },
+        {
+          "parameter_id": 8,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 153
+        },
+        {
+          "parameter_id": 9,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 158
+        },
+        {
+          "parameter_id": 12,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 164
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 171
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 178
+        },
+        {
+          "parameter_id": 17,
+          "encoded_length": 49,
+          "value_length": 45,
+          "offset_in_message": 185
+        },
+        {
+          "parameter_id": 24,
+          "encoded_length": 56,
+          "value_length": 52,
+          "offset_in_message": 234
+        },
+        {
+          "parameter_id": 34,
+          "encoded_length": 13,
+          "value_length": 9,
+          "offset_in_message": 290
+        }
+      ],
+      "provenance": [
+        {
+          "record": 427,
+          "offset": 16198,
+          "length": 303
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:7",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "1d02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 106000,
+      "total": 6,
+      "header_hex": "404000061d02",
+      "sha256": "9c0d0028ce515e99c3a4f7eed1f87ba829f7da9ef2edf48203d0ffaa54ad63b1",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 428,
+          "offset": 16536,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:8",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "4e0c",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 110000,
+      "total": 47,
+      "header_hex": "4040002f4e0c",
+      "sha256": "2d41fc95c7be25823562b9ba134924b45f8c9ee8b92372ce1e181514892f81da",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 41,
+          "value_length": 37,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 429,
+          "offset": 16577,
+          "length": 47
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:9",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 110000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 429,
+          "offset": 16634,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:10",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "4e09",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 118000,
+      "total": 21,
+      "header_hex": "404000154e09",
+      "sha256": "8138068b1fefab319ab99b6cf461ad002b715363f377a0d9b31b957b6787524f",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 15,
+          "value_length": 11,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 430,
+          "offset": 16675,
+          "length": 21
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:11",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "5703",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 252000,
+      "total": 58,
+      "header_hex": "4040003a5703",
+      "sha256": "d5dd56d59ecf1db33a65a0c0433bf6e8ebeb153bc776aff1e2aa37bd7104fb05",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 23,
+          "value_length": 19,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 29
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 48
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 53
+        }
+      ],
+      "provenance": [
+        {
+          "record": 435,
+          "offset": 16825,
+          "length": 58
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:12",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "4e0d",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 511000,
+      "total": 11,
+      "header_hex": "4040000b4e0d",
+      "sha256": "a907652d1c76708e29c8ea4c097ef45f6f0868c4bd94ea1727d07787379eae2a",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 438,
+          "offset": 16964,
+          "length": 11
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:13",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "4e0e",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 515000,
+      "total": 57,
+      "header_hex": "404000394e0e",
+      "sha256": "e08fc8404c49f5f2b19bf54a2e12368196fe8fb808d4b649aeea05638195fcee",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 22,
+          "value_length": 18,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 29,
+          "value_length": 25,
+          "offset_in_message": 28
+        }
+      ],
+      "provenance": [
+        {
+          "record": 439,
+          "offset": 17010,
+          "length": 57
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:14",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 516000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 440,
+          "offset": 17102,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-latest:15",
+      "case": "22H374-latest",
+      "build_label": "22H374",
+      "id": "5703",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007410,
+      "timestamp_microseconds": 659000,
+      "total": 58,
+      "header_hex": "4040003a5703",
+      "sha256": "d5dd56d59ecf1db33a65a0c0433bf6e8ebeb153bc776aff1e2aa37bd7104fb05",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 23,
+          "value_length": 19,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 29
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 48
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 53
+        }
+      ],
+      "provenance": [
+        {
+          "record": 445,
+          "offset": 17237,
+          "length": 58
+        }
+      ],
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:0",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006506,
+      "timestamp_microseconds": 728000,
+      "total": 6,
+      "header_hex": "40400006aa00",
+      "sha256": "a1276bd37c26c431ce45cb6ed18715adb5bf38d22e68f89611f615aa0f2a3a90",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 1954,
+          "offset": 69162,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:1",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006506,
+      "timestamp_microseconds": 869000,
+      "total": 918,
+      "header_hex": "40400396aa01",
+      "sha256": "5be55bad3683dfad9cb2181de0a0c4bb5a97815575d3bc929cd5941ad2e2d181",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 912,
+          "value_length": 908,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 1956,
+          "offset": 69224,
+          "length": 656
+        },
+        {
+          "record": 1957,
+          "offset": 69906,
+          "length": 262
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:2",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006506,
+      "timestamp_microseconds": 950000,
+      "total": 30,
+      "header_hex": "4040001eaa02",
+      "sha256": "8f5a3be7d018bbdbea7518e69f137d59fdf475d9e92183488576ae3c59bece6e",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 24,
+          "value_length": 20,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 1959,
+          "offset": 70224,
+          "length": 30
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:3",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa03",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 346000,
+      "total": 138,
+      "header_hex": "4040008aaa03",
+      "sha256": "8d332504d9a33704d484c80a8c8bfded0a620b3e7b56dd9c828d6bce01c021ed",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 132,
+          "value_length": 128,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 1963,
+          "offset": 70351,
+          "length": 138
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:4",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa05",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 369000,
+      "total": 6,
+      "header_hex": "40400006aa05",
+      "sha256": "7cf2d2001643c5b790a8d7327523eb31d0af4da35d8c7c8623bbad94d7945af5",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 1964,
+          "offset": 70524,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:5",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "1d00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 370000,
+      "total": 6,
+      "header_hex": "404000061d00",
+      "sha256": "16bc2e91fa43a9d3a6075d758f68ba6938e749f47ad57526bba3004a0ce90a55",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 1966,
+          "offset": 70585,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:6",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "1d01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 510000,
+      "total": 303,
+      "header_hex": "4040012f1d01",
+      "sha256": "16be1976cc0bc26ea16cd272118b53c0ab47c27cc3dcba255a386da1afa31d41",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 18,
+          "value_length": 14,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 14,
+          "value_length": 10,
+          "offset_in_message": 24
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 11,
+          "value_length": 7,
+          "offset_in_message": 38
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 37,
+          "value_length": 33,
+          "offset_in_message": 49
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 37,
+          "value_length": 33,
+          "offset_in_message": 86
+        },
+        {
+          "parameter_id": 5,
+          "encoded_length": 10,
+          "value_length": 6,
+          "offset_in_message": 123
+        },
+        {
+          "parameter_id": 6,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 133
+        },
+        {
+          "parameter_id": 7,
+          "encoded_length": 14,
+          "value_length": 10,
+          "offset_in_message": 139
+        },
+        {
+          "parameter_id": 8,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 153
+        },
+        {
+          "parameter_id": 9,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 158
+        },
+        {
+          "parameter_id": 12,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 164
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 171
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 178
+        },
+        {
+          "parameter_id": 17,
+          "encoded_length": 49,
+          "value_length": 45,
+          "offset_in_message": 185
+        },
+        {
+          "parameter_id": 24,
+          "encoded_length": 56,
+          "value_length": 52,
+          "offset_in_message": 234
+        },
+        {
+          "parameter_id": 34,
+          "encoded_length": 13,
+          "value_length": 9,
+          "offset_in_message": 290
+        }
+      ],
+      "provenance": [
+        {
+          "record": 1970,
+          "offset": 70743,
+          "length": 303
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:7",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "1d02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 572000,
+      "total": 6,
+      "header_hex": "404000061d02",
+      "sha256": "9c0d0028ce515e99c3a4f7eed1f87ba829f7da9ef2edf48203d0ffaa54ad63b1",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 1972,
+          "offset": 71102,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:8",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e0c",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 575000,
+      "total": 47,
+      "header_hex": "4040002f4e0c",
+      "sha256": "2d41fc95c7be25823562b9ba134924b45f8c9ee8b92372ce1e181514892f81da",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 41,
+          "value_length": 37,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 1974,
+          "offset": 71163,
+          "length": 47
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:9",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 575000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 1975,
+          "offset": 71245,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:10",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5703",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 769000,
+      "total": 58,
+      "header_hex": "4040003a5703",
+      "sha256": "d5dd56d59ecf1db33a65a0c0433bf6e8ebeb153bc776aff1e2aa37bd7104fb05",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 23,
+          "value_length": 19,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 29
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 48
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 53
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2002,
+          "offset": 71833,
+          "length": 58
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:11",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e0d",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 877000,
+      "total": 11,
+      "header_hex": "4040000b4e0d",
+      "sha256": "a907652d1c76708e29c8ea4c097ef45f6f0868c4bd94ea1727d07787379eae2a",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2051,
+          "offset": 73319,
+          "length": 11
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:12",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e09",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006507,
+      "timestamp_microseconds": 877000,
+      "total": 21,
+      "header_hex": "404000154e09",
+      "sha256": "8138068b1fefab319ab99b6cf461ad002b715363f377a0d9b31b957b6787524f",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 15,
+          "value_length": 11,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2052,
+          "offset": 73365,
+          "length": 21
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:13",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006509,
+      "timestamp_microseconds": 671000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 2061,
+          "offset": 73611,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:14",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e0e",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006509,
+      "timestamp_microseconds": 690000,
+      "total": 57,
+      "header_hex": "404000394e0e",
+      "sha256": "e08fc8404c49f5f2b19bf54a2e12368196fe8fb808d4b649aeea05638195fcee",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 22,
+          "value_length": 18,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 29,
+          "value_length": 25,
+          "offset_in_message": 28
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2063,
+          "offset": 73672,
+          "length": 57
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:15",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5703",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        2
+      ],
+      "dlci": 8,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792006509,
+      "timestamp_microseconds": 945000,
+      "total": 58,
+      "header_hex": "4040003a5703",
+      "sha256": "d5dd56d59ecf1db33a65a0c0433bf6e8ebeb153bc776aff1e2aa37bd7104fb05",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 23,
+          "value_length": 19,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 29
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 48
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 53
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2088,
+          "offset": 74257,
+          "length": 58
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:16",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007174,
+      "timestamp_microseconds": 216000,
+      "total": 6,
+      "header_hex": "40400006aa00",
+      "sha256": "a1276bd37c26c431ce45cb6ed18715adb5bf38d22e68f89611f615aa0f2a3a90",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 53239,
+          "offset": 2774108,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:17",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007174,
+      "timestamp_microseconds": 340000,
+      "total": 918,
+      "header_hex": "40400396aa01",
+      "sha256": "5be55bad3683dfad9cb2181de0a0c4bb5a97815575d3bc929cd5941ad2e2d181",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 912,
+          "value_length": 908,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53245,
+          "offset": 2774391,
+          "length": 66
+        },
+        {
+          "record": 53246,
+          "offset": 2774474,
+          "length": 852
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:18",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007174,
+      "timestamp_microseconds": 355000,
+      "total": 30,
+      "header_hex": "4040001eaa02",
+      "sha256": "31de6f777dc4806a635d659a24a4a8e435574f629f48d529eb404cd667a5ee59",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 24,
+          "value_length": 20,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53247,
+          "offset": 2775361,
+          "length": 30
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:19",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa03",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007174,
+      "timestamp_microseconds": 787000,
+      "total": 138,
+      "header_hex": "4040008aaa03",
+      "sha256": "445cdeb6989e3d24a6203334f237879c447a06eeb502d2f00a0bea0fedfd7560",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 132,
+          "value_length": 128,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53290,
+          "offset": 2777267,
+          "length": 138
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:20",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "aa05",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007174,
+      "timestamp_microseconds": 903000,
+      "total": 6,
+      "header_hex": "40400006aa05",
+      "sha256": "7cf2d2001643c5b790a8d7327523eb31d0af4da35d8c7c8623bbad94d7945af5",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 53303,
+          "offset": 2778053,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:21",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "1d00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007174,
+      "timestamp_microseconds": 903000,
+      "total": 6,
+      "header_hex": "404000061d00",
+      "sha256": "16bc2e91fa43a9d3a6075d758f68ba6938e749f47ad57526bba3004a0ce90a55",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 53303,
+          "offset": 2778069,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:22",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "1d01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007175,
+      "timestamp_microseconds": 8000,
+      "total": 303,
+      "header_hex": "4040012f1d01",
+      "sha256": "16be1976cc0bc26ea16cd272118b53c0ab47c27cc3dcba255a386da1afa31d41",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 18,
+          "value_length": 14,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 14,
+          "value_length": 10,
+          "offset_in_message": 24
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 11,
+          "value_length": 7,
+          "offset_in_message": 38
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 37,
+          "value_length": 33,
+          "offset_in_message": 49
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 37,
+          "value_length": 33,
+          "offset_in_message": 86
+        },
+        {
+          "parameter_id": 5,
+          "encoded_length": 10,
+          "value_length": 6,
+          "offset_in_message": 123
+        },
+        {
+          "parameter_id": 6,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 133
+        },
+        {
+          "parameter_id": 7,
+          "encoded_length": 14,
+          "value_length": 10,
+          "offset_in_message": 139
+        },
+        {
+          "parameter_id": 8,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 153
+        },
+        {
+          "parameter_id": 9,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 158
+        },
+        {
+          "parameter_id": 12,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 164
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 171
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 178
+        },
+        {
+          "parameter_id": 17,
+          "encoded_length": 49,
+          "value_length": 45,
+          "offset_in_message": 185
+        },
+        {
+          "parameter_id": 24,
+          "encoded_length": 56,
+          "value_length": 52,
+          "offset_in_message": 234
+        },
+        {
+          "parameter_id": 34,
+          "encoded_length": 13,
+          "value_length": 9,
+          "offset_in_message": 290
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53326,
+          "offset": 2778780,
+          "length": 303
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:23",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "1d02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007175,
+      "timestamp_microseconds": 218000,
+      "total": 6,
+      "header_hex": "404000061d02",
+      "sha256": "9c0d0028ce515e99c3a4f7eed1f87ba829f7da9ef2edf48203d0ffaa54ad63b1",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 53347,
+          "offset": 2780067,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:24",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e0c",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007175,
+      "timestamp_microseconds": 221000,
+      "total": 47,
+      "header_hex": "4040002f4e0c",
+      "sha256": "2d41fc95c7be25823562b9ba134924b45f8c9ee8b92372ce1e181514892f81da",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 41,
+          "value_length": 37,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53350,
+          "offset": 2780204,
+          "length": 47
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:25",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007175,
+      "timestamp_microseconds": 222000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 53351,
+          "offset": 2780286,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:26",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5703",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007175,
+      "timestamp_microseconds": 401000,
+      "total": 58,
+      "header_hex": "4040003a5703",
+      "sha256": "d5dd56d59ecf1db33a65a0c0433bf6e8ebeb153bc776aff1e2aa37bd7104fb05",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 23,
+          "value_length": 19,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 29
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 48
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 53
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53369,
+          "offset": 2781101,
+          "length": 58
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:27",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e0d",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007177,
+      "timestamp_microseconds": 631000,
+      "total": 11,
+      "header_hex": "4040000b4e0d",
+      "sha256": "a907652d1c76708e29c8ea4c097ef45f6f0868c4bd94ea1727d07787379eae2a",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53641,
+          "offset": 2794321,
+          "length": 11
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:28",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e0e",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007177,
+      "timestamp_microseconds": 631000,
+      "total": 57,
+      "header_hex": "404000394e0e",
+      "sha256": "e08fc8404c49f5f2b19bf54a2e12368196fe8fb808d4b649aeea05638195fcee",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 22,
+          "value_length": 18,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 29,
+          "value_length": 25,
+          "offset_in_message": 28
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53641,
+          "offset": 2794342,
+          "length": 57
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:29",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5702",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007177,
+      "timestamp_microseconds": 632000,
+      "total": 6,
+      "header_hex": "404000065702",
+      "sha256": "f078dce4ccd28ae8dbbd6fb434a35e5167e884c4226f05f8623f6e6e87db9461",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 53643,
+          "offset": 2794454,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:30",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "4e09",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007177,
+      "timestamp_microseconds": 632000,
+      "total": 21,
+      "header_hex": "404000154e09",
+      "sha256": "8138068b1fefab319ab99b6cf461ad002b715363f377a0d9b31b957b6787524f",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 15,
+          "value_length": 11,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53643,
+          "offset": 2794470,
+          "length": 21
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "22H374-archive:31",
+      "case": "22H374-archive",
+      "build_label": "22H374",
+      "id": "5703",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        3
+      ],
+      "dlci": 2,
+      "link_epoch": 4,
+      "session": 1,
+      "timestamp_seconds": 1792007177,
+      "timestamp_microseconds": 862000,
+      "total": 58,
+      "header_hex": "4040003a5703",
+      "sha256": "d5dd56d59ecf1db33a65a0c0433bf6e8ebeb153bc776aff1e2aa37bd7104fb05",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 23,
+          "value_length": 19,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 29
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 48
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 53
+        }
+      ],
+      "provenance": [
+        {
+          "record": 53660,
+          "offset": 2795286,
+          "length": 58
+        }
+      ],
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:0",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "1d00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189311,
+      "timestamp_microseconds": 230000,
+      "total": 6,
+      "header_hex": "404000061d00",
+      "sha256": "16bc2e91fa43a9d3a6075d758f68ba6938e749f47ad57526bba3004a0ce90a55",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 2304,
+          "offset": 87464,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:1",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "1d01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189311,
+      "timestamp_microseconds": 572000,
+      "total": 533,
+      "header_hex": "404002151d01",
+      "sha256": "2cde9b25c3415162292b0cde266c56149091a503892b21cff86711ae4930e160",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 18,
+          "value_length": 14,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 11,
+          "value_length": 7,
+          "offset_in_message": 24
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 35
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 12,
+          "value_length": 8,
+          "offset_in_message": 54
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 46,
+          "value_length": 42,
+          "offset_in_message": 66
+        },
+        {
+          "parameter_id": 5,
+          "encoded_length": 15,
+          "value_length": 11,
+          "offset_in_message": 112
+        },
+        {
+          "parameter_id": 34,
+          "encoded_length": 21,
+          "value_length": 17,
+          "offset_in_message": 127
+        },
+        {
+          "parameter_id": 6,
+          "encoded_length": 26,
+          "value_length": 22,
+          "offset_in_message": 148
+        },
+        {
+          "parameter_id": 7,
+          "encoded_length": 22,
+          "value_length": 18,
+          "offset_in_message": 174
+        },
+        {
+          "parameter_id": 8,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 196
+        },
+        {
+          "parameter_id": 9,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 201
+        },
+        {
+          "parameter_id": 12,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 207
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 214
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 221
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 228
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 235
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 242
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 249
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 256
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 263
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 270
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 277
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 284
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 291
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 298
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 305
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 312
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 319
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 326
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 333
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 340
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 347
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 354
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 361
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 368
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 375
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 382
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 389
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 396
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 403
+        },
+        {
+          "parameter_id": 17,
+          "encoded_length": 46,
+          "value_length": 42,
+          "offset_in_message": 410
+        },
+        {
+          "parameter_id": 24,
+          "encoded_length": 42,
+          "value_length": 38,
+          "offset_in_message": 456
+        },
+        {
+          "parameter_id": 18,
+          "encoded_length": 35,
+          "value_length": 31,
+          "offset_in_message": 498
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2319,
+          "offset": 88159,
+          "length": 533
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:2",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "1d02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189311,
+      "timestamp_microseconds": 598000,
+      "total": 6,
+      "header_hex": "404000061d02",
+      "sha256": "9c0d0028ce515e99c3a4f7eed1f87ba829f7da9ef2edf48203d0ffaa54ad63b1",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 2325,
+          "offset": 88871,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:3",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189311,
+      "timestamp_microseconds": 598000,
+      "total": 10,
+      "header_hex": "4040000aaa00",
+      "sha256": "fd761c290bec385db1f3d178f51d4a6bbef598b8c484eff2d2a9f7b7aa1d039e",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 4,
+          "value_length": 0,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2326,
+          "offset": 88912,
+          "length": 10
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:4",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa06",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189311,
+      "timestamp_microseconds": 914000,
+      "total": 26,
+      "header_hex": "4040001aaa06",
+      "sha256": "b3b819f5fff6e49e8f7e392c7569c64551c0eac97c2066a64b6974d56697b980",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 20,
+          "value_length": 16,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2346,
+          "offset": 89849,
+          "length": 26
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:5",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189311,
+      "timestamp_microseconds": 926000,
+      "total": 42,
+      "header_hex": "4040002aaa02",
+      "sha256": "8b1b70c618762d5df2eba6d31d4b4f8f84cd9dfd64ca78b8cab7d641ae1563c1",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 36,
+          "value_length": 32,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2347,
+          "offset": 89910,
+          "length": 42
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:6",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa03",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189312,
+      "timestamp_microseconds": 631000,
+      "total": 74,
+      "header_hex": "4040004aaa03",
+      "sha256": "e760f1cd8572e7cfd6483546a60dc5d40edca7236c540bb82d89e6a0aa48e14b",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 68,
+          "value_length": 64,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2406,
+          "offset": 92578,
+          "length": 74
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:7",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa05",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189312,
+      "timestamp_microseconds": 665000,
+      "total": 6,
+      "header_hex": "40400006aa05",
+      "sha256": "7cf2d2001643c5b790a8d7327523eb31d0af4da35d8c7c8623bbad94d7945af5",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 2407,
+          "offset": 92687,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:8",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e0c",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189312,
+      "timestamp_microseconds": 667000,
+      "total": 47,
+      "header_hex": "4040002f4e0c",
+      "sha256": "71913eab5c9b7598df5118eec7f6545827a9cb70e2b2b820ba7cc4e5f4ff10ec",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 41,
+          "value_length": 37,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2408,
+          "offset": 92728,
+          "length": 47
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:9",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e0b",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189312,
+      "timestamp_microseconds": 673000,
+      "total": 29,
+      "header_hex": "4040001d4e0b",
+      "sha256": "2de90b896e889f214165b628401f2461d806f2b09f4cc58c44b963ae5a147063",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 12,
+          "value_length": 8,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 18
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 24
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2412,
+          "offset": 92897,
+          "length": 29
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:10",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e0a",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189312,
+      "timestamp_microseconds": 673000,
+      "total": 13,
+      "header_hex": "4040000d4e0a",
+      "sha256": "5144d2634d18a3b2cf1b1ab415e2fe16b1e4601f5a33aef7f88824a802d00f7d",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2412,
+          "offset": 92936,
+          "length": 13
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:11",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e09",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189312,
+      "timestamp_microseconds": 675000,
+      "total": 27,
+      "header_hex": "4040001b4e09",
+      "sha256": "712ad4e99b95ef92e991e7be008c79b5baad2776b4e595d9cf1e462b70eec493",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 21,
+          "value_length": 17,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2413,
+          "offset": 92984,
+          "length": 27
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:12",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4300",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189314,
+      "timestamp_microseconds": 534000,
+      "total": 75,
+      "header_hex": "4040004b4300",
+      "sha256": "88187b9c8f8494fd2d33fba9edcd3397522d8fd228f7adbb75a3a9f856b2fed6",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 31,
+          "value_length": 27,
+          "offset_in_message": 44
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2625,
+          "offset": 111761,
+          "length": 75
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:13",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4300",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189314,
+      "timestamp_microseconds": 640000,
+      "total": 75,
+      "header_hex": "4040004b4300",
+      "sha256": "88187b9c8f8494fd2d33fba9edcd3397522d8fd228f7adbb75a3a9f856b2fed6",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 31,
+          "value_length": 27,
+          "offset_in_message": 44
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2629,
+          "offset": 111936,
+          "length": 75
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:14",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4300",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189316,
+      "timestamp_microseconds": 143000,
+      "total": 75,
+      "header_hex": "4040004b4300",
+      "sha256": "88187b9c8f8494fd2d33fba9edcd3397522d8fd228f7adbb75a3a9f856b2fed6",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 31,
+          "value_length": 27,
+          "offset_in_message": 44
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2682,
+          "offset": 119912,
+          "length": 75
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:15",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4300",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189317,
+      "timestamp_microseconds": 644000,
+      "total": 75,
+      "header_hex": "4040004b4300",
+      "sha256": "88187b9c8f8494fd2d33fba9edcd3397522d8fd228f7adbb75a3a9f856b2fed6",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 31,
+          "value_length": 27,
+          "offset_in_message": 44
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2702,
+          "offset": 121030,
+          "length": 75
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:16",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4300",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 1,
+      "session": 1,
+      "timestamp_seconds": 1792189319,
+      "timestamp_microseconds": 186000,
+      "total": 75,
+      "header_hex": "4040004b4300",
+      "sha256": "88187b9c8f8494fd2d33fba9edcd3397522d8fd228f7adbb75a3a9f856b2fed6",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 31,
+          "value_length": 27,
+          "offset_in_message": 44
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2762,
+          "offset": 145828,
+          "length": 75
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:17",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "1d00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189322,
+      "timestamp_microseconds": 873000,
+      "total": 6,
+      "header_hex": "404000061d00",
+      "sha256": "16bc2e91fa43a9d3a6075d758f68ba6938e749f47ad57526bba3004a0ce90a55",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 2919,
+          "offset": 200501,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:18",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "1d01",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189323,
+      "timestamp_microseconds": 303000,
+      "total": 533,
+      "header_hex": "404002151d01",
+      "sha256": "2cde9b25c3415162292b0cde266c56149091a503892b21cff86711ae4930e160",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 18,
+          "value_length": 14,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 11,
+          "value_length": 7,
+          "offset_in_message": 24
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 19,
+          "value_length": 15,
+          "offset_in_message": 35
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 12,
+          "value_length": 8,
+          "offset_in_message": 54
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 46,
+          "value_length": 42,
+          "offset_in_message": 66
+        },
+        {
+          "parameter_id": 5,
+          "encoded_length": 15,
+          "value_length": 11,
+          "offset_in_message": 112
+        },
+        {
+          "parameter_id": 34,
+          "encoded_length": 21,
+          "value_length": 17,
+          "offset_in_message": 127
+        },
+        {
+          "parameter_id": 6,
+          "encoded_length": 26,
+          "value_length": 22,
+          "offset_in_message": 148
+        },
+        {
+          "parameter_id": 7,
+          "encoded_length": 22,
+          "value_length": 18,
+          "offset_in_message": 174
+        },
+        {
+          "parameter_id": 8,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 196
+        },
+        {
+          "parameter_id": 9,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 201
+        },
+        {
+          "parameter_id": 12,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 207
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 214
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 221
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 228
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 235
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 242
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 249
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 256
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 263
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 270
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 277
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 284
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 291
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 298
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 305
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 312
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 319
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 326
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 333
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 340
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 347
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 354
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 361
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 368
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 375
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 382
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 389
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 396
+        },
+        {
+          "parameter_id": 13,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 403
+        },
+        {
+          "parameter_id": 17,
+          "encoded_length": 46,
+          "value_length": 42,
+          "offset_in_message": 410
+        },
+        {
+          "parameter_id": 24,
+          "encoded_length": 42,
+          "value_length": 38,
+          "offset_in_message": 456
+        },
+        {
+          "parameter_id": 18,
+          "encoded_length": 35,
+          "value_length": 31,
+          "offset_in_message": 498
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2931,
+          "offset": 200853,
+          "length": 533
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:19",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "1d02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189323,
+      "timestamp_microseconds": 311000,
+      "total": 6,
+      "header_hex": "404000061d02",
+      "sha256": "9c0d0028ce515e99c3a4f7eed1f87ba829f7da9ef2edf48203d0ffaa54ad63b1",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 2932,
+          "offset": 201421,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:20",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa00",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189323,
+      "timestamp_microseconds": 311000,
+      "total": 10,
+      "header_hex": "4040000aaa00",
+      "sha256": "fd761c290bec385db1f3d178f51d4a6bbef598b8c484eff2d2a9f7b7aa1d039e",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 4,
+          "value_length": 0,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2933,
+          "offset": 201462,
+          "length": 10
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:21",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa06",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189323,
+      "timestamp_microseconds": 473000,
+      "total": 26,
+      "header_hex": "4040001aaa06",
+      "sha256": "b3b819f5fff6e49e8f7e392c7569c64551c0eac97c2066a64b6974d56697b980",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 20,
+          "value_length": 16,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2937,
+          "offset": 201568,
+          "length": 26
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:22",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa02",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189323,
+      "timestamp_microseconds": 479000,
+      "total": 42,
+      "header_hex": "4040002aaa02",
+      "sha256": "25a4c27e34887327791726e31abbb5f5201a7b92bdb16cc1a09e02743256b595",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 36,
+          "value_length": 32,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2938,
+          "offset": 201629,
+          "length": 42
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:23",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa03",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 75000,
+      "total": 74,
+      "header_hex": "4040004aaa03",
+      "sha256": "9ef264ff8c474563f14cf717537bc9b0a07a0ce5bba8a9a343e007c007e24b73",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 68,
+          "value_length": 64,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2942,
+          "offset": 201786,
+          "length": 74
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:24",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "aa05",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 93000,
+      "total": 6,
+      "header_hex": "40400006aa05",
+      "sha256": "7cf2d2001643c5b790a8d7327523eb31d0af4da35d8c7c8623bbad94d7945af5",
+      "fields": [],
+      "provenance": [
+        {
+          "record": 2943,
+          "offset": 201895,
+          "length": 6
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:25",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e0c",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 94000,
+      "total": 47,
+      "header_hex": "4040002f4e0c",
+      "sha256": "71913eab5c9b7598df5118eec7f6545827a9cb70e2b2b820ba7cc4e5f4ff10ec",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 41,
+          "value_length": 37,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2944,
+          "offset": 201936,
+          "length": 47
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:26",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e0a",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 97000,
+      "total": 13,
+      "header_hex": "4040000d4e0a",
+      "sha256": "5144d2634d18a3b2cf1b1ab415e2fe16b1e4601f5a33aef7f88824a802d00f7d",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 7,
+          "value_length": 3,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2945,
+          "offset": 202018,
+          "length": 13
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:27",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e09",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 98000,
+      "total": 27,
+      "header_hex": "4040001b4e09",
+      "sha256": "712ad4e99b95ef92e991e7be008c79b5baad2776b4e595d9cf1e462b70eec493",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 21,
+          "value_length": 17,
+          "offset_in_message": 6
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2946,
+          "offset": 202066,
+          "length": 27
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:28",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4e0b",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 98000,
+      "total": 29,
+      "header_hex": "4040001d4e0b",
+      "sha256": "21308d0d5f98b62e01455db41ec06501985618ef8f9bc8e56569048602f3fb43",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 12,
+          "value_length": 8,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 6,
+          "value_length": 2,
+          "offset_in_message": 18
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 5,
+          "value_length": 1,
+          "offset_in_message": 24
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2947,
+          "offset": 202128,
+          "length": 29
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:29",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4300",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 249000,
+      "total": 75,
+      "header_hex": "4040004b4300",
+      "sha256": "88187b9c8f8494fd2d33fba9edcd3397522d8fd228f7adbb75a3a9f856b2fed6",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 31,
+          "value_length": 27,
+          "offset_in_message": 44
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2952,
+          "offset": 202287,
+          "length": 75
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:30",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4301",
+      "direction": "PEER_TO_PHONE",
+      "packetlogger_type": 3,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189324,
+      "timestamp_microseconds": 417000,
+      "total": 161,
+      "header_hex": "404000a14301",
+      "sha256": "a478972c1d4e6e882dfa6031001b2e7569eb759a0b1c8cdb28d8da1a7cb7a885",
+      "fields": [
+        {
+          "parameter_id": 1,
+          "encoded_length": 71,
+          "value_length": 67,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 2,
+          "encoded_length": 8,
+          "value_length": 4,
+          "offset_in_message": 77
+        },
+        {
+          "parameter_id": 3,
+          "encoded_length": 22,
+          "value_length": 18,
+          "offset_in_message": 85
+        },
+        {
+          "parameter_id": 4,
+          "encoded_length": 41,
+          "value_length": 37,
+          "offset_in_message": 107
+        },
+        {
+          "parameter_id": 5,
+          "encoded_length": 13,
+          "value_length": 9,
+          "offset_in_message": 148
+        }
+      ],
+      "provenance": [
+        {
+          "record": 2958,
+          "offset": 202520,
+          "length": 161
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    },
+    {
+      "occurrence": "21G93:31",
+      "case": "21G93",
+      "build_label": "21G93",
+      "id": "4300",
+      "direction": "PHONE_TO_PEER",
+      "packetlogger_type": 2,
+      "connection": [
+        11,
+        1
+      ],
+      "dlci": 10,
+      "link_epoch": 3,
+      "session": 1,
+      "timestamp_seconds": 1792189328,
+      "timestamp_microseconds": 886000,
+      "total": 75,
+      "header_hex": "4040004b4300",
+      "sha256": "88187b9c8f8494fd2d33fba9edcd3397522d8fd228f7adbb75a3a9f856b2fed6",
+      "fields": [
+        {
+          "parameter_id": 0,
+          "encoded_length": 38,
+          "value_length": 34,
+          "offset_in_message": 6
+        },
+        {
+          "parameter_id": 1,
+          "encoded_length": 31,
+          "value_length": 27,
+          "offset_in_message": 44
+        }
+      ],
+      "provenance": [
+        {
+          "record": 3325,
+          "offset": 248617,
+          "length": 75
+        }
+      ],
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "semantic_response_to": null,
+      "state_before": "OPEN",
+      "state_after": "OPEN",
+      "observation": "OBSERVED_BYTES_NOT_AUTHORIZATION_OR_TRANSACTION_PROOF"
+    }
+  ],
+  "other_packet_files": [
+    {
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.16_22-11-51+0800_iPhone-OS_iPhone_23G90/logs/UARPEndpointPacketCaptures/._A3351-7992F9D6-58CB-4B9E-8DE7-140B27990B3C-2026-08-31-22-34-18.pcap",
+      "sha256": "a9793a1430648f07d1599c73ef1f17754d891a38993817978cb6a45bee055c68",
+      "size": 217,
+      "magic_hex": "00051607",
+      "network_carplay_coverage": "NOT_ESTABLISHED",
+      "format": "APPLEDOUBLE_SIDECAR"
+    },
+    {
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.16_22-11-51+0800_iPhone-OS_iPhone_23G90/logs/UARPEndpointPacketCaptures/._A3351-C1398421-8A4B-4452-97D0-87B3015DCD54-2026-08-31-23-33-27.pcap",
+      "sha256": "a9793a1430648f07d1599c73ef1f17754d891a38993817978cb6a45bee055c68",
+      "size": 217,
+      "magic_hex": "00051607",
+      "network_carplay_coverage": "NOT_ESTABLISHED",
+      "format": "APPLEDOUBLE_SIDECAR"
+    },
+    {
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.16_22-11-51+0800_iPhone-OS_iPhone_23G90/logs/UARPEndpointPacketCaptures/A3351-7992F9D6-58CB-4B9E-8DE7-140B27990B3C-2026-08-31-22-34-18.pcap",
+      "sha256": "25241d5610b63469833ee7296aa73c42261d78dc0f38d83c73da290892143c1e",
+      "size": 4378,
+      "magic_hex": "d4c3b2a1",
+      "network_carplay_coverage": "NOT_ESTABLISHED",
+      "format": "CLASSIC_PCAP",
+      "link_type": 157,
+      "payload_analysis": "OPEN; no AirPlay conclusion from header alone"
+    },
+    {
+      "source": "/mnt/d/carplay-host/sysdiagnose_2026.10.16_22-11-51+0800_iPhone-OS_iPhone_23G90/logs/UARPEndpointPacketCaptures/A3351-C1398421-8A4B-4452-97D0-87B3015DCD54-2026-08-31-23-33-27.pcap",
+      "sha256": "085e281f3315307064ee63d25cce741a9d193da21e00c0c96a3790ade0c18335",
+      "size": 4382,
+      "magic_hex": "d4c3b2a1",
+      "network_carplay_coverage": "NOT_ESTABLISHED",
+      "format": "CLASSIC_PCAP",
+      "link_type": 157,
+      "payload_analysis": "OPEN; no AirPlay conclusion from header alone"
+    }
+  ],
+  "ip_airplay_capture_coverage": "NOT_ESTABLISHED",
+  "current24A446_runtime_observed": false,
+  "limitations": [
+    "Existing independent reassembler reused, not a second independent algorithm",
+    "Only complete reassembled messages admitted; gaps, duplicate/sequence filters and mid-capture starts retained as warnings",
+    "Temporal adjacency is not request/response correlation",
+    "No peer identity, authentication success, semantic state or field requiredness inferred from bytes",
+    "No current24A446 capture; old builds remain separate"
+  ]
+}

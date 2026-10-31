@@ -1,0 +1,47 @@
+[
+  {
+    "image": "/System/Library/PrivateFrameworks/AccessoryCommunications.framework/AccessoryCommunications",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AccessoryCommunications/AccessoryCommunications",
+        "size": 141168,
+        "magic": "cffaedfe",
+        "sha256": "03fe104a3371161d8150ef3ff251b2a2d9518e1f94631d9f8275c0c0e37bfa39"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 5,
+    "seconds": 6.01
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AccessoryNavigation.framework/AccessoryNavigation",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AccessoryNavigation/AccessoryNavigation",
+        "size": 180912,
+        "magic": "cffaedfe",
+        "sha256": "1be5fb58d1a90743605cff40b00f2264082c6adda5c7109a1922b980e38be399"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 15,
+    "seconds": 5.46
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/IAP.framework/IAP",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/IAP/IAP",
+        "size": 314784,
+        "magic": "cffaedfe",
+        "sha256": "2b3ed91346ecbda05c1c303475504c1b9f5fde35e917961eed059e6f0c1b06e6"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 7,
+    "seconds": 5.39
+  }
+]

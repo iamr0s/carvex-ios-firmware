@@ -1,0 +1,20 @@
+;
+; carplay.dspg
+;
+
+graphName carplay
+
+; I/O
+in Input
+out Output
+
+; Boxes
+box CarPlayLoudnessNormalizer (aufx ldnm appl) 1 1
+
+; Formats
+format inputFormat (48000 2)
+format outputFormat (48000 2)
+
+; Wires
+wire Input CarPlayLoudnessNormalizer inputFormat
+wire CarPlayLoudnessNormalizer Output outputFormat

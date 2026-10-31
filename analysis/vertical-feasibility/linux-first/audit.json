@@ -1,0 +1,488 @@
+{
+  "result": "PASS_AUDIT_NOT_INTEROPERABILITY",
+  "first_adapter_target": "Linux",
+  "secondary_target": "Android",
+  "head_unit_model": null,
+  "hardware_access_confirmed": false,
+  "scope": "Actual current profile remains unavailable;provider presence cannot satisfy missingprotocol/trust;source-matched legacy tests retain historical scope",
+  "availability_probes": [
+    {
+      "case": "current_missing_providers",
+      "result": -4,
+      "protocol_gaps": 255,
+      "provider_gaps": 31,
+      "unresolved_contracts": 15,
+      "available": false
+    },
+    {
+      "case": "presence_does_not_verify",
+      "result": -4,
+      "protocol_gaps": 255,
+      "provider_gaps": 0,
+      "unresolved_contracts": 15,
+      "provider_calls": 0,
+      "available": false
+    },
+    {
+      "case": "target_tunnel_not_assumed",
+      "result": -4,
+      "protocol_gaps": 511,
+      "provider_gaps": 32,
+      "available": false
+    },
+    {
+      "case": "legacy_not_production_ready",
+      "result": -10,
+      "experimental": true,
+      "current_fidelity": false,
+      "live": false
+    }
+  ],
+  "probe_runs": [
+    {
+      "sanitized": false,
+      "compile": {
+        "command": [
+          "cc",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-pedantic",
+          "-I",
+          "/mnt/d/ios-carplay/reference/include",
+          "/tmp/tmp0ktb1rpy/probe.c",
+          "/mnt/d/ios-carplay/reference/src/profile.c",
+          "-o",
+          "/tmp/tmp0ktb1rpy/plain"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "execute": {
+        "command": [
+          "/tmp/tmp0ktb1rpy/plain"
+        ],
+        "returncode": 0,
+        "stdout": "{\"case\":\"current_missing_providers\",\"result\":-4,\"protocol_gaps\":255,\"provider_gaps\":31,\"unresolved_contracts\":15,\"available\":false}\n{\"case\":\"presence_does_not_verify\",\"result\":-4,\"protocol_gaps\":255,\"provider_gaps\":0,\"unresolved_contracts\":15,\"provider_calls\":0,\"available\":false}\n{\"case\":\"target_tunnel_not_assumed\",\"result\":-4,\"protocol_gaps\":511,\"provider_gaps\":32,\"available\":false}\n{\"case\":\"legacy_not_production_ready\",\"result\":-10,\"experimental\":true,\"current_fidelity\":false,\"live\":false}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "sanitized": true,
+      "compile": {
+        "command": [
+          "cc",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-pedantic",
+          "-I",
+          "/mnt/d/ios-carplay/reference/include",
+          "/tmp/tmp0ktb1rpy/probe.c",
+          "/mnt/d/ios-carplay/reference/src/profile.c",
+          "-o",
+          "/tmp/tmp0ktb1rpy/san",
+          "-fsanitize=address,undefined",
+          "-fno-omit-frame-pointer"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "execute": {
+        "command": [
+          "/tmp/tmp0ktb1rpy/san"
+        ],
+        "returncode": 0,
+        "stdout": "{\"case\":\"current_missing_providers\",\"result\":-4,\"protocol_gaps\":255,\"provider_gaps\":31,\"unresolved_contracts\":15,\"available\":false}\n{\"case\":\"presence_does_not_verify\",\"result\":-4,\"protocol_gaps\":255,\"provider_gaps\":0,\"unresolved_contracts\":15,\"provider_calls\":0,\"available\":false}\n{\"case\":\"target_tunnel_not_assumed\",\"result\":-4,\"protocol_gaps\":511,\"provider_gaps\":32,\"available\":false}\n{\"case\":\"legacy_not_production_ready\",\"result\":-10,\"experimental\":true,\"current_fidelity\":false,\"live\":false}\n",
+        "stderr": ""
+      }
+    }
+  ],
+  "probe_source": "\n#include <stdio.h>\n#include <assert.h>\n#include \"cp_host.h\"\nstatic unsigned calls;\nstatic cp_result deny_cert(void *c,const uint8_t *p,size_t n){(void)c;(void)p;(void)n;++calls;return CP_E_UNAVAILABLE;}\nstatic cp_result deny_digest(void *c,const uint8_t d[32],const uint8_t s[64]){(void)c;(void)d;(void)s;++calls;return CP_E_UNAVAILABLE;}\nstatic cp_result deny_sap(void *c,const uint8_t k[32],const uint8_t p[32],const uint8_t *r,size_t n){(void)c;(void)k;(void)p;(void)r;(void)n;++calls;return CP_E_UNAVAILABLE;}\nint main(void){\n cp_config c={0};c.profile_id=CP_PROFILE_IOS_24A446_RESEARCH;\n cp_availability a=cp_config_availability(&c);assert(a.result==CP_E_UNSUPPORTED && !a.implementation_available && !a.current_build_fidelity_established && !a.live_interoperability_tested);\n printf(\"{\\\"case\\\":\\\"current_missing_providers\\\",\\\"result\\\":%d,\\\"protocol_gaps\\\":%llu,\\\"provider_gaps\\\":%u,\\\"unresolved_contracts\\\":%u,\\\"available\\\":false}\\n\",a.result,(unsigned long long)a.missing_protocol,a.missing_providers,a.unresolved_provider_contracts);\n static const uint8_t id[]={1};c.local_id=id;c.local_id_n=1;c.setup_code=id;c.setup_code_n=1;c.certificate=deny_cert;c.verify_digest=deny_digest;c.sap=deny_sap;\n a=cp_config_availability(&c);assert(a.result==CP_E_UNSUPPORTED && a.missing_providers==0 && a.missing_protocol && a.unresolved_provider_contracts && !a.implementation_available && calls==0);\n printf(\"{\\\"case\\\":\\\"presence_does_not_verify\\\",\\\"result\\\":%d,\\\"protocol_gaps\\\":%llu,\\\"provider_gaps\\\":%u,\\\"unresolved_contracts\\\":%u,\\\"provider_calls\\\":%u,\\\"available\\\":false}\\n\",a.result,(unsigned long long)a.missing_protocol,a.missing_providers,a.unresolved_provider_contracts,calls);\n c.require_target_iap=true;a=cp_config_availability(&c);assert(a.missing_protocol&CP_GAP_RUNTIME_TUNNEL);assert(a.missing_providers&CP_PROVIDER_TUNNEL_CONTRACT);\n printf(\"{\\\"case\\\":\\\"target_tunnel_not_assumed\\\",\\\"result\\\":%d,\\\"protocol_gaps\\\":%llu,\\\"provider_gaps\\\":%u,\\\"available\\\":false}\\n\",a.result,(unsigned long long)a.missing_protocol,a.missing_providers);\n c=(cp_config){0};c.profile_id=CP_PROFILE_EXPERIMENTAL_OLD_PAIRED_SAP_V1;a=cp_config_availability(&c);assert(a.experimental && a.result==CP_E_UNAVAILABLE && !a.current_build_fidelity_established && !a.live_interoperability_tested);\n printf(\"{\\\"case\\\":\\\"legacy_not_production_ready\\\",\\\"result\\\":%d,\\\"experimental\\\":true,\\\"current_fidelity\\\":false,\\\"live\\\":false}\\n\",a.result);\n return 0;\n}\n",
+  "environment": [
+    {
+      "command": [
+        "uname",
+        "-a"
+      ],
+      "returncode": 0,
+      "stdout": "Linux DESKTOP-H1M0MNN 5.15.167.4-microsoft-standard-WSL2 #1 SMP Tue Nov 5 00:21:55 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "pkg-config",
+        "--modversion",
+        "openssl",
+        "libplist-2.0"
+      ],
+      "returncode": 0,
+      "stdout": "3.0.13\n2.3.0\n",
+      "stderr": ""
+    }
+  ],
+  "queries": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/ipsw-research/query-phone-decompiler.py",
+        "function",
+        "0x251a5e858"
+      ],
+      "returncode": 0,
+      "stdout": "0x251a5e858  _apsession_ensurePaired  [AirPlaySender] DECOMPILED_UNREVIEWED\n  signature: undefined _apsession_ensurePaired(void)\n  original SHA256: a7692d1f7f22e14c7a22a3ddd9da428a302e245deed37e320c33a2750cc3fc36\n  source SHA256:   304b8a4a688028f58fc851ec700c905a49f17132aaa9dc04acd93a8bd50cd63f\n  index input integrity: MATCHED_FOR_INDEX_INPUTS\n  symbols: _apsession_ensurePaired\n  C:   analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a5e858.ghidra.c\n  ASM: analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a5e858.s\n  META:analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a5e858.json\n  cached direct callers: 1; callees/tail branches: 53; indirect sites: 6\n  unresolved indirect: 0x251a5e9b8 blraa (target not inferred)\n  unresolved indirect: 0x251a5eedc blraa (target not inferred)\n  unresolved indirect: 0x251a5f004 blraa (target not inferred)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/ipsw-research/query-phone-decompiler.py",
+        "context",
+        "0x251a5e858",
+        "--depth",
+        "1",
+        "--max-functions",
+        "8"
+      ],
+      "returncode": 0,
+      "stdout": "0x251a5e858  _apsession_ensurePaired  [AirPlaySender] DECOMPILED_UNREVIEWED\n  signature: undefined _apsession_ensurePaired(void)\n  original SHA256: a7692d1f7f22e14c7a22a3ddd9da428a302e245deed37e320c33a2750cc3fc36\n  source SHA256:   304b8a4a688028f58fc851ec700c905a49f17132aaa9dc04acd93a8bd50cd63f\n  index input integrity: MATCHED_FOR_INDEX_INPUTS\n  symbols: _apsession_ensurePaired\n  C:   analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a5e858.ghidra.c\n  ASM: analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a5e858.s\n  META:analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a5e858.json\n\nOne-hop context (cached nodes only):\n  caller/call: 0x251a5b22c _apsession_ensureConnectedInternal [AirPlaySender] DECOMPILED_UNREVIEWED C=analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a5b22c.ghidra.c\n  callee/call: 0x2519a24e4 _APEndpointDescriptionGetCMBaseObject [AirPlaySender] DECOMPILED_UNREVIEWED C=analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_2519a24e4.ghidra.c\n  callee/call: 0x2519bd6c0 _apsession_isCancelled [AirPlaySender] DECOMPILED_UNREVIEWED C=analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_2519bd6c0.ghidra.c\n  callee/call: 0x251a60f70 _apsession_createPairingClient [AirPlaySender] DECOMPILED_UNREVIEWED C=analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a60f70.ghidra.c\n  callee/call: 0x251a61474 _apsession_performVerificationAndProcessGetInfo [AirPlaySender] DECOMPILED_UNREVIEWED C=analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a61474.ghidra.c\n  callee/call: 0x251a61618 _apsession_requiresHKPairVerify [AirPlaySender] DECOMPILED_UNREVIEWED C=analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a61618.ghidra.c\n  callee/call: 0x251a6169c _apsession_isTransientPairingSupported [AirPlaySender] DECOMPILED_UNREVIEWED C=analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a6169c.ghidra.c\n  context nodes shown: 8/38 (paths/summaries only)\n\nScope: direct numeric BL and external B from cached assembly only; indirect targets and uncached nodes are unresolved.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/ipsw-research/query-phone-decompiler.py",
+        "function",
+        "0x251a60f70"
+      ],
+      "returncode": 0,
+      "stdout": "0x251a60f70  _apsession_createPairingClient  [AirPlaySender] DECOMPILED_UNREVIEWED\n  signature: undefined _apsession_createPairingClient(void)\n  original SHA256: f4f24327a05aca9bd91c32b02333fea5c9710b92d5844cb59b693bfe5de4aa66\n  source SHA256:   304b8a4a688028f58fc851ec700c905a49f17132aaa9dc04acd93a8bd50cd63f\n  index input integrity: MATCHED_FOR_INDEX_INPUTS\n  symbols: _apsession_createPairingClient\n  C:   analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a60f70.ghidra.c\n  ASM: analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a60f70.s\n  META:analysis/decompiler-cache/24A446/AirPlaySender/934ec850a9ab7623f1d8/functions/f_251a60f70.json\n  cached direct callers: 1; callees/tail branches: 21; indirect sites: 1\n  unresolved indirect: 0x251a61234 blraa (target not inferred)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/ipsw-research/query-phone-decompiler.py",
+        "message",
+        "4303"
+      ],
+      "returncode": 0,
+      "stdout": "4303 | wireless-bootstrap | None\n  classification=CURRENT_CONSTRUCTION_OR_SEND_CANDIDATE_NOT_FULL_WIRE_TRANSACTION wire=CURRENT_CONSTRUCTION_CANDIDATE runtime24A446=False live=False\n  direction={\"observed_by_build\": {}, \"current24A446\": \"OPEN_UNTIL_SEND_IDENTITY_REVIEW\"}\n  trigger={\"status\": \"OPEN\"}\n  fields={\"status\": \"OPEN\"}\n  evidence links:\n    analysis/24A446/outgoing-message-inventory/message-id-index.json\n    analysis/24A446/outgoing-message-inventory/freeze.json\n  Note: inventory/evidence links do not by themselves establish a handler-to-message call edge.\n  literal text scan skipped (use --text-hits for bounded candidate search)\n",
+      "stderr": ""
+    }
+  ],
+  "query_index_sha256": "0ee8e77ceb35c83b4664ae1efa507a0418f1bb7dcc80e28ce68066af6bc74434",
+  "query_tool_sha256": "5fbfdfff758611aa030bb139e12e4d8cefebd4dbefccae5d6f1ac8014a171f80",
+  "historical_baseline": {
+    "report": "reference/reports/verification.json",
+    "sha256": "bfa6e325bdb6ab52cfd940846d6cf6bf6b3c38abaf9b7ae0c3e1c2906da9c2a6",
+    "all_implementation_files_unchanged": [
+      {
+        "path": "reference/src/control24.c",
+        "sha256": "2ccd388b1e682affe450b695a6604b742c9901108217d71babbeb982b5ff9574"
+      },
+      {
+        "path": "reference/src/firmware24.c",
+        "sha256": "c6f27ba9ca0a6d9ec0d0038ef65602e3fcc2e09d8805033c37cf9f1bb500499a"
+      },
+      {
+        "path": "reference/src/handoff24.c",
+        "sha256": "35c6e863f2f177f54adb75ae12400b5e94f3058558fcd260c76abd430b34dcca"
+      },
+      {
+        "path": "reference/src/host.c",
+        "sha256": "02785c2400396fa4544c751f2bec3de5e45b14618eeb5a75455dc0ea728ea4a4"
+      },
+      {
+        "path": "reference/src/iap2_ack24.c",
+        "sha256": "8edd828c4aba14f379b08532bda99b30fcecdafd023c9cc69d70c3302e58ae7b"
+      },
+      {
+        "path": "reference/src/iap2_data24.c",
+        "sha256": "6dc1582788bbfc5fd84c28a9faf7c04eb7e0887df88fc230f470864f784f5345"
+      },
+      {
+        "path": "reference/src/iap2_features24.c",
+        "sha256": "6256f4e06281c4f20410abf4eff5811f45dc9b3b195117b0e51eea3ec799e4d7"
+      },
+      {
+        "path": "reference/src/iap2_frame24.c",
+        "sha256": "5da182117ecedd27036dcfa1f5a23e0ac798d8d4a1aa32a3175a635d803bb094"
+      },
+      {
+        "path": "reference/src/iap2_handshake24.c",
+        "sha256": "6c26ffcfcb3dec65c8923d587a0f26aa81e5f618e8d89be48538db5ff536cbb7"
+      },
+      {
+        "path": "reference/src/iap2_negotiation24.c",
+        "sha256": "c9a89e397c059a2177843fff817ff437865ceac9edf8872a8b31f15e71bfb4e4"
+      },
+      {
+        "path": "reference/src/iap2_supervisor24.c",
+        "sha256": "1816dadb9ad024ac6e9b33bee81088efeeebbb830ff73b19f159a5a8188fde37"
+      },
+      {
+        "path": "reference/src/iap2_syn24.c",
+        "sha256": "e079e4da95ad40123df3ac9b1487d746b2f2257d196ee262f6e54856ba4917d6"
+      },
+      {
+        "path": "reference/src/link.c",
+        "sha256": "176c4191f8c7fb80afb880df0b5334c00748ae68d455eadeb7ae7d3a245752d0"
+      },
+      {
+        "path": "reference/src/media.c",
+        "sha256": "406e0695a4173b3c8ee50a642765bb00f86347ee6542ec20d0e171360ba30c35"
+      },
+      {
+        "path": "reference/src/network_pairing24.c",
+        "sha256": "a0e6a48e64a15d0955839601ade3d75c341d1307f71b3f4c53d81dea94a0c590"
+      },
+      {
+        "path": "reference/src/pairing.c",
+        "sha256": "a1ad5ffe04d8cf29a33a45600d94fb20b0af9ccc0e838e56d36da7ba74873019"
+      },
+      {
+        "path": "reference/src/profile.c",
+        "sha256": "a25ddeb93c7c3593d036ed97ea79d99a22e9b1ef166281ee0f2735d98c4a96d5"
+      },
+      {
+        "path": "reference/src/wire.c",
+        "sha256": "20d98154647ae9f89c7b54cea2dfe96202e44ae8da1df30c95a774f682986d88"
+      },
+      {
+        "path": "reference/include/cp_control24.h",
+        "sha256": "3de52f8172e6677e69208756b51b14c1ca0d2846390292bfbd54e5b990b56bd0"
+      },
+      {
+        "path": "reference/include/cp_crypto.h",
+        "sha256": "157cd6637a84c0d6b74dbd2c4366d0a2b65a6792796d75ca94838d1fcbb84954"
+      },
+      {
+        "path": "reference/include/cp_firmware24.h",
+        "sha256": "f5b101e606d3cfa12f7b8ab14b831a4e16545d0bdaced540ecabe5a092bab538"
+      },
+      {
+        "path": "reference/include/cp_handoff24.h",
+        "sha256": "2bb6f90ac08517c4aa246dd64fdb5266ba02b83d105f8fb2e1bdd55683686587"
+      },
+      {
+        "path": "reference/include/cp_host.h",
+        "sha256": "17dd90230f3cb445e0d22d69c520e0017910bc4c0ecb70cf53a99737ff961a33"
+      },
+      {
+        "path": "reference/include/cp_iap2_ack24.h",
+        "sha256": "b1492860612fa33aa5420d02c26ad227514522a801e9f3cfe1c3bdd88d5864d7"
+      },
+      {
+        "path": "reference/include/cp_iap2_data24.h",
+        "sha256": "3ca52ddf009998a888f027fc366207c3adac47e6b4c6348eef9ba24cc713eb65"
+      },
+      {
+        "path": "reference/include/cp_iap2_features24.h",
+        "sha256": "77100479b33fdc938364c5564a1b9e15a7726fa2454de41ff6028c470e77cb15"
+      },
+      {
+        "path": "reference/include/cp_iap2_frame24.h",
+        "sha256": "b7bfdec2563d2102e0780463a6081f08a9391fb3467df70b566e9f318ce65ef8"
+      },
+      {
+        "path": "reference/include/cp_iap2_handshake24.h",
+        "sha256": "c4fed404508b91a152550b93fe37b757d9d277fa0fb073eec3cd23774bcd7657"
+      },
+      {
+        "path": "reference/include/cp_iap2_negotiation24.h",
+        "sha256": "627d9e41e05ec68d5aff8d3f25d6e744f85c614c8585ebf5947e19100fb1e2e5"
+      },
+      {
+        "path": "reference/include/cp_iap2_supervisor24.h",
+        "sha256": "e7845d7900144cba2f8f77655cdfb8cde0f4eaaa62663dff234fcdcbfc80a824"
+      },
+      {
+        "path": "reference/include/cp_iap2_syn24.h",
+        "sha256": "3d2c5b5846c9b81632ee87e6257e57df1ed8817515c84415c9627f6c67517e71"
+      },
+      {
+        "path": "reference/include/cp_link.h",
+        "sha256": "7c55c639885cc8a7b46c2889b0e871fe8b5c0d37b96a28b70dc1487df6e328c1"
+      },
+      {
+        "path": "reference/include/cp_media.h",
+        "sha256": "a1e462f7432681ef3cf31f97ac23e47535456eeb7341593688aaff2daab2732d"
+      },
+      {
+        "path": "reference/include/cp_network_pairing24.h",
+        "sha256": "f183040c3fcb0657d40172dd297e293ccf36a4b35779cf8f610186b508664ad6"
+      },
+      {
+        "path": "reference/include/cp_pairing.h",
+        "sha256": "c43b3c28386510125c2bb8ca606cd27859e2e8aa5217505cab41a88cfb07a361"
+      },
+      {
+        "path": "reference/include/cp_plist.h",
+        "sha256": "1f76c01f435ca9d17107e2841e8987ec521fe4c4830159b5312ab90e59bc1f86"
+      },
+      {
+        "path": "reference/include/cp_wire.h",
+        "sha256": "fce1e3050f5152e751aa5ce924b923c0641d503ac226c0bd9a3c1793e5d198f9"
+      },
+      {
+        "path": "reference/backends/openssl.c",
+        "sha256": "60617e3fa113b60e980a8a37c95ea62852500262d7b92b78b241ea1901217609"
+      },
+      {
+        "path": "reference/backends/plist.c",
+        "sha256": "838fb1801fcf7df54e73666e166cc504421260bed4cd0e6d44209bb388d8766f"
+      },
+      {
+        "path": "reference/examples/decode.c",
+        "sha256": "daf1898d6a2b7b54345aa6f9c7f132078c9cc4b8f231fdbdad3f2af18f9283e8"
+      },
+      {
+        "path": "reference/examples/simulator.c",
+        "sha256": "ee548f2ae2452af3c8321e5003f74b65ce5379cab0d05385c0a43fff8a0ae5ee"
+      },
+      {
+        "path": "reference/examples/sim_peer.c",
+        "sha256": "1bc9d40b1fa61bf14dbadba1660fe7db873ef519ce54b8470be2fdabe58c5d23"
+      },
+      {
+        "path": "reference/examples/sim_peer.h",
+        "sha256": "4c7a78d1c15febdd43792e6934217c2774bf893bffcbe50d2dd24ab2ae2067a4"
+      },
+      {
+        "path": "reference/tests/check.h",
+        "sha256": "876f87f3fea4da0ac206c665de0e429285242ba4296ca0a241f9cf45c3440cd6"
+      },
+      {
+        "path": "reference/tests/test_auth.c",
+        "sha256": "e06015d672c738930f8cfb1563b0bfa4acaf4dd34708fa9622ca85b15aae16b0"
+      },
+      {
+        "path": "reference/tests/test_callback24.c",
+        "sha256": "db8477be0a50e2bed33aabdd9af5025a83d12dae8a25e5c02a494b114aeb7657"
+      },
+      {
+        "path": "reference/tests/test_control24.c",
+        "sha256": "4e19994a3d5004bc0b78dd1e769b0145a007ff7e61e76f36a3200c84e33e7fe4"
+      },
+      {
+        "path": "reference/tests/test_crypto.c",
+        "sha256": "331e3f408f02335daa8a349e2042af531c97322b378e45daca879b0cdc803223"
+      },
+      {
+        "path": "reference/tests/test_firmware24.c",
+        "sha256": "fd8703607f7ce2404260f003852f628c4a5cb163af600aeb04e51641cf49651e"
+      },
+      {
+        "path": "reference/tests/test_handoff24.c",
+        "sha256": "ea4e7fed3423eb4ff5df38186fa672fa4a395e67aa6b4755d10420c89c384a4c"
+      },
+      {
+        "path": "reference/tests/test_host.c",
+        "sha256": "f54f660aae7e01a0d12981ff566a84d5a98bf35793870409f09db34f6f8cef43"
+      },
+      {
+        "path": "reference/tests/test_iap2_ack24.c",
+        "sha256": "23997a8463035391b3526108ff97d4aa54365078f1f528072a594806ff7c47af"
+      },
+      {
+        "path": "reference/tests/test_iap2_data24.c",
+        "sha256": "6e1cbe827a27d619f22af3efbed51b920e69329995487f825337fe6fcebc53c2"
+      },
+      {
+        "path": "reference/tests/test_iap2_handshake24.c",
+        "sha256": "27bc593e44bf51c9afdd509bcc7a3e6352b1ec47ae06a9c32f233dc6eceb7cd7"
+      },
+      {
+        "path": "reference/tests/test_iap2_negotiation24.c",
+        "sha256": "22a7c1206f1f4938b70ba8dbf4178afdcee8f6b85414a347fa0fe9f8d3116a20"
+      },
+      {
+        "path": "reference/tests/test_iap2_supervisor24.c",
+        "sha256": "9f9de106a4688209c04e775172e7f85973c9264dd6f0d39d333134cc66d2476d"
+      },
+      {
+        "path": "reference/tests/test_iap2_syn24.c",
+        "sha256": "29c6009f598dfeab0d1907056d842d022a74e47ba5d68e9074bae9031b43a241"
+      },
+      {
+        "path": "reference/tests/test_iap2_wire24.c",
+        "sha256": "c40d4938f4da5b777c408323d5cdbee40a7642498f2ebae027eb6441226b44c2"
+      },
+      {
+        "path": "reference/tests/test_link.c",
+        "sha256": "62687c24c6f91a6da4d8e11fb59950f7a3f03c10478b4ba3050f15c5db837907"
+      },
+      {
+        "path": "reference/tests/test_malformed.c",
+        "sha256": "706cd06efa480c1641e68312bf18aae874e1efa5e6dad447c5b17b38f3e23d98"
+      },
+      {
+        "path": "reference/tests/test_media.c",
+        "sha256": "961d48bce1a282e5177999ac483655aaf1c7c0f290958aaac16bf82669eeeba5"
+      },
+      {
+        "path": "reference/tests/test_network_pairing24.c",
+        "sha256": "6400254e39fe588edd591192b46ea889ab92521fb99676fff078febd2366c496"
+      },
+      {
+        "path": "reference/tests/test_profile.c",
+        "sha256": "de1463984542b2681fe8a24d2184bd30b5ff909173512b7a6fc052c478bc4668"
+      },
+      {
+        "path": "reference/tests/test_wire.c",
+        "sha256": "353d2b1f7407bd7ed10a92f75cda85f65f2bc8f6e2b21dd2723243388e66467d"
+      },
+      {
+        "path": "reference/tests/fixtures/iap2_ack24_vectors.h",
+        "sha256": "f3a1b2ba4aa198587629dea46d35900e41999166ffd043743dda2821ca0c96fa"
+      },
+      {
+        "path": "reference/tests/fixtures/iap2_negotiation24_vectors.h",
+        "sha256": "bbce599999e7c792b15f126807f1ac3f819e7366a738f4555257694a482526be"
+      },
+      {
+        "path": "reference/tests/fixtures/iap2_syn24_vectors.h",
+        "sha256": "60e125dbbf077b9f5c3d91d05810890d2a7c5e5a300090d2deacfce95dcdcdb0"
+      },
+      {
+        "path": "reference/tests/fixtures/iap2_wire24_vectors.h",
+        "sha256": "3953fd384381e89338940cf12aa5b4e540d5b91e96508bbf10936f5d401f9701"
+      },
+      {
+        "path": "reference/tests/fixtures/link-v2.hex",
+        "sha256": "bf60360e566e70e1da2f6a2fe80708dcbd041ac7c6c78413533e73f3309b9789"
+      },
+      {
+        "path": "reference/tests/fixtures/security-synthetic-vectors.json",
+        "sha256": "ed6f6184753b1e2cf79cc65b719f28a83bb1ca9779898360fc3b4753419437bd"
+      },
+      {
+        "path": "reference/tests/fixtures/server_vector.h",
+        "sha256": "7e49a0c13492f0a5afce791e25f8858530a4db7eeeb963f5ea1e9240c18b81f4"
+      },
+      {
+        "path": "reference/tests/fixtures/synthetic_vectors.h",
+        "sha256": "042449a55f1abfbeab83f12fad755d45d769dc82c9c636118d07c11dfc7843e6"
+      },
+      {
+        "path": "reference/CMakeLists.txt",
+        "sha256": "479fec51f72ea1a9c81b0087b62820a4d745044c554fa252d48145d28fa3ce76"
+      }
+    ],
+    "scope": "No new full CTest claim;unchanged old executable baseline is not current profile or live proof"
+  },
+  "runtime_carplay_executed": false,
+  "production_authentication_executed": false,
+  "vehicle_verified": false,
+  "profile_enabled": false,
+  "source_sha256": {
+    "reference/include/cp_host.h": "17dd90230f3cb445e0d22d69c520e0017910bc4c0ecb70cf53a99737ff961a33",
+    "reference/src/profile.c": "a25ddeb93c7c3593d036ed97ea79d99a22e9b1ef166281ee0f2735d98c4a96d5",
+    "tools/ipsw-research/audit-linux-host-feasibility.py": "37e679f16344f14cd1a1379f9e1779e9c8746ad0df1f0d18db8e2e967b7f5dd4"
+  }
+}

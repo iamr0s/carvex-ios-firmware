@@ -1,0 +1,112 @@
+{
+  "result": "PASS_SCOPED_FEASIBILITY_AUDIT",
+  "goal_delivery": "RUNNABLE_C_CORE_PLUS_ANNOTATED_PSEUDOCODE_AND_INTEROPERABILITY",
+  "first_platform": "Linux",
+  "secondary_platform": "Android",
+  "head_unit": null,
+  "gate_closed": false,
+  "new_wire_transaction_implemented": false,
+  "current_profile_available": false,
+  "proof_scope": "Existing profileCcompiled/executed plain+ASanUBSan;legacyimplementation source hashes matched;frozenfield/capture evidence preserved.No completecurrentprotocol orrealvehicle claim.",
+  "full_CTtest_repeated": false,
+  "old_results_scope": "Historical unchanged executablebaseline only;previous pseudocode verification is historical snapshot aftergoalmetadata changes,not rerun/relabelled",
+  "overall_goal_complete": false,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "21f26d62f57e439a2d7dcc8c908372b6e591acb4c890d40577211a7827208ac9"
+    },
+    {
+      "path": "analysis/24A446/identification-required-strings/independent-freeze.json",
+      "sha256": "8da4a6ff003473ab611a3edc45ed9510b11187555777945e1510c0e58e955080"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/query-tool-audit/queries-0ee8e77ceb35c83b4664/query-index.json",
+      "sha256": "0ee8e77ceb35c83b4664ae1efa507a0418f1bb7dcc80e28ce68066af6bc74434"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/query-tool-audit/queries-0ee8e77ceb35c83b4664/query-phone-decompiler.py",
+      "sha256": "5fbfdfff758611aa030bb139e12e4d8cefebd4dbefccae5d6f1ac8014a171f80"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/query-tool-audit/queries-0ee8e77ceb35c83b4664/report.json",
+      "sha256": "65ff2f80679aaf4fc149c0c7eb5654965149e8d02dae71c6caf4c0f1058c20b7"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/required-strings-integration/baseline.json",
+      "sha256": "8677e690f5154d2c5586ada77a61dd01a18de8a2f29aaa9e0f5f2b94a39b8913"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/required-strings-integration/capture-comparison.json",
+      "sha256": "8ce60f5324ceada55fa588a832c3aef0ac12a193d673c0eddb0d2cf2b642dc8f"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/verification.json",
+      "sha256": "c240d555c5cc52cfcc62518abfea8ce393559251a74e85acb9f4310069c8c618"
+    },
+    {
+      "path": "analysis/vertical-feasibility/linux-first/AGENTS.md.before",
+      "sha256": "104a8a6a8a6cd0d02512b31b9189cadb55f6beeeddea082647e558381a2de443"
+    },
+    {
+      "path": "analysis/vertical-feasibility/linux-first/audit.json",
+      "sha256": "c723c24b0d266bb8a2e854ab355eeb92895f13781598a8f9cd6da160e0cf7419"
+    },
+    {
+      "path": "analysis/vertical-feasibility/linux-first/dependencies.json",
+      "sha256": "b03d74de55cfe6663781374135ee49dc4f0c8683eeb28d34cdc8ce0ea637e2cb"
+    },
+    {
+      "path": "analysis/vertical-feasibility/linux-first/docs__wireless-phone-host__project-goal.md.before",
+      "sha256": "b825f70885b8405c45c90bbeb66186f4c440dfb7bc0ed52d488d49e6aad60a9c"
+    },
+    {
+      "path": "analysis/vertical-feasibility/linux-first/reference__reports__project-status.json.before",
+      "sha256": "d2d65f4c146575fc72276a779794f8127cb39cc7040705ea2b89f0b00c7ae9b2"
+    },
+    {
+      "path": "docs/wireless-phone-host/README.md",
+      "sha256": "9761328b9b18bf9a8adf3850365d704a98115cb907fa7ebb0d4948872bfb57de"
+    },
+    {
+      "path": "docs/wireless-phone-host/project-goal.md",
+      "sha256": "8d47b8997b52e5bbca75932ea27d82a03595e6b1ba7bd8d26e2d5c635908492d"
+    },
+    {
+      "path": "docs/wireless-phone-host/vertical-feasibility.md",
+      "sha256": "7f288c0317e3f7e7e54a57e90f98ea8c2c9862132c13616105fae23e56b2ec98"
+    },
+    {
+      "path": "pseudocode/README.md",
+      "sha256": "d9ecd876f3617993df56fa3cd471227517130af7434633d2854d169db9fcef2e"
+    },
+    {
+      "path": "pseudocode/progress.md",
+      "sha256": "3a6c8305ae109a8a503c0a4a48f5c8b3340d784dba55238e6b6b34cdaf3002e5"
+    },
+    {
+      "path": "reference/reports/project-status.json",
+      "sha256": "61267ab92ce31d708cd25f6d42040ac086f184e284a7fcca7e277c433938c6a2"
+    },
+    {
+      "path": "reference/reports/vertical-status.json",
+      "sha256": "5d480530306414b0ea6113b779727c98c2cf37d85b7c88a4daa71c7b7a6d0145"
+    },
+    {
+      "path": "tools/ipsw-research/audit-linux-host-feasibility.py",
+      "sha256": "37e679f16344f14cd1a1379f9e1779e9c8746ad0df1f0d18db8e2e967b7f5dd4"
+    },
+    {
+      "path": "tools/ipsw-research/check-required-string-captures24.py",
+      "sha256": "f59b07ed01bf44d0db3b3d6cae9cdc7ccf446ef07829b1d17af01d7b25690166"
+    },
+    {
+      "path": "tools/ipsw-research/publish-vertical-feasibility.py",
+      "sha256": "2791661ef9363d7c87f26754e60221e1f81864a86a9f5dde8e433b8554d2f2ac"
+    },
+    {
+      "path": "tools/ipsw-research/seal-linux-feasibility-audit.py",
+      "sha256": "27c6b8d03ab62ca370f5a7189112091d8dcb125613701a30e2e47cd3b2cc5f44"
+    }
+  ]
+}

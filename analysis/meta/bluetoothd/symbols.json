@@ -1,0 +1,16 @@
+[
+  {
+    "addr": 90260802,
+    "name": "radr://5614542",
+    "type": 60,
+    "sect": 0,
+    "desc": 0
+  },
+  {
+    "addr": 4294967296,
+    "name": "__mh_execute_header",
+    "type": 15,
+    "sect": 1,
+    "desc": 16
+  }
+]

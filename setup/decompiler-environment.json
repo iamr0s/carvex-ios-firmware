@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "installedAt": "2026-10-18T19:40:23.5831394+08:00",
+  "platform": "WSL2 Ubuntu 24.04 LTS x86_64",
+  "ghidra": {
+    "version": "12.1.4",
+    "tag": "Ghidra_12.1.4_build",
+    "officialReleaseApi": "https://api.github.com/repos/NationalSecurityAgency/ghidra/releases/tags/Ghidra_12.1.4_build",
+    "officialRelease": "https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build",
+    "asset": "ghidra_12.1.4_PUBLIC_20260921.zip",
+    "downloadUrl": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip",
+    "assetBytes": 569649598,
+    "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+    "officialSha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+    "sha256Verified": true,
+    "installPathWindows": "D:\\carvex-research\\firmware\\tools\\ghidra",
+    "installPathWsl": "/mnt/d/carvex-research/firmware/tools/ghidra",
+    "analyzeHeadlessWindows": "D:\\carvex-research\\firmware\\tools\\ghidra\\support\\analyzeHeadless",
+    "analyzeHeadless": "/mnt/d/carvex-research/firmware/tools/ghidra/support/analyzeHeadless"
+  },
+  "java": {
+    "source": "Ubuntu 24.04 apt",
+    "package": "openjdk-21-jdk",
+    "packageVersion": "21.0.12.1+1-1~24.04.4",
+    "javaHome": "/usr/lib/jvm/java-21-openjdk-amd64",
+    "version": "21.0.12.1",
+    "requirement": "64-bit Java 21 Runtime and Development Kit",
+    "requirementSource": "https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.1.4_build/GhidraDocs/GettingStarted.md#minimum-requirements"
+  },
+  "environmentFileWindows": "D:\\carvex-research\\firmware\\setup\\ghidra-env.sh",
+  "environmentFileWsl": "/mnt/d/carvex-research/firmware/setup/ghidra-env.sh",
+  "environment": {
+    "JAVA_HOME": "/usr/lib/jvm/java-21-openjdk-amd64",
+    "GHIDRA_HOME": "/mnt/d/carvex-research/firmware/tools/ghidra",
+    "GHIDRA_ANALYZE_HEADLESS": "/mnt/d/carvex-research/firmware/tools/ghidra/support/analyzeHeadless"
+  },
+  "healthcheck": {
+    "status": "passed",
+    "method": "analyzeHeadless imported and analyzed Ubuntu /bin/true into a temporary Ghidra project",
+    "exitCode": 0,
+    "result": "Import succeeded; Analysis succeeded; Save succeeded",
+    "logWindows": "D:\\carvex-research\\firmware\\setup\\logs\\decompiler-healthcheck.log",
+    "logWsl": "/mnt/d/carvex-research/firmware/setup/logs/decompiler-healthcheck.log"
+  },
+  "logs": {
+    "download": "D:\\ios-carplay\\setup\\logs\\decompiler-download.log",
+    "apt": "D:\\ios-carplay\\setup\\logs\\decompiler-apt-install.log",
+    "healthcheck": "D:\\ios-carplay\\setup\\logs\\decompiler-healthcheck.log"
+  }
+}

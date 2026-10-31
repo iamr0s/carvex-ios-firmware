@@ -1,0 +1,65 @@
+[
+  {
+    "segname": "__TEXT",
+    "vmaddr": 7555096576,
+    "vmsize": 507904,
+    "fileoff": 0,
+    "filesize": 507904,
+    "initprot": 5,
+    "nsects": 24
+  },
+  {
+    "segname": "__DATA_CONST",
+    "vmaddr": 8077568008,
+    "vmsize": 32768,
+    "fileoff": 507904,
+    "filesize": 32768,
+    "initprot": 3,
+    "nsects": 10
+  },
+  {
+    "segname": "__AUTH_CONST",
+    "vmaddr": 8281424648,
+    "vmsize": 114688,
+    "fileoff": 540672,
+    "filesize": 114688,
+    "initprot": 3,
+    "nsects": 8
+  },
+  {
+    "segname": "__AUTH",
+    "vmaddr": 8196635856,
+    "vmsize": 16384,
+    "fileoff": 655360,
+    "filesize": 16384,
+    "initprot": 3,
+    "nsects": 2
+  },
+  {
+    "segname": "__DATA",
+    "vmaddr": 8150633952,
+    "vmsize": 16384,
+    "fileoff": 671744,
+    "filesize": 16384,
+    "initprot": 3,
+    "nsects": 3
+  },
+  {
+    "segname": "__DATA_DIRTY",
+    "vmaddr": 8173229184,
+    "vmsize": 16384,
+    "fileoff": 688128,
+    "filesize": 16384,
+    "initprot": 3,
+    "nsects": 2
+  },
+  {
+    "segname": "__LINKEDIT",
+    "vmaddr": 12300189696,
+    "vmsize": 393216,
+    "fileoff": 704512,
+    "filesize": 386912,
+    "initprot": 1,
+    "nsects": 0
+  }
+]

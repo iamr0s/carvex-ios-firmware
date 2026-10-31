@@ -1,0 +1,60 @@
+### PATTERN: UseCarPlayHEVC
+
+### PATTERN: hevc
+  firmware/headunits/gm/extract/nme/lib64/libNmeVideoGAVD.so
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/AirPlayPersistence.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/backup/SettingsBackupCodec.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/CarPlayHostActivity.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/CarPlayRotation.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/DiPlayActivity.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/settings/DisplaySettingsSection.kt
+  firmware/headunits/DiPlay/common/src/main/res/values/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-ar/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-es/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-ja/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-ru/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-uk/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-zh-rCN/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-zh-rTW/strings.xml
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/backup/SettingsBackupCodecTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/CarPlayHostResolutionTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/CarPlayRotationTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/CarPlayVideoSurfaceTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/ClusterMapScaleCapabilityTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/HevcSupportTest.kt
+
+### PATTERN: HEVC
+  firmware/headunits/audi/extract/audi_smartphone2.so
+  firmware/headunits/gm/extract/nme/lib64/libNmeBaseClasses.so
+  firmware/headunits/gm/extract/nme/lib64/libNmeVideoGAVD.so
+  firmware/headunits/U2IW_CARLINKIT0_Update/usr/lib/libcarlink.dynsyms.txt
+  firmware/headunits/U2IW_CARLINKIT0_Update/usr/lib/libcarlink.key.txt
+  firmware/headunits/U2IW_CARLINKIT0_Update/usr/lib/libcarlink.so
+  firmware/headunits/DiPlay/AGENTS.md
+  firmware/headunits/DiPlay/CHANGELOG.md
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/AirPlayPersistence.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/CarPlayHostActivity.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/CarPlayRotation.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/DiPlayActivity.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/HevcSupport.kt
+  firmware/headunits/DiPlay/common/src/main/java/com/shilapi/xcertplay/settings/DisplaySettingsSection.kt
+  firmware/headunits/DiPlay/common/src/main/res/values/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-ar/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-es/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-ja/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-ru/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-uk/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-zh-rCN/strings.xml
+  firmware/headunits/DiPlay/common/src/main/res/values-zh-rTW/strings.xml
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/AdaptiveSettingsUiTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/CarPlayHostSettingsTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/CarPlayRotationTest.kt
+  firmware/headunits/DiPlay/common/src/test/java/com/shilapi/xcertplay/CarPlayVideoSurfaceTest.kt
+
+### PATTERN: 08ed27c3
+
+### PATTERN: 1a29eaab
+
+### PATTERN: IsAuxScreenStream
+
+DONE

@@ -1,0 +1,17 @@
+   • Dumping ObjC headers      dylib=CarPlaySetup
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARMicaPlayer.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupAppIconProgressView.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupAssetProgressViewController.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupAssetPrompt.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupAssetReadySoonViewController.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupAssetUnavailableViewController.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupHeadUnitPairingPrompt.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupOnboardingViewController.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupProgressView.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupPrompts.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARSetupRouteSharingPermissionViewController.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CARMicaPlayerDelegate-Protocol.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CRHeadUnitPairingPromptService-Protocol.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CALayer+CARMicaPlayerAdditions.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/PRXCardContentViewController+CARSetupPrompts.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/CarPlaySetup/CarPlaySetup/CarPlaySetup.h

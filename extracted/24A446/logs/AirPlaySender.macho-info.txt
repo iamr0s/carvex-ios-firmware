@@ -1,0 +1,100 @@
+Magic         = 64-bit MachO
+Type          = DYLIB
+CPU           = AARCH64, ARM64e caps: USR00
+Commands      = 45 (Size: 6568)
+Flags         = NoUndefs, DyldLink, TwoLevel, NoReexportedDylibs, AppExtensionSafe
+000: LC_SEGMENT_64 sz=0x002e4000 off=0x00000000-0x002e4000 addr=0x251996000-0x251c7a000 r-x/r-x   __TEXT            
+	sz=0x00244090 off=0x00001a78-0x00245b08 addr=0x251997a78-0x251bdbb08               __TEXT.__text            PureInstructions|SomeInstructions 
+	sz=0x000007ec off=0x00245b08-0x002462f4 addr=0x251bdbb08-0x251bdc2f4               __TEXT.__objc_methlist    
+	sz=0x0008ec83 off=0x002462f4-0x002d4f77 addr=0x251bdc2f4-0x251c6af77               __TEXT.__cstring          (CstringLiterals)
+	sz=0x000061f0 off=0x002d4f80-0x002db170 addr=0x251c6af80-0x251c71170               __TEXT.__const            
+	sz=0x00000a88 off=0x002db170-0x002dbbf8 addr=0x251c71170-0x251c71bf8               __TEXT.__gcc_except_tab   
+	sz=0x000005c1 off=0x002dbbf8-0x002dc1b9 addr=0x251c71bf8-0x251c721b9               __TEXT.__dlopen_cstrs     (CstringLiterals)
+	sz=0x00001009 off=0x002dc1b9-0x002dd1c2 addr=0x251c721b9-0x251c731c2               __TEXT.__oslogstring      (CstringLiterals)
+	sz=0x000058c0 off=0x002dd1c4-0x002e2a84 addr=0x251c731c4-0x251c78a84               __TEXT.__unwind_info      
+	sz=0x00000048 off=0x002e2a88-0x002e2ad0 addr=0x251c78a88-0x251c78ad0               __TEXT.__eh_frame        NoToc|StripStaticSyms|LiveSupport (Coalesced)
+	sz=0x00000000 off=0x00000000-0x00000000 addr=0x251c78ad0-0x251c78ad0               __TEXT.__objc_stubs      PureInstructions|SomeInstructions 
+	sz=0x00000000 off=0x00000000-0x00000000 addr=0x251c78ad0-0x251c78ad0               __TEXT.__auth_stubs      PureInstructions|SomeInstructions (SymbolStubs)
+	sz=0x00000000 off=0x00000000-0x00000000 addr=0x251c78ad0-0x251c78ad0               __TEXT.__objc_classname   (CstringLiterals)
+	sz=0x00000000 off=0x00000000-0x00000000 addr=0x251c78ad0-0x251c78ad0               __TEXT.__objc_methname    (CstringLiterals)
+	sz=0x00000000 off=0x00000000-0x00000000 addr=0x251c78ad0-0x251c78ad0               __TEXT.__objc_methtype    (CstringLiterals)
+001: LC_SEGMENT_64 sz=0x0000c000 off=0x002e4000-0x002f0000 addr=0x2693e4770-0x2693f0770 rw-/rw-   __DATA_CONST      
+	sz=0x000076a8 off=0x002e4000-0x002eb6a8 addr=0x2693e4770-0x2693ebe18         __DATA_CONST.__const            
+	sz=0x00000038 off=0x002eb6a8-0x002eb6e0 addr=0x2693ebe18-0x2693ebe50         __DATA_CONST.__objc_classlist  NoDeadStrip 
+	sz=0x00000010 off=0x002eb6e0-0x002eb6f0 addr=0x2693ebe50-0x2693ebe60         __DATA_CONST.__objc_catlist    NoDeadStrip 
+	sz=0x00000048 off=0x002eb6f0-0x002eb738 addr=0x2693ebe60-0x2693ebea8         __DATA_CONST.__objc_protolist   
+	sz=0x00000008 off=0x002eb738-0x002eb740 addr=0x2693ebea8-0x2693ebeb0         __DATA_CONST.__objc_imageinfo   
+	sz=0x00000b08 off=0x002eb740-0x002ec248 addr=0x2693ebeb0-0x2693ec9b8         __DATA_CONST.__objc_selrefs     
+	sz=0x00000038 off=0x002ec248-0x002ec280 addr=0x2693ec9b8-0x2693ec9f0         __DATA_CONST.__objc_superrefs   
+	sz=0x00000170 off=0x002ec280-0x002ec3f0 addr=0x2693ec9f0-0x2693ecb60         __DATA_CONST.__objc_arraydata   
+	sz=0x00002388 off=0x002ec3f0-0x002ee778 addr=0x2693ecb60-0x2693eeee8         __DATA_CONST.__got              
+002: LC_SEGMENT_64 sz=0x00020000 off=0x002f0000-0x00310000 addr=0x276124870-0x276144870 rw-/rw-   __AUTH_CONST      
+	sz=0x00007780 off=0x002f0000-0x002f7780 addr=0x276124870-0x27612bff0         __AUTH_CONST.__const            
+	sz=0x000148e0 off=0x002f7780-0x0030c060 addr=0x27612bff0-0x2761408d0         __AUTH_CONST.__cfstring         
+	sz=0x00000ed0 off=0x0030c060-0x0030cf30 addr=0x2761408d0-0x2761417a0         __AUTH_CONST.__objc_const       
+	sz=0x000001b8 off=0x0030cf30-0x0030d0e8 addr=0x2761417a0-0x276141958         __AUTH_CONST.__objc_dictobj     
+	sz=0x00000150 off=0x0030d0e8-0x0030d238 addr=0x276141958-0x276141aa8         __AUTH_CONST.__objc_intobj      
+	sz=0x00000060 off=0x0030d238-0x0030d298 addr=0x276141aa8-0x276141b08         __AUTH_CONST.__objc_arrayobj    
+	sz=0x00000000 off=0x00000000-0x00000000 addr=0x276141b08-0x276141b08         __AUTH_CONST.__auth_got         (NonLazySymbolPointers)
+003: LC_SEGMENT_64 sz=0x00004000 off=0x00310000-0x00314000 addr=0x2719e6ec8-0x2719eaec8 rw-/rw-   __AUTH            
+	sz=0x00000190 off=0x00310000-0x00310190 addr=0x2719e6ec8-0x2719e7058               __AUTH.__objc_data        
+	sz=0x00000878 off=0x00310190-0x00310a08 addr=0x2719e7058-0x2719e78d0               __AUTH.__data             
+004: LC_SEGMENT_64 sz=0x0001c000 off=0x00314000-0x00330000 addr=0x26e7d9040-0x26e7f5040 rw-/rw-   __DATA            
+	sz=0x00000088 off=0x00314000-0x00314088 addr=0x26e7d9040-0x26e7d90c8               __DATA.__objc_ivar        
+	sz=0x00018690 off=0x00314090-0x0032c720 addr=0x26e7d90d0-0x26e7f1760               __DATA.__data             
+	sz=0x00000608 off=0x00000000-0x00000608 addr=0x26e7f1760-0x26e7f1d68               __DATA.__bss              (Zerofill)
+	sz=0x00000a04 off=0x00000000-0x00000a04 addr=0x26e7f1d68-0x26e7f276c               __DATA.__common           (Zerofill)
+005: LC_SEGMENT_64 sz=0x00004000 off=0x00330000-0x00334000 addr=0x27097a750-0x27097e750 rw-/rw-   __DATA_DIRTY      
+	sz=0x000000a0 off=0x00330000-0x003300a0 addr=0x27097a750-0x27097a7f0         __DATA_DIRTY.__objc_data        
+	sz=0x00000f78 off=0x003300a0-0x00331018 addr=0x27097a7f0-0x27097b768         __DATA_DIRTY.__data             
+	sz=0x00000788 off=0x00000000-0x00000788 addr=0x27097b768-0x27097bef0         __DATA_DIRTY.__bss              (Zerofill)
+006: LC_SEGMENT_64 sz=0x000fd900 off=0x00334000-0x00431900 addr=0x2dd260000-0x2dd360000 r--/r--   __LINKEDIT        
+007: LC_ID_DYLIB                 /System/Library/PrivateFrameworks/AirPlaySender.framework/AirPlaySender (1)
+008: LC_DYLD_EXPORTS_TRIE        offset=0x000334000 size=0x9c68
+009: LC_SYMTAB                   Symbol offset=0x00341530, Num Syms: 16928, String offset=0x003877E0-0x00431900
+010: LC_DYSYMTAB                 
+	             Local Syms: 12986 at 0
+	          External Syms: 1291 at 12986
+	         Undefined Syms: 2651 at 14277
+	                    TOC: No
+	                 Modtab: No
+	External symtab Entries: None
+	Indirect symtab Entries: 4139 at 0x00383730
+	 External Reloc Entries: None
+	    Local Reloc Entries: None
+011: LC_UUID                     2D49B39B-FB65-366B-9AB5-6995E5E0FEBF
+012: LC_BUILD_VERSION            Platform: iOS, MinOS: 27, SDK: 27, Tool: ld (27037.1)
+013: LC_SOURCE_VERSION           980.77.1.2.0
+014: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/NetworkRelay.framework/NetworkRelay (1)
+015: LC_LOAD_DYLIB               /System/Library/Frameworks/CoreMotion.framework/CoreMotion (3185)
+016: LC_LOAD_DYLIB               /System/Library/Frameworks/CoreAudio.framework/CoreAudio (1)
+017: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/MFAAuthentication.framework/MFAAuthentication (1)
+018: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/CoreTime.framework/CoreTime (340)
+019: LC_LOAD_DYLIB               /usr/lib/libMobileGestalt.dylib (1)
+020: LC_LOAD_DYLIB               /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox (3350.77.1)
+021: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport (1)
+022: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/APTransport.framework/APTransport (1)
+023: LC_LOAD_DYLIB               /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox (1000)
+024: LC_LOAD_DYLIB               /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (5027)
+025: LC_LOAD_DYLIB               /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics (2050)
+026: LC_LOAD_DYLIB               /System/Library/Frameworks/CoreMedia.framework/CoreMedia (3350.77.1)
+027: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience (1)
+028: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils (1)
+029: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/AirPlayReceiver.framework/AirPlayReceiver (1)
+030: LC_LOAD_DYLIB               /System/Library/Frameworks/Foundation.framework/Foundation (5027)
+031: LC_LOAD_DYLIB               /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (275)
+032: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration (1)
+033: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/MediaControlSender.framework/MediaControlSender (1)
+034: LC_LOAD_DYLIB               /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox (3350.77.1)
+035: LC_LOAD_DYLIB               /System/Library/Frameworks/QuartzCore.framework/QuartzCore (1223)
+036: LC_LOAD_DYLIB               /System/Library/Frameworks/Security.framework/Security (62460.2.2)
+037: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog (1)
+038: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore (1)
+039: LC_LOAD_DYLIB               /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration (1446)
+040: LC_LOAD_DYLIB               /usr/lib/libSystem.B.dylib (1359)
+041: LC_LOAD_DYLIB               /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking (72)
+042: LC_LOAD_DYLIB               /usr/lib/libobjc.A.dylib (228)
+043: LC_FUNCTION_STARTS          offset=0x00033dc68 size=0x38c8
+044: LC_DATA_IN_CODE             offset=0x00341530-0x00341530 size=    0 entries=0
+
+

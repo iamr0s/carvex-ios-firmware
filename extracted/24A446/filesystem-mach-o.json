@@ -1,0 +1,177 @@
+[
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/Applications/AirPlaySenderUIApp.app/AirPlaySenderUIApp",
+    "size": 184752,
+    "sha256": "e112927cd16186748963cd831e1c478ef0330a434434aa88cb0bc388a76f880a"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/Applications/CarPlaySettings.app/CarPlaySettings",
+    "size": 1734128,
+    "sha256": "8835309cc5230753b9b7e2c546cbfea5226d09c5cedd14c2e1eae9660be6fe6a"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/Applications/CarPlaySetup.app/CarPlaySetup",
+    "size": 130240,
+    "sha256": "797d7bdbf58c2be05d8bbfeec36d238b24c6e65b63967d353b734321931ea971"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/Applications/CarPlaySplashScreen.app/CarPlaySplashScreen",
+    "size": 100352,
+    "sha256": "940de58d5f3a77f3f55984e0da98357cc4c9574a747f4c4c2c40aaf395d1d49b"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/Applications/CarPlayWallpaper.app/CarPlayWallpaper",
+    "size": 160928,
+    "sha256": "3046d6e64f019eba7136f85de5ecfe88c0d7415503ef321f9e815223eb367f35"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/Applications/WidgetRenderer_CarPlay.app/WidgetRenderer_CarPlay",
+    "size": 84256,
+    "sha256": "3f70c5e029d451aad48b7991c6b7809b0dcecd05cb7d381e29ebf25ebcf5843e"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/Accounts/Notification/CoreAccessoriesAccountNotificationPlugin.bundle/CoreAccessoriesAccountNotificationPlugin",
+    "size": 70928,
+    "sha256": "33b27e0e2777bb40b179885f8152b8daf504a8d028c1f451ae4450e391f18210"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/Audio/Plug-Ins/HAL/AirPlayHalogen.driver/AirPlayHalogen",
+    "size": 154096,
+    "sha256": "d8154d3344e9107c6f467449a12fb70013edfe848186da435b16d45c11957cbe"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/Audio/Plug-Ins/HAL/CarPlayHalogen.driver/CarPlayHalogen",
+    "size": 111952,
+    "sha256": "da109fbd16bab9e8484b4db94b6939d6f7d13d2e3cf799307bf77a97dc0284a1"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/CoreServices/CarPlay.app/CarPlay",
+    "size": 70560,
+    "sha256": "4a4dc60cb951b4749e07f14632f1924da5a55415f4f69237e7a6291cbdd8b10c"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/CoreServices/CarPlayTemplateUIHost.app/CarPlayTemplateUIHost",
+    "size": 183392,
+    "sha256": "53b6c0b19dbe04e4fb839466a94da83709592e3cfee9e4781b2653276604086b"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/ExtensionKit/Extensions/PnRCarPlayOnDeviceWorker.appex/PnRCarPlayOnDeviceWorker",
+    "size": 102704,
+    "sha256": "e66a5b4b912c3f5ff31c886b53503b34e91b2885b3dc8247d7d0994dff9b463b"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PreferenceBundles/AccessoryDeveloperSettings.bundle/AccessoryDeveloperSettings",
+    "size": 109824,
+    "sha256": "53ab8464863361e5861e28c6e1fb2d1316628fdff46c63f6439a9d0318317533"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PreferenceBundles/AirPlayAndHandoffSettings.bundle/AirPlayAndHandoffSettings",
+    "size": 179728,
+    "sha256": "ce58bed6619a8536a503050c78b86b1981b61f69d69e9f0c8cdd226bd55bf529"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PreferenceBundles/CarKitSettings.bundle/CarKitSettings",
+    "size": 661520,
+    "sha256": "98dcaf07aebc5277648993650ada3e644a22b6ad01ce8cf877baa3ef54b2907d"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/AirPlaySenderKit.framework/XPCServices/AirPlaySenderService.xpc/AirPlaySenderService",
+    "size": 146640,
+    "sha256": "71c7f893338bdc767fa64d395ff9d2a8a80feb76918146ad0644e07b6115dc10"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CarKit.framework/PlugIns/CarPlayDiagnostics.appex/CarPlayDiagnostics",
+    "size": 71776,
+    "sha256": "b13f1366340f69cb0c853b8bef8cf7ade0226efbf312f69a3237e5c139581b55"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CarPlayUIServices.framework/XPCServices/CarPlayScreenshotService.xpc/CarPlayScreenshotService",
+    "size": 99408,
+    "sha256": "c78f677169e48e94055e5aeccd3d546a7893018e56221e78c64aed53efe98ee3"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd",
+    "size": 4330752,
+    "sha256": "2b0a2010e6d2605e07d87f05659c932e03de34476a76431196a9bb58da7dc4fe"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessories.framework/XPCServices/ACCAppLinksIconService.xpc/ACCAppLinksIconService",
+    "size": 82576,
+    "sha256": "4d8fd53dabbdbd02265903c3fe69db09c85fe392291ab546bcd83ec70d4b6347"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessories.framework/XPCServices/ACCCarPlayService.xpc/ACCCarPlayService",
+    "size": 120688,
+    "sha256": "4201f1c26d61edfab256bd995dbe8e40084f71889851f6e7c315ee8b2c909c4c"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessories.framework/XPCServices/ACCHWComponentAuthService.xpc/ACCHWComponentAuthService",
+    "size": 832032,
+    "sha256": "559a4d5aff5d565e277146f40ccc769fd34faffb01a19d51a5e5a520239b1d5d"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessoriesFeatures.framework/XPCServices/ACCFeatureAudioProductService.xpc/ACCFeatureAudioProductService",
+    "size": 132640,
+    "sha256": "b656e4e58fca7384b27bf1f2d6ef6d48f33174a860a55e003bca9207e4458ef3"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessoriesFeatures.framework/XPCServices/ACCMediaLibraryFeature.xpc/ACCMediaLibraryFeature",
+    "size": 599728,
+    "sha256": "984466be5e129c3a64c989251c9506dc1223284e0423f3a648701c60526acc8f"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessoriesFeatures.framework/XPCServices/ACCNowPlayingFeature.xpc/ACCNowPlayingFeature",
+    "size": 329136,
+    "sha256": "2cea9f0697dd558ea6ad4efeeaa7b3ff0ba9b1c162895cbdf798332d172845d6"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/IAP.framework/Support/iapd",
+    "size": 1440608,
+    "sha256": "96c0a38aa857ce392a14da24947dc1c959eaa7d2cfc611f267d84718436d0322"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/UIKitCore.framework/CarPlayArtwork.bundle/CarPlayArtwork",
+    "size": 34896,
+    "sha256": "23005aaea19e95d2090767d166f95f9447d4f5a0b6716be2053b59548af34dbf"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/System/Library/UserEventPlugins/com.apple.accessoryd.matching.plugin/com.apple.accessoryd.matching",
+    "size": 745232,
+    "sha256": "ef418fc3ab6f724d8e39ff4f80a92f719acf0e6837fd9f28eb0508948c6f3488"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/airplayd",
+    "size": 89840,
+    "sha256": "22b44b6110d2f1a12993f7a8a1c262dd7cc1ee9219277aefb0d37a0897478195"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/audioaccessoryd",
+    "size": 4082672,
+    "sha256": "7c8b7d036ca10680329b6a606f4076ce137788fa550ccb6929be8e091ba70b78"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/caraccessoryd",
+    "size": 1121168,
+    "sha256": "cbccbf0f66d9a0433c696b586044c8fd3a5f0e0a9a0cd9bddeecec77ce1883bc"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/carkitd",
+    "size": 1287040,
+    "sha256": "87e352056b30cc29e206b265786dac43eeab8536e8cebeae14711e8e3fdaf8cd"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/dockaccessoryd",
+    "size": 3078336,
+    "sha256": "7c8bf21b6467b15e960d628dcd103a41359d230efa144b1d777d51d44670e71b"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/fairplaydeviceidentityd",
+    "size": 6608272,
+    "sha256": "e16976d2026410cc04fbdcb8a7a26a70159fcaf2e39b7f0c7b563c3fe32058d3"
+  },
+  {
+    "path": "extracted/24A446/components/24A446__iPhone18,1/root/usr/sbin/fairplayd.H2",
+    "size": 18196720,
+    "sha256": "94d32a82fdc2a80c46b7734b20895a935836a676a34b1c3e863cdb479a68cb01"
+  }
+]

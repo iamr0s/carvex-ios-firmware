@@ -1,0 +1,16 @@
+   • Dumping ObjC headers      dylib=AccessoryNavigation
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationAccessory.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationAccessoryComponent.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationAccessoryObjectDetectionComponent.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationLaneGuidanceInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationLaneGuidanceLaneInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationManeuverUpdateInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationProvider.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationRoadObjectDetectionInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationRoadObjectRoadLaneInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationRoadObjectRoadObjectInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationRoadObjectRoadSignInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationRouteGuidanceUpdateInfo.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationXPCClientProtocol-Protocol.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/ACCNavigationXPCServerProtocol-Protocol.h
+   • Creating /mnt/d/ios-carplay/extracted/24A446/headers/AccessoryNavigation/AccessoryNavigation/AccessoryNavigation.h

@@ -1,0 +1,11 @@
+{
+  "build": "24A446",
+  "image": "AirPlaySender",
+  "function": "_apsession_requiresHKPairVerify",
+  "address": "0x251a61618",
+  "code_page_sha256": "9090f9afc9dcd280bd0b5c2ede9dae046f5228bfd29217ac2f03a1a3318bf6ca",
+  "vectors": 768,
+  "mismatches": 0,
+  "method": "Compiled C compared to original ARM64 branch instructions; PAC/RETAB normalized; CMBaseObjectGetDerivedStorage, APSGetFBOPropertyInt64 and APSSettingsGetIntWithDefault replaced by controlled stubs",
+  "scope": "Branch logic only; no crypto implementation, internal enum identification or live protocol validation"
+}

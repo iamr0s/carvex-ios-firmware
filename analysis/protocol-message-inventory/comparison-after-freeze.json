@@ -1,0 +1,11 @@
+{
+  "raw_capture_freeze_sha256": "d618d81c97cb5b6d17a56a6f067bed6642f046189f98e544e17a119a287bd274",
+  "legacy_snapshot_sha256": "5ea90f0c4b3096b88a28206c85aa5da8808e79682e01dfa232c8e95d9988e90f",
+  "captured_ids_absent_from_legacy": [
+    "4e0b"
+  ],
+  "legacy_implementation_flags_used": false,
+  "legacy_field_schema_adopted": false,
+  "disputed21G93": "Previous three4300 candidates remain disputed; repeated frames/transaction attribution not silently admitted by this inventory; see original parser warnings and independent prior divergence record",
+  "current_build_inferred_from_older_capture": false
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "image": "accessoryd",
+    "symbol": "_iAP2PacketCalcChecksum",
+    "assembly": "analysis/24A446/assembly/accessoryd.iAP2PacketCalcChecksum.s",
+    "exit": 0,
+    "bytes": 8318,
+    "reused": true
+  },
+  {
+    "image": "accessoryd",
+    "symbol": "_iAP2PacketParseSYNData",
+    "assembly": "analysis/24A446/assembly/accessoryd.iAP2PacketParseSYNData.s",
+    "exit": 0,
+    "bytes": 4973,
+    "reused": true
+  },
+  {
+    "image": "accessoryd",
+    "symbol": "_iAP2LinkDeviceActionSendDetect",
+    "assembly": "analysis/24A446/assembly/accessoryd.iAP2LinkDeviceActionSendDetect.s",
+    "exit": 0,
+    "bytes": 1832,
+    "reused": true
+  },
+  {
+    "image": "accessoryd",
+    "symbol": "_iAP2LinkValidateSynParam",
+    "assembly": "analysis/24A446/assembly/accessoryd.iAP2LinkValidateSynParam.s",
+    "exit": 0,
+    "bytes": 38692,
+    "reused": true
+  },
+  {
+    "image": "accessoryd",
+    "symbol": "_iap2_CarPlayStartSession",
+    "assembly": "analysis/24A446/assembly/accessoryd.iap2_CarPlayStartSession.s",
+    "exit": 0,
+    "bytes": 43419,
+    "reused": true
+  },
+  {
+    "image": "Platform-Bluetooth",
+    "symbol": "-[ACCPlatformPluginBluetooth pluginBTDevice:btAccessoryManager:btDevice:]",
+    "assembly": "analysis/24A446/assembly/Platform-Bluetooth.pluginBTDevice.s",
+    "exit": 0,
+    "bytes": 6551,
+    "seconds": 7.87
+  },
+  {
+    "image": "AirPlaySender",
+    "symbol": "_apsession_requiresHKPairVerify",
+    "assembly": "analysis/24A446/assembly/AirPlaySender.apsession_requiresHKPairVerify.s",
+    "exit": 0,
+    "bytes": 1497,
+    "seconds": 9.64
+  },
+  {
+    "image": "AirPlaySender",
+    "symbol": "_sdpsession_sendSetup",
+    "assembly": "analysis/24A446/assembly/AirPlaySender.sdpsession_sendSetup.s",
+    "exit": 0,
+    "bytes": 14938,
+    "seconds": 9.12
+  },
+  {
+    "image": "AirPlaySender",
+    "symbol": "_coreUtilsPairing_DeriveKey",
+    "assembly": "analysis/24A446/assembly/AirPlaySender.coreUtilsPairing_DeriveKey.s",
+    "exit": 0,
+    "bytes": 1664,
+    "seconds": 10.03
+  }
+]

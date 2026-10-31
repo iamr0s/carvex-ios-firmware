@@ -1,0 +1,41 @@
+# Raw firmware and head-unit dumps are not redistributed.
+/ipsw/*.ipsw
+/ipsw/_s1/
+/headunits/
+/extracted/*/images/
+/extracted/*/dyld/
+# Ghidra caches and large generated artifacts.
+/analysis/decompiler-cache/
+**/*.gpr
+**/*.rep/
+**/*.lock
+**/*.prp
+**/*.db
+**/*.sqlite
+**/*.pkl
+**/*.pickle
+**/*.cache
+# Tool installations and download archives.
+/tools/ghidra/
+/tools/ipsw-research/
+/setup/downloads/
+/setup/logs/
+# Generic archives and caches.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.dmg
+*.ipsw
+**/__pycache__/
+*.pyc
+# Per-function evidence slices are kept locally; summaries and key JSON are tracked.
+/analysis/24A446/*/
+/analysis/protocol-message-inventory/*/
+
+# Locally built platform dependencies.
+/tools/platform-deps/
+
+# Third-party source checkout.
+/setup/src/apfs-fuse/

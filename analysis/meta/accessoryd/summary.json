@@ -1,0 +1,38 @@
+{
+  "path": "D:\\carplay-phone\\firmware\\extracted\\24A446\\components\\24A446__iPhone18,1\\root\\System\\Library\\PrivateFrameworks\\CoreAccessories.framework\\Support\\accessoryd",
+  "size": 4330752,
+  "sha256": "2b0a2010e6d2605e07d87f05659c932e03de34476a76431196a9bb58da7dc4fe",
+  "magic": "0xfeedfacf",
+  "cputype": 16777228,
+  "cpusubtype": 2147483650,
+  "filetype": 2,
+  "ncmds": 39,
+  "sizeofcmds": 5392,
+  "flags": "0x200085",
+  "uuid": "b3f36577-c4a2-3960-85ab-9d801b3f2c73",
+  "encryption": null,
+  "entry": {
+    "entryoff": 120632,
+    "stacksize": 0
+  },
+  "segment_count": 5,
+  "section_count": 35,
+  "function_starts": 8706,
+  "symtab": {
+    "symoff": 2480752,
+    "nsyms": 56029,
+    "stroff": 3382288,
+    "strsize": 887200
+  },
+  "symbol_count": 52443,
+  "sect_create_date": null,
+  "text_section": {
+    "segment": "__TEXT",
+    "section": "__text",
+    "addr": 4294972864,
+    "size": 1703344,
+    "fileoff": 5568,
+    "align": 6,
+    "flags": 2147484672
+  }
+}

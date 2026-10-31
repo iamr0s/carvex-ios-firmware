@@ -1,0 +1,443 @@
+[
+  {
+    "segment": "__TEXT",
+    "section": "__text",
+    "addr": 7555105144,
+    "size": 400684,
+    "fileoff": 8568,
+    "align": 2,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__delay_stubs",
+    "addr": 7555505828,
+    "size": 64,
+    "fileoff": 409252,
+    "align": 2,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__delay_helper",
+    "addr": 7555505892,
+    "size": 164,
+    "fileoff": 409316,
+    "align": 2,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methlist",
+    "addr": 7555506056,
+    "size": 25428,
+    "fileoff": 409480,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__const",
+    "addr": 7555531488,
+    "size": 1368,
+    "fileoff": 434912,
+    "align": 4,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__gcc_except_tab__TEXT",
+    "addr": 7555532856,
+    "size": 2552,
+    "fileoff": 436280,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__oslogstring",
+    "addr": 7555535408,
+    "size": 27366,
+    "fileoff": 438832,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__cstring",
+    "addr": 7555562784,
+    "size": 23197,
+    "fileoff": 466208,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__dlopen_cstrs",
+    "addr": 7555585981,
+    "size": 350,
+    "fileoff": 489405,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__constg_swiftt",
+    "addr": 7555586332,
+    "size": 416,
+    "fileoff": 489756,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_typeref__TEXT",
+    "addr": 7555586748,
+    "size": 392,
+    "fileoff": 490172,
+    "align": 1,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_fieldmd__TEXT",
+    "addr": 7555587140,
+    "size": 148,
+    "fileoff": 490564,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_types",
+    "addr": 7555587288,
+    "size": 28,
+    "fileoff": 490712,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_reflstr__TEXT",
+    "addr": 7555587328,
+    "size": 136,
+    "fileoff": 490752,
+    "align": 4,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_builtin__TEXT",
+    "addr": 7555587464,
+    "size": 80,
+    "fileoff": 490888,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_assocty__TEXT",
+    "addr": 7555587544,
+    "size": 48,
+    "fileoff": 490968,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_proto",
+    "addr": 7555587592,
+    "size": 16,
+    "fileoff": 491016,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__unwind_info",
+    "addr": 7555587608,
+    "size": 7136,
+    "fileoff": 491032,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__eh_frame",
+    "addr": 7555594744,
+    "size": 128,
+    "fileoff": 498168,
+    "align": 3,
+    "flags": 1744830475
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_stubs",
+    "addr": 7555594872,
+    "size": 0,
+    "fileoff": 0,
+    "align": 5,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__auth_stubs",
+    "addr": 7555594872,
+    "size": 0,
+    "fileoff": 0,
+    "align": 2,
+    "flags": 2147484680
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_classname__TEXT",
+    "addr": 7555594872,
+    "size": 0,
+    "fileoff": 0,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methname",
+    "addr": 7555594872,
+    "size": 0,
+    "fileoff": 0,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methtype",
+    "addr": 7555594872,
+    "size": 0,
+    "fileoff": 0,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__const",
+    "addr": 8077568008,
+    "size": 8256,
+    "fileoff": 507904,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_classlist__DATA_CONST",
+    "addr": 8077576264,
+    "size": 632,
+    "fileoff": 516160,
+    "align": 3,
+    "flags": 268435456
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_catlist",
+    "addr": 8077576896,
+    "size": 32,
+    "fileoff": 516792,
+    "align": 3,
+    "flags": 268435456
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_protolist__DATA_CONST",
+    "addr": 8077576928,
+    "size": 368,
+    "fileoff": 516824,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_imageinfo__DATA_CONST",
+    "addr": 8077577296,
+    "size": 8,
+    "fileoff": 517192,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_selrefs",
+    "addr": 8077577304,
+    "size": 14064,
+    "fileoff": 517200,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_protorefs__DATA_CONST",
+    "addr": 8077591368,
+    "size": 264,
+    "fileoff": 531264,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_superrefs__DATA_CONST",
+    "addr": 8077591632,
+    "size": 480,
+    "fileoff": 531528,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_arraydata__DATA_CONST",
+    "addr": 8077592112,
+    "size": 192,
+    "fileoff": 532008,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__got",
+    "addr": 8077592304,
+    "size": 2160,
+    "fileoff": 532200,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__const",
+    "addr": 8281424648,
+    "size": 7088,
+    "fileoff": 540672,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__cfstring",
+    "addr": 8281431736,
+    "size": 23648,
+    "fileoff": 547760,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__objc_const",
+    "addr": 8281455384,
+    "size": 66232,
+    "fileoff": 571408,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__objc_intobj",
+    "addr": 8281521616,
+    "size": 648,
+    "fileoff": 637640,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__objc_dictobj",
+    "addr": 8281522264,
+    "size": 80,
+    "fileoff": 638288,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__objc_arrayobj",
+    "addr": 8281522344,
+    "size": 48,
+    "fileoff": 638368,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__auth_got",
+    "addr": 8281522392,
+    "size": 2760,
+    "fileoff": 638416,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH_CONST",
+    "section": "__auth_ptr",
+    "addr": 8281525304,
+    "size": 0,
+    "fileoff": 0,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH",
+    "section": "__objc_data",
+    "addr": 8196635856,
+    "size": 5120,
+    "fileoff": 655360,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__AUTH",
+    "section": "__data",
+    "addr": 8196640976,
+    "size": 440,
+    "fileoff": 660480,
+    "align": 4,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_ivar",
+    "addr": 8150633952,
+    "size": 1836,
+    "fileoff": 671744,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__data",
+    "addr": 8150635792,
+    "size": 4512,
+    "fileoff": 673584,
+    "align": 4,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__bss",
+    "addr": 8150640304,
+    "size": 1856,
+    "fileoff": 0,
+    "align": 4,
+    "flags": 1
+  },
+  {
+    "segment": "__DATA_DIRTY",
+    "section": "__objc_data",
+    "addr": 8173229184,
+    "size": 1600,
+    "fileoff": 688128,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_DIRTY",
+    "section": "__bss",
+    "addr": 8173230784,
+    "size": 200,
+    "fileoff": 0,
+    "align": 3,
+    "flags": 1
+  }
+]

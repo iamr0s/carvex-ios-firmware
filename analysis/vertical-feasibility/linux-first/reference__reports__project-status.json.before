@@ -1,0 +1,77 @@
+{
+  "objective": "C11-style pseudocode CarPlay Phone HOST with firmware-grounded peer interfaces, state machines and data processing",
+  "firmware": "24A446",
+  "scope": "peer interfaces, protocol state machines, external/internal data processing",
+  "current_stage": "bluetooth-iap2",
+  "latest_evidence": "analysis/24A446/message-initial-identification/independent-review.md",
+  "stages": [
+    {
+      "id": "bluetooth-iap2",
+      "status": "in_progress",
+      "restored": "Device Detection/reset/default active inputs and actual attach->Detect->SYN path; BT binding remains OPEN",
+      "implemented": "Complete-record scoped Device supervisor joins explicit-active handshake and regular data; preserves old experimental engine/profile",
+      "offline_tested": "152 native cases;49 scoped C byte/field comparisons; CTest covers phase completion, duplicate SYN, reset version, stale writes, bootstrap budget and unacked-SYNACK gate",
+      "live_verified": false,
+      "next": "Unify5703/4301 decoded parameters with verified network/endpoint contract;security enum and role;retain upstream Identification/trust gaps",
+      "latest_pseudocode": "pseudocode/carplay_start.c",
+      "new_evidence": "856 original4300/4301 inputs;851 C byte/parse comparisons;5 malformed local rejection differences;9 local guard categories;ASan/UBSan. No full UTF8,platform session/network or trust execution."
+    },
+    {
+      "id": "wifi-handoff",
+      "status": "partial",
+      "restored": "scoped credential/notification inputs",
+      "implemented": "legacy action/event/interface/scope contracts",
+      "offline_tested": "local simulator and scoped predicates",
+      "live_verified": false,
+      "next": "Trace24fd9c6b8 selected interface/address into session browser/control endpoint;identity,scope,invalidation;retain upstream trust and association contracts",
+      "latest_pseudocode": "pseudocode/network_endpoint.c",
+      "new_evidence": "2141 original address/UUID/time/filter inputs with scoped C comparisons;6 unknown families local OPEN;12 local guard categories;ASan/UBSan. Actual endpoint transaction/provider/network/trust unexecuted."
+    },
+    {
+      "id": "airplay-security-control",
+      "status": "partial",
+      "restored": "scoped Phone roles/key sources/feature predicates",
+      "implemented": "isolated primitives and legacy experimental transactions",
+      "offline_tested": "bounded original cases and legacy synthetic crypto tests",
+      "live_verified": false,
+      "next": "actual reachable pairing/proof/identity/commit/encryption-switch transaction"
+    },
+    {
+      "id": "streams-media-input",
+      "status": "partial_experimental",
+      "restored": "partial older layouts",
+      "implemented": "legacy media/input framing; no current complete streams",
+      "offline_tested": "unit/simulator subset",
+      "live_verified": false,
+      "next": "current stream negotiation, video/audio/mic/input framing and required target iAP2"
+    },
+    {
+      "id": "lifecycle",
+      "status": "partial_experimental",
+      "restored": "scoped current branches",
+      "implemented": "local generation/tokens/reconnect/cleanup policies",
+      "offline_tested": "legacy fault injection; no complete current transaction",
+      "live_verified": false,
+      "next": "protocol failure/recovery semantics across completed stages"
+    }
+  ],
+  "current_profile_enabled": false,
+  "complete": false,
+  "live_interoperability_tested": false,
+  "nonblocking_ios_internals": [
+    "private XPC object layout",
+    "driver scan/association implementation",
+    "Apple internal queue scheduling"
+  ],
+  "unresolved_requirements": "protocol-essential gates remain; no existing gate removed solely by scope change",
+  "delivery_mode": "C11_STYLE_PSEUDOCODE",
+  "primary_artifacts": "pseudocode/README.md",
+  "pseudocode_coverage": "pseudocode/coverage.json",
+  "pseudocode_verification": "pseudocode/verification.json",
+  "active_work": "Bluetooth/iAP2 initial Identification mainline;target-required field/feature semantics and production trust remain OPEN",
+  "stage_reporting_required": true,
+  "annotated_pseudocode_required": true,
+  "active_research_status": "reference/reports/protocol-message-status.json",
+  "message_inventory": "docs/wireless-phone-host/protocol-message-inventory.json",
+  "latest_message_pseudocode": "pseudocode/initial_identification.c"
+}

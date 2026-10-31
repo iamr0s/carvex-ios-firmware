@@ -1,0 +1,12 @@
+{
+  "build": "24A446",
+  "binary": "analysis/24A446/bluetooth-components/24A446__iPhone18,1/root/usr/sbin/bluetoothd",
+  "sha256": "cfd94854d0a2efd3ca4a2de6e55349f43fd0d274a4b8bfa9937f29d9f7208cb1",
+  "crc_table_entries": 256,
+  "arm64_comparisons": 4000,
+  "mismatches": 0,
+  "method": "Bitwise CRC transform compared to original 256-entry table; compiled C FCS validators compared to original ARM64 helpers on valid and bit-flipped FCS values",
+  "scope": "FCS helpers only; not a full RFCOMM connection/credit/SDP implementation",
+  "example_control_header": "03 3f 01",
+  "example_fcs": "1c"
+}

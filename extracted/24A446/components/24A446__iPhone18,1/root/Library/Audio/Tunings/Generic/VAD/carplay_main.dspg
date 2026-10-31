@@ -1,0 +1,44 @@
+;
+; carplay_main.dspg
+;
+
+graphName carplay_main
+
+; I/O
+in Input
+out Output
+
+; Boxes
+box SPLMeter (aufx splm appl) 1 1
+box LKFSSmoothing parameter_smoothing 1 0
+
+; Formats
+format inputFormat (48000 2)
+format outputFormat (48000 2)
+
+; Wires
+wire Input SPLMeter inputFormat
+wire SPLMeter Output outputFormat
+wire SPLMeter LKFSSmoothing inputFormat
+
+
+; Parameters
+
+; disable dbA
+param edba 0 const
+wireGraphParam edba (SPLMeter 2)
+
+; enable LKFS
+param ekfs 1 const
+wireGraphParam ekfs (SPLMeter 6)
+
+; spl LKFS
+param atck 5
+wireGraphParam atck (LKFSSmoothing 0 global 0)
+param rels 18
+wireGraphParam rels (LKFSSmoothing 1 global 0)
+
+; smoothed LKFS 
+param skfs 0 out
+wireParam (SPLMeter 7) (LKFSSmoothing 0 input 0)
+wireGraphParam skfs (LKFSSmoothing 0 output 0)

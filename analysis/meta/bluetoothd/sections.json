@@ -1,0 +1,434 @@
+[
+  {
+    "segment": "__TEXT",
+    "section": "__text",
+    "addr": 4294982192,
+    "size": 9452608,
+    "fileoff": 14896,
+    "align": 2,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__auth_stubs",
+    "addr": 4304434800,
+    "size": 21088,
+    "fileoff": 9467504,
+    "align": 2,
+    "flags": 2147484680
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_stubs",
+    "addr": 4304455904,
+    "size": 105376,
+    "fileoff": 9488608,
+    "align": 5,
+    "flags": 2147484672
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__init_offsets",
+    "addr": 4304561280,
+    "size": 108,
+    "fileoff": 9593984,
+    "align": 2,
+    "flags": 22
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methlist",
+    "addr": 4304561392,
+    "size": 39780,
+    "fileoff": 9594096,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__const",
+    "addr": 4304601184,
+    "size": 155280,
+    "fileoff": 9633888,
+    "align": 4,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__gcc_except_tab__TEXT",
+    "addr": 4304756464,
+    "size": 461324,
+    "fileoff": 9789168,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__cstring",
+    "addr": 4305217792,
+    "size": 819014,
+    "fileoff": 10250496,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_classname__TEXT",
+    "addr": 4306036816,
+    "size": 2610,
+    "fileoff": 11069520,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methname",
+    "addr": 4306039426,
+    "size": 128411,
+    "fileoff": 11072130,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__objc_methtype",
+    "addr": 4306167840,
+    "size": 23099,
+    "fileoff": 11200544,
+    "align": 4,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__oslogstring",
+    "addr": 4306190939,
+    "size": 789562,
+    "fileoff": 11223643,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_typeref__TEXT",
+    "addr": 4306980502,
+    "size": 338,
+    "fileoff": 12013206,
+    "align": 1,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_capture__TEXT",
+    "addr": 4306980840,
+    "size": 208,
+    "fileoff": 12013544,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__constg_swiftt",
+    "addr": 4306981048,
+    "size": 80,
+    "fileoff": 12013752,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_fieldmd__TEXT",
+    "addr": 4306981128,
+    "size": 16,
+    "fileoff": 12013832,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift5_types",
+    "addr": 4306981144,
+    "size": 4,
+    "fileoff": 12013848,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift_as_entry__TEXT",
+    "addr": 4306981148,
+    "size": 12,
+    "fileoff": 12013852,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift_as_ret",
+    "addr": 4306981160,
+    "size": 12,
+    "fileoff": 12013864,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__swift_as_cont",
+    "addr": 4306981172,
+    "size": 24,
+    "fileoff": 12013876,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__ustring",
+    "addr": 4306981196,
+    "size": 52,
+    "fileoff": 12013900,
+    "align": 1,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__dlopen_cstrs",
+    "addr": 4306981248,
+    "size": 212,
+    "fileoff": 12013952,
+    "align": 0,
+    "flags": 2
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__info_plist",
+    "addr": 4306981460,
+    "size": 1055,
+    "fileoff": 12014164,
+    "align": 0,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__unwind_info",
+    "addr": 4306982516,
+    "size": 156280,
+    "fileoff": 12015220,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__TEXT",
+    "section": "__eh_frame",
+    "addr": 4307138800,
+    "size": 688,
+    "fileoff": 12171504,
+    "align": 3,
+    "flags": 1744830475
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__const",
+    "addr": 4307140608,
+    "size": 213808,
+    "fileoff": 12173312,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__cfstring",
+    "addr": 4307354416,
+    "size": 161920,
+    "fileoff": 12387120,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_classlist__DATA_CONST",
+    "addr": 4307516336,
+    "size": 760,
+    "fileoff": 12549040,
+    "align": 3,
+    "flags": 268435456
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_catlist",
+    "addr": 4307517096,
+    "size": 32,
+    "fileoff": 12549800,
+    "align": 3,
+    "flags": 268435456
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_protolist__DATA_CONST",
+    "addr": 4307517128,
+    "size": 232,
+    "fileoff": 12549832,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_imageinfo__DATA_CONST",
+    "addr": 4307517360,
+    "size": 8,
+    "fileoff": 12550064,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_protorefs__DATA_CONST",
+    "addr": 4307517368,
+    "size": 16,
+    "fileoff": 12550072,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_superrefs__DATA_CONST",
+    "addr": 4307517384,
+    "size": 544,
+    "fileoff": 12550088,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_intobj",
+    "addr": 4307517928,
+    "size": 2688,
+    "fileoff": 12550632,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_arraydata__DATA_CONST",
+    "addr": 4307520616,
+    "size": 1064,
+    "fileoff": 12553320,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_dictobj",
+    "addr": 4307521680,
+    "size": 760,
+    "fileoff": 12554384,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__objc_arrayobj",
+    "addr": 4307522440,
+    "size": 480,
+    "fileoff": 12555144,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__auth_got",
+    "addr": 4307522920,
+    "size": 10568,
+    "fileoff": 12555624,
+    "align": 3,
+    "flags": 6
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__got",
+    "addr": 4307533488,
+    "size": 3664,
+    "fileoff": 12566192,
+    "align": 3,
+    "flags": 6
+  },
+  {
+    "segment": "__DATA_CONST",
+    "section": "__auth_ptr",
+    "addr": 4307537152,
+    "size": 584,
+    "fileoff": 12569856,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_const",
+    "addr": 4307550208,
+    "size": 67784,
+    "fileoff": 12582912,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_selrefs",
+    "addr": 4307617992,
+    "size": 30528,
+    "fileoff": 12650696,
+    "align": 3,
+    "flags": 268435461
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_ivar",
+    "addr": 4307648520,
+    "size": 4536,
+    "fileoff": 12681224,
+    "align": 2,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__objc_data",
+    "addr": 4307653056,
+    "size": 7712,
+    "fileoff": 12685760,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__data",
+    "addr": 4307660768,
+    "size": 20264,
+    "fileoff": 12693472,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__crash_info",
+    "addr": 4307681032,
+    "size": 328,
+    "fileoff": 12713736,
+    "align": 3,
+    "flags": 0
+  },
+  {
+    "segment": "__DATA",
+    "section": "__bss",
+    "addr": 4307681376,
+    "size": 486530,
+    "fileoff": 0,
+    "align": 5,
+    "flags": 1
+  },
+  {
+    "segment": "__DATA",
+    "section": "__common",
+    "addr": 4308167912,
+    "size": 97400,
+    "fileoff": 0,
+    "align": 3,
+    "flags": 1
+  }
+]

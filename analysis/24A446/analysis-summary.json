@@ -1,0 +1,8 @@
+{
+  "build": "24A446",
+  "local_function_comparisons": 5137,
+  "crc_table_entries": 256,
+  "mismatches": 0,
+  "live_interoperability_tested": false,
+  "report": "analysis/24A446/PROTOCOL-RE.md"
+}

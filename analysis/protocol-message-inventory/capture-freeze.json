@@ -1,0 +1,37 @@
+{
+  "purpose": "Raw capture facts frozen before candidate/old-registry comparison; not new current firmware rules",
+  "files": [
+    {
+      "path": "analysis/protocol-message-inventory/capture-observations.json",
+      "sha256": "b20ba485b7c60ed8425043db6eab0e86461e1eb4ed9a35689f1c9c4d3305249a"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/direction-source.json",
+      "sha256": "e4818941c58b214aeb050d37565e97f0a009cfa6ae610b563c08062388196f87"
+    },
+    {
+      "path": "tools/ipsw-research/reassemble-audit-captures.py",
+      "sha256": "5b5e2a977ed0b91e372e9c013e296d8803f8bbc10aa6aa3bf248e11f633dbb00"
+    },
+    {
+      "path": "tools/ipsw-research/audit-phone-wire-captures.py",
+      "sha256": "838c74c60fbcbe3ef85a331a846dd3c413718b0ad2d5966c6eea57bbafd93523"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/raw-reassembly/21G93.json",
+      "sha256": "0f24e67cac6a5efb1169ba32657ad901086ae03e9fd5dac60d985671dd791296"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/raw-reassembly/22H374-archive.json",
+      "sha256": "fa1abfeca1a9957271ef5518e3144e9941eab4bf84c97445c595d80cddeab3fe"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/raw-reassembly/22H374-latest.json",
+      "sha256": "bba911004c063a53e18b9cd0bd09182f771d1c0cebc0e0dc42fa29b2da8d3b77"
+    },
+    {
+      "path": "analysis/protocol-message-inventory/raw-reassembly/23G90.json",
+      "sha256": "a33dfe0921547a77fff9e700ba0880572889d1c63589a9aac9c8802b576fbee9"
+    }
+  ]
+}

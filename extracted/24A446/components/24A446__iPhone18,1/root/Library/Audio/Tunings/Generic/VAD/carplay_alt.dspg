@@ -1,0 +1,54 @@
+;
+; carplay_alt.dspg
+;
+
+graphName carplay_alt
+
+; I/O
+in Input
+out Output
+
+; Boxes
+box CarPlayLoudnessNormalizer (aufx ldnm appl) 1 1
+box SPLMeter (aufx splm appl) 1 1
+
+box LKFSSmoothing parameter_smoothing 1 0
+
+
+
+; Formats
+format inputFormat (48000 2)
+format outputFormat (48000 2)
+
+; Wires
+wire Input SPLMeter inputFormat
+wire SPLMeter CarPlayLoudnessNormalizer inputFormat
+wire CarPlayLoudnessNormalizer Output outputFormat
+
+wire SPLMeter LKFSSmoothing inputFormat
+
+
+; Parameters
+
+; disable dbA
+param edba 0 const
+wireGraphParam edba (SPLMeter 2)
+
+; enable LKFS
+param ekfs 1 const
+wireGraphParam ekfs (SPLMeter 6)
+
+; target loudness
+param tgdb -16.0 in
+wireGraphParam tgdb (CarPlayLoudnessNormalizer 2)
+
+; spl LKFS
+param smtc 1
+wireGraphParam smtc (LKFSSmoothing 0 global 0)
+wireGraphParam smtc (LKFSSmoothing 1 global 0)
+
+; smoothed LKFS 
+param skfs 0 out
+wireParam (SPLMeter 7) (LKFSSmoothing 0 input 0)
+wireGraphParam skfs (LKFSSmoothing 0 output 0)
+

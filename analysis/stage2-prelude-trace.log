@@ -1,0 +1,612 @@
+{
+  "fields": [
+    {
+      "function": "0x2519c69f0",
+      "address": "0x27612c010",
+      "raw_hex": "c08bf06684ab2d80c8070000000000005cc3bdd1000020000e00000000000000",
+      "value": "protectionBits"
+    },
+    {
+      "function": "0x2519c69f0",
+      "address": "0x27612faf0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000ad5fbfd1000020000400000000000000",
+      "value": "data"
+    },
+    {
+      "function": "0x2519c69f0",
+      "address": "0x27612fb10",
+      "raw_hex": "c08bf06684ab2d80c807000000000000b25fbfd1000020000600000000000000",
+      "value": "params"
+    },
+    {
+      "function": "0x2519c69f0",
+      "address": "0x27612fb30",
+      "raw_hex": "c08bf06684ab2d80c807000000000000b95fbfd1000020000400000000000000",
+      "value": "type"
+    },
+    {
+      "function": "0x2519c69f0",
+      "address": "0x27612fb50",
+      "raw_hex": "c08bf06684ab2d80c807000000000000be5fbfd1000020001500000000000000",
+      "value": "performPWDKeyExchange"
+    },
+    {
+      "function": "0x2519c69f0",
+      "address": "0x27612fb70",
+      "raw_hex": "c08bf06684ab2d80c807000000000000d45fbfd1000020000800000000000000",
+      "value": "complete"
+    },
+    {
+      "function": "0x2519c69f0",
+      "address": "0x27612fc90",
+      "raw_hex": "c08bf06684ab2d80c8070000000000006c60bfd1000020000c00000000000000",
+      "value": "KEResultCode"
+    },
+    {
+      "function": "0x251b5e08c",
+      "address": "0x27612f630",
+      "raw_hex": "c08bf06684ab2d80c807000000000000cf2abfd1000020000900000000000000",
+      "value": "qualifier"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612bff0",
+      "raw_hex": "c08bf06684ab0d80c80700000000000024c3bdd1000020001300000000000000",
+      "value": "displayCapabilities"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612dff0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000904bbed1000020000800000000000000",
+      "value": "deviceID"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612f5b0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000362abfd1000020000400000000000000",
+      "value": "Port"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612f5f0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000452abfd1000020000d00000000000000",
+      "value": "uglServerInfo"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612f6b0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000009b4ebed1000020001100000000000000",
+      "value": "FF:FF:FF:FF:FF:FF"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612f6d0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000001b2ebfd1000020000d00000000000000",
+      "value": "initialVolume"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612f6f0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000292ebfd1000020000700000000000000",
+      "value": "isMuted"
+    },
+    {
+      "function": "0x251a5a840",
+      "address": "0x27612f710",
+      "raw_hex": "c08bf06684ab2d80c807000000000000e12ebfd1000020000700000000000000",
+      "value": "WoLInfo"
+    },
+    {
+      "function": "0x251a5af78",
+      "address": "0x27612bff0",
+      "raw_hex": "c08bf06684ab0d80c80700000000000024c3bdd1000020001300000000000000",
+      "value": "displayCapabilities"
+    },
+    {
+      "function": "0x251a5af78",
+      "address": "0x27612f690",
+      "raw_hex": "c08bf06684ab2d80c807000000000000672bbfd1000020000a00000000000000",
+      "value": "txtAirPlay"
+    },
+    {
+      "function": "0x251ab108c",
+      "address": "0x2761376d0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000e8dfc1d1000020000800000000000000",
+      "value": "volume\r\n"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27612dcf0",
+      "raw_hex": "c08bf06684ab2d80c80700000000000012c3bdd1000020001100000000000000",
+      "value": "com.apple.airplay"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27612e5d0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000004cc7bed1000020001000000000000000",
+      "value": "forceAirPlay2NTP"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27612e710",
+      "raw_hex": "c08bf06684ab2d80c8070000000000006cddbed1000020001e00000000000000",
+      "value": "deriveHURestrictionsFromCarKit"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x2761300d0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000009575bfd1000020001100000000000000",
+      "value": "volumeControlType"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x276131870",
+      "raw_hex": "c08bf06684ab2d80c807000000000000e044c0d1000020001500000000000000",
+      "value": "receiverHDRCapability"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x276133fd0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000003d31c1d1000020000900000000000000",
+      "value": "nightMode"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x276133ff0",
+      "raw_hex": "c08bf06684ab0d80c8070000000000004731c1d1000020000900000000000000",
+      "value": "limitedUI"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x276134010",
+      "raw_hex": "c08bf06684ab2d80c8070000000000005131c1d1000020001100000000000000",
+      "value": "limitedUIElements"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613abd0",
+      "raw_hex": "c08bf06684ab2d80c80700000000000028afc3d1000020001200000000000000",
+      "value": "vehicleInformation"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c410",
+      "raw_hex": "c08bf06684ab2d80c807000000000000b847c4d1000020000a00000000000000",
+      "value": "hidDevices"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c430",
+      "raw_hex": "c08bf06684ab2d80c807000000000000c347c4d1000020002600000000000000",
+      "value": "disableCarPlayReceiverDeterminesAnchor"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c450",
+      "raw_hex": "c08bf06684ab2d80c807000000000000ea47c4d1000020002c00000000000000",
+      "value": "senderEnableReceiverDeterminesAnchorOverride"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c470",
+      "raw_hex": "c08bf06684ab2d80c8070000000000001748c4d1000020001600000000000000",
+      "value": "disableLowLatencyAudio"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c490",
+      "raw_hex": "c08bf06684ab2d80c8070000000000002e48c4d1000020001700000000000000",
+      "value": "disableMediaDataControl"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c4b0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000004648c4d1000020001c00000000000000",
+      "value": "disableStreamConnectionSetup"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c4d0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000006348c4d1000020001500000000000000",
+      "value": "canRecordScreenStream"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c4f0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000007948c4d1000020001400000000000000",
+      "value": "forwardFrameUserData"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c510",
+      "raw_hex": "c08bf06684ab2d80c8070000000000008e48c4d1000020001e00000000000000",
+      "value": "forwardCryptorSubsampleAuxData"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c530",
+      "raw_hex": "c08bf06684ab2d80c807000000000000ad48c4d1000020001600000000000000",
+      "value": "hasUDPMirroringSupport"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c550",
+      "raw_hex": "c08bf06684ab2d80c807000000000000c448c4d1000020001800000000000000",
+      "value": "keepAliveSendStatsAsBody"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c570",
+      "raw_hex": "c08bf06684ab2d80c807000000000000dd48c4d1000020000c00000000000000",
+      "value": "bluetoothIDs"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c590",
+      "raw_hex": "c08bf06684ab2d80c807000000000000ea48c4d1000020000500000000000000",
+      "value": "modes"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c5b0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000f048c4d1000020000e00000000000000",
+      "value": "oemIconVisible"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c5d0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000ff48c4d1000020000e00000000000000",
+      "value": "rightHandDrive"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c5f0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000000e49c4d1000020000c00000000000000",
+      "value": "oemIconLabel"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c610",
+      "raw_hex": "c08bf06684ab2d80c8070000000000001b49c4d1000020000d00000000000000",
+      "value": "Mercedes-Benz"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c630",
+      "raw_hex": "c08bf06684ab2d80c8070000000000002949c4d1000020000800000000000000",
+      "value": "MB_B-H-2"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c650",
+      "raw_hex": "c08bf06684ab2d80c8070000000000003249c4d1000020003000000000000000",
+      "value": "kAPCarPlay_UseIndirectStarkSpeechModeTransitions"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c670",
+      "raw_hex": "c08bf06684ab2d80c8070000000000006349c4d1000020001000000000000000",
+      "value": "extendedFeatures"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c690",
+      "raw_hex": "c08bf06684ab2d80c8070000000000007449c4d1000020001100000000000000",
+      "value": "enhancedSiriVoice"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c6b0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000008649c4d1000020001600000000000000",
+      "value": "enhancedSiriNotMixable"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c6d0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000009d49c4d1000020001400000000000000",
+      "value": "playbackCapabilities"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c6f0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000b249c4d1000020001000000000000000",
+      "value": "enhancedSiriInfo"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c710",
+      "raw_hex": "c08bf06684ab2d80c807000000000000c349c4d1000020001c00000000000000",
+      "value": "voiceModelSupportedLanguages"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c730",
+      "raw_hex": "c08bf06684ab2d80c807000000000000e049c4d1000020001900000000000000",
+      "value": "voiceModelCurrentLanguage"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c750",
+      "raw_hex": "c08bf06684ab2d80c807000000000000fa49c4d1000020001600000000000000",
+      "value": "altScreenSuggestUIURLs"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c770",
+      "raw_hex": "c08bf06684ab2d80c807000000000000114ac4d1000020001600000000000000",
+      "value": "supportsSenderUIEvents"
+    },
+    {
+      "function": "0x25199a588",
+      "address": "0x27613c810",
+      "raw_hex": "c08bf06684ab2d80c8070000000000008c50c4d1000020000700000000000000",
+      "value": "AirPort"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612dff0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000904bbed1000020000800000000000000",
+      "value": "deviceID"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612e710",
+      "raw_hex": "c08bf06684ab2d80c8070000000000006cddbed1000020001e00000000000000",
+      "value": "deriveHURestrictionsFromCarKit"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612ecf0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000006f0cbfd1000020000200000000000000",
+      "value": "pk"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612f0d0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000007426bfd1000020000500000000000000",
+      "value": "model"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612f0f0",
+      "raw_hex": "c08bf06684ab2d80c8070000000000007a26bfd1000020000400000000000000",
+      "value": "name"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612f150",
+      "raw_hex": "c08bf06684ab2d80c8070000000000009a26bfd1000020000d00000000000000",
+      "value": "sourceVersion"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612f2b0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000b627bfd1000020000800000000000000",
+      "value": "features"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612f5f0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000452abfd1000020000d00000000000000",
+      "value": "uglServerInfo"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27612f690",
+      "raw_hex": "c08bf06684ab2d80c807000000000000672bbfd1000020000a00000000000000",
+      "value": "txtAirPlay"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x276130010",
+      "raw_hex": "c08bf06684ab2d80c8070000000000004475bfd1000020000700000000000000",
+      "value": "company"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x276130030",
+      "raw_hex": "c08bf06684ab2d80c8070000000000004c75bfd1000020000c00000000000000",
+      "value": "manufacturer"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x276130050",
+      "raw_hex": "c08bf06684ab2d80c8070000000000005975bfd1000020000b00000000000000",
+      "value": "statusFlags"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613b170",
+      "raw_hex": "c08bf06684ab2d80c807000000000000a8c4c3d1000020000800000000000000",
+      "value": "displays"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613cc30",
+      "raw_hex": "c08bf06684ab2d80c807000000000000675ec4d1000020002000000000000000",
+      "value": "kAPCarPlay_Disable24kHzTelephony"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613cc50",
+      "raw_hex": "c08bf06684ab2d80c807000000000000af5ec4d1000020001400000000000000",
+      "value": "deviceEnclosureColor"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613cc70",
+      "raw_hex": "c08bf06684ab2d80c807000000000000c45ec4d1000020001400000000000000",
+      "value": "nameIsFactoryDefault"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613cc90",
+      "raw_hex": "c08bf06684ab2d80c807000000000000d95ec4d1000020000f00000000000000",
+      "value": "protocolVersion"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613ccb0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000e95ec4d1000020000200000000000000",
+      "value": "pi"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613ccd0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000744bbed1000020000300000000000000",
+      "value": "psi"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613ccf0",
+      "raw_hex": "c08bf06684ab2d80c807000000000000ec5ec4d1000020000200000000000000",
+      "value": "vv"
+    },
+    {
+      "function": "0x251afe62c",
+      "address": "0x27613cd10",
+      "raw_hex": "c08bf06684ab2d80c807000000000000385fc4d1000020000a00000000000000",
+      "value": "featuresEx"
+    }
+  ],
+  "imports": [
+    {
+      "address": "0x25810e430",
+      "raw_hex": "d0e7fbb01002029100021fd6",
+      "assembly": [
+        "adrp x16, #0x24fe07000",
+        "add x16, x16, #0x80",
+        "br x16"
+      ],
+      "target": "0x24fe07080",
+      "symbols": [
+        {
+          "image": "APTransport",
+          "symbols": [
+            "_APTransportStreamGetTypeID"
+          ]
+        }
+      ]
+    },
+    {
+      "address": "0x25810eae0",
+      "raw_hex": "10699bf010a22a9100021fd6",
+      "assembly": [
+        "adrp x16, #0x18ee31000",
+        "add x16, x16, #0xaa8",
+        "br x16"
+      ],
+      "target": "0x18ee31aa8",
+      "symbols": []
+    },
+    {
+      "address": "0x25810b6c0",
+      "raw_hex": "f0e999d010e2329100021fd6",
+      "assembly": [
+        "adrp x16, #0x18be49000",
+        "add x16, x16, #0xcb8",
+        "br x16"
+      ],
+      "target": "0x18be49cb8",
+      "symbols": [
+        {
+          "image": "CoreUtils",
+          "symbols": [
+            "_HTTPGetHeaderField"
+          ]
+        }
+      ]
+    },
+    {
+      "address": "0x25810f2a0",
+      "raw_hex": "90759bb01012329100021fd6",
+      "assembly": [
+        "adrp x16, #0x18efc0000",
+        "add x16, x16, #0xc84",
+        "br x16"
+      ],
+      "target": "0x18efc0c84",
+      "symbols": []
+    },
+    {
+      "address": "0x2580fd120",
+      "raw_hex": "b1d70cf031c22d91300240f9",
+      "assembly": [
+        "adrp x17, #0x271bf4000",
+        "add x17, x17, #0xb70",
+        "ldr x16, [x17]"
+      ],
+      "target": "0x271bf4b70",
+      "symbols": []
+    },
+    {
+      "address": "0x258102330",
+      "raw_hex": "f02994d01022209100021fd6",
+      "assembly": [
+        "adrp x16, #0x180640000",
+        "add x16, x16, #0x808",
+        "br x16"
+      ],
+      "target": "0x180640808",
+      "symbols": []
+    },
+    {
+      "address": "0x25810a6c0",
+      "raw_hex": "90e999f010a21f9100021fd6",
+      "assembly": [
+        "adrp x16, #0x18be3d000",
+        "add x16, x16, #0x7e8",
+        "br x16"
+      ],
+      "target": "0x18be3d7e8",
+      "symbols": [
+        {
+          "image": "CoreUtils",
+          "symbols": [
+            "_CFDictionaryGetDouble"
+          ]
+        }
+      ]
+    },
+    {
+      "address": "0x258109860",
+      "raw_hex": "d06ae7d010f2269100021fd6",
+      "assembly": [
+        "adrp x16, #0x226e63000",
+        "add x16, x16, #0x9bc",
+        "br x16"
+      ],
+      "target": "0x226e639bc",
+      "symbols": []
+    },
+    {
+      "address": "0x258109dc0",
+      "raw_hex": "d06ae7f010d2399100021fd6",
+      "assembly": [
+        "adrp x16, #0x226e64000",
+        "add x16, x16, #0xe74",
+        "br x16"
+      ],
+      "target": "0x226e64e74",
+      "symbols": []
+    },
+    {
+      "address": "0x25810bd30",
+      "raw_hex": "90ea99b010d2219100021fd6",
+      "assembly": [
+        "adrp x16, #0x18be5c000",
+        "add x16, x16, #0x874",
+        "br x16"
+      ],
+      "target": "0x18be5c874",
+      "symbols": [
+        {
+          "image": "CoreUtils",
+          "symbols": [
+            "_TextToSourceVersion"
+          ]
+        }
+      ]
+    }
+  ]
+}

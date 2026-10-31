@@ -1,0 +1,602 @@
+[
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Features/AssistiveTouch-iOS.feature/AssistiveTouch-iOS",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AssistiveTouch-iOS/AssistiveTouch-iOS",
+        "size": 90136,
+        "magic": "cffaedfe",
+        "sha256": "d6723946eaf8a73a1b115572d5e5fd05864a65ec86e5954fd1f40a492137c61f"
+      }
+    ],
+    "seconds": 2.96
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Features/BLEPairing-iOS.feature/BLEPairing-iOS",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/BLEPairing-iOS/BLEPairing-iOS",
+        "size": 138616,
+        "magic": "cffaedfe",
+        "sha256": "11e6a7635cda096fc99fe8f0f461c5c247bb65dc8f8b1e58c847e646602be259"
+      }
+    ],
+    "seconds": 2.95
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Features/Communications-iOS.feature/Communications-iOS",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/Communications-iOS/Communications-iOS",
+        "size": 206824,
+        "magic": "cffaedfe",
+        "sha256": "80a94506cf9e7a1b6ce719c8bdd75edfd4f0387ecc8e369d8271c607e5e55743"
+      }
+    ],
+    "seconds": 2.18
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Features/HID.feature/HID",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/HID/HID",
+        "size": 134392,
+        "magic": "cffaedfe",
+        "sha256": "198e597e9ab7a32c260950766cce00e025fb747073e6cff3f8d4f2d6f813fd5d"
+      }
+    ],
+    "seconds": 2.62
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Features/Navigation-iOS.feature/Navigation-iOS",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/Navigation-iOS/Navigation-iOS",
+        "size": 133904,
+        "magic": "cffaedfe",
+        "sha256": "383fd036318b66005bec4e6aefd8a5ba391d0c210f7b34d557ffa6c5abf4b9d8"
+      }
+    ],
+    "seconds": 2.06
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Features/OOBBTPairing-iOS.feature/OOBBTPairing-iOS",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/OOBBTPairing-iOS/OOBBTPairing-iOS",
+        "size": 139640,
+        "magic": "cffaedfe",
+        "sha256": "af48092afe9ec87bad5515f31fc987d4c0d1b632ceb803375feb2c6b227a8bb8"
+      }
+    ],
+    "seconds": 2.98
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Platform/IOKit.platform/IOKit",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/IOKit/IOKit",
+        "size": 244032,
+        "magic": "cffaedfe",
+        "sha256": "50a1fcc89f0682d7dceb91dd3753f85fdfd21489d0b85de9ba783b4009e74186"
+      }
+    ],
+    "seconds": 2.74
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Platform/Platform-Bluetooth.platform/Platform-Bluetooth",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/Platform-Bluetooth/Platform-Bluetooth",
+        "size": 132232,
+        "magic": "cffaedfe",
+        "sha256": "6378711772f7d4c387ad938207bd37b5af045e666b584fe6eb47b9f5ce71e5dc"
+      }
+    ],
+    "seconds": 2.27
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Platform/System.platform/System",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/System/System",
+        "size": 139720,
+        "magic": "cffaedfe",
+        "sha256": "ffe3c22ca625da424b1fe0bd9a83bea577c3f771542ad6fe82ae498de5956710"
+      }
+    ],
+    "seconds": 3.2
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Platform/WiFiSharing.platform/WiFiSharing",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/WiFiSharing/WiFiSharing",
+        "size": 89496,
+        "magic": "cffaedfe",
+        "sha256": "0b7d4e282385cf8545b1812dc9e2d1f1fe9a29366eaeb2d0d495a802737b3c9a"
+      }
+    ],
+    "seconds": 2.03
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Transports/IOAccessoryManager.transport/IOAccessoryManager",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/IOAccessoryManager/IOAccessoryManager",
+        "size": 921280,
+        "magic": "cffaedfe",
+        "sha256": "af3cf5c8e7aac680629625720d7f364dda3ee63b5cd86230d43d81ca0a166d50"
+      }
+    ],
+    "seconds": 3.23
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Transports/NFC.transport/NFC",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/NFC/NFC",
+        "size": 201352,
+        "magic": "cffaedfe",
+        "sha256": "35ecff5ff56d3d1ead3c367c4ba8b204d4426c7100b912d9e6306c3537f023a4"
+      }
+    ],
+    "seconds": 2.05
+  },
+  {
+    "image": "/System/Library/CoreAccessories/PlugIns/Transports/USBHost.transport/USBHost",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/USBHost/USBHost",
+        "size": 343216,
+        "magic": "cffaedfe",
+        "sha256": "1650c5ea963a33ef6db1e32735b99a0f1e405e6e279df23d848f2c30c5583437"
+      }
+    ],
+    "seconds": 2.93
+  },
+  {
+    "image": "/System/Library/Frameworks/CarPlay.framework/CarPlay",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlay/CarPlay",
+        "size": 1331056,
+        "magic": "cffaedfe",
+        "sha256": "4dc1ad040452a76d1f33c291532eedf71bf509663c9e86a41c53f5d2c352afa5"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 215,
+    "seconds": 14.32
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AccessoryCommunications.framework/AccessoryCommunications",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AccessoryCommunications/AccessoryCommunications",
+        "size": 141168,
+        "magic": "cffaedfe",
+        "sha256": "03fe104a3371161d8150ef3ff251b2a2d9518e1f94631d9f8275c0c0e37bfa39"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 5,
+    "seconds": 6.01
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AccessoryNavigation.framework/AccessoryNavigation",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AccessoryNavigation/AccessoryNavigation",
+        "size": 180912,
+        "magic": "cffaedfe",
+        "sha256": "1be5fb58d1a90743605cff40b00f2264082c6adda5c7109a1922b980e38be399"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 15,
+    "seconds": 5.46
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AccessoryiAP2Shim.framework/AccessoryiAP2Shim",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AccessoryiAP2Shim/AccessoryiAP2Shim",
+        "size": 234336,
+        "magic": "cffaedfe",
+        "sha256": "3ec36378cd892f9ab39c1892694478b85cb86e6783f5ee4bc93ebf3530cb602a"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 6,
+    "seconds": 7.14
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlayAndHandoffSettingsSupport.framework/AirPlayAndHandoffSettingsSupport",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlayAndHandoffSettingsSupport/AirPlayAndHandoffSettingsSupport",
+        "size": 186608,
+        "magic": "cffaedfe",
+        "sha256": "37ed76c319e34d7cc95075c87196f672ca871b7b688051e054fcd4da86a922e9"
+      }
+    ],
+    "seconds": 3.18
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlayKit.framework/AirPlayKit",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlayKit/AirPlayKit",
+        "size": 1541336,
+        "magic": "cffaedfe",
+        "sha256": "bc20158a2d20ad7d0f354c59c1678e721f845166dc6759476073aaae4094c8eb"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 51,
+    "seconds": 8.54
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlayOverlays.framework/AirPlayOverlays",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlayOverlays/AirPlayOverlays",
+        "size": 137640,
+        "magic": "cffaedfe",
+        "sha256": "2fd714fe9981945e47e709204e107c69e97168b84fc20c0341fd56d75000df2f"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 13,
+    "seconds": 7.24
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlayOverlaysServer.framework/AirPlayOverlaysServer",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlayOverlaysServer/AirPlayOverlaysServer",
+        "size": 318168,
+        "magic": "cffaedfe",
+        "sha256": "bf958e8d40d2e53c59e49943e3ddffd9475b409133fd5388d54e41105dbf2344"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 17,
+    "seconds": 9.22
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlayReceiver.framework/AirPlayReceiver",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlayReceiver/AirPlayReceiver",
+        "size": 2453520,
+        "magic": "cffaedfe",
+        "sha256": "ad6eddbb9bedcb8f121699e7fc94702632c4acf30135564763a646ac472cc51a"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 13,
+    "seconds": 4.71
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlayReceiverKit.framework/AirPlayReceiverKit",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlayReceiverKit/AirPlayReceiverKit",
+        "size": 408432,
+        "magic": "cffaedfe",
+        "sha256": "63855aa34af8dda0adbb99a3d9e8f25d777da3a1254974c5afc57b85c406a0c3"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 23,
+    "seconds": 5.84
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlayRoutePrediction.framework/AirPlayRoutePrediction",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlayRoutePrediction/AirPlayRoutePrediction",
+        "size": 241824,
+        "magic": "cffaedfe",
+        "sha256": "b3de307880bccf74b425df1423691c8af7107ab4cc673490e811a693dd1bbd3b"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 16,
+    "seconds": 4.98
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlaySender.framework/AirPlaySender",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlaySender/AirPlaySender",
+        "size": 4397312,
+        "magic": "cffaedfe",
+        "sha256": "304b8a4a688028f58fc851ec700c905a49f17132aaa9dc04acd93a8bd50cd63f"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 18,
+    "seconds": 8.11
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlaySenderKit.framework/AirPlaySenderKit",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlaySenderKit/AirPlaySenderKit",
+        "size": 222144,
+        "magic": "cffaedfe",
+        "sha256": "7f965d86bcdc50b36786d5a15039d48b98235d3ef22a623160fa74ee7046d040"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 10,
+    "seconds": 5.83
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlaySenderUI.framework/AirPlaySenderUI",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlaySenderUI/AirPlaySenderUI",
+        "size": 90784,
+        "magic": "cffaedfe",
+        "sha256": "45e91ceb97f79e39fd13a502f13edf87e18c2dac7e7aa520e17b324739cbea86"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 6,
+    "seconds": 8.47
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/AirPlaySupport/AirPlaySupport",
+        "size": 1536072,
+        "magic": "cffaedfe",
+        "sha256": "d90a26393a5f761e1a8c98ce08f2acd90b9a630c4697054d07e8b3381ebf6a15"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 10,
+    "seconds": 9.5
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarKit.framework/CarKit",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarKit/CarKit",
+        "size": 1091424,
+        "magic": "cffaedfe",
+        "sha256": "d7a56e9b821f7cc5b6563ec239614fa37778a876fdf1403516e6cb9c458c6dbb"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 119,
+    "seconds": 7.46
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarKitNavigation.framework/CarKitNavigation",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarKitNavigation/CarKitNavigation",
+        "size": 141024,
+        "magic": "cffaedfe",
+        "sha256": "df991f16ab607f32f090612463e8f1a18c96c3f14407dace74053b645f3f2e47"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 21,
+    "seconds": 7.01
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlayAssetUI.framework/CarPlayAssetUI",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlayAssetUI/CarPlayAssetUI",
+        "size": 14548808,
+        "magic": "cffaedfe",
+        "sha256": "4a52e7352420feb7c4de9f923e94ac7686a88624f9e9bcd3df9a18f165f03722"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 59,
+    "seconds": 11.89
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlayDesignLibrary.framework/CarPlayDesignLibrary",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlayDesignLibrary/CarPlayDesignLibrary",
+        "size": 338464,
+        "magic": "cffaedfe",
+        "sha256": "0972995e3784fa9a90d7fbba71e3cab1eb9a5d5b962267c8db19430600697f5f"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 0,
+    "seconds": 7.07
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlayDisplayUtils.framework/CarPlayDisplayUtils",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlayDisplayUtils/CarPlayDisplayUtils",
+        "size": 187528,
+        "magic": "cffaedfe",
+        "sha256": "ace075ea362b314378e36911e1771c51c8a4db98e49e9e59d875fa691cea225d"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 0,
+    "seconds": 5.78
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlayServices.framework/CarPlayServices",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlayServices/CarPlayServices",
+        "size": 292280,
+        "magic": "cffaedfe",
+        "sha256": "2b6f43823add5e2a2ab76618610902797be0d493d6dd7b4ffe40ffc60e69f44d"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 37,
+    "seconds": 6.3
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlaySetup.framework/CarPlaySetup",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlaySetup/CarPlaySetup",
+        "size": 166768,
+        "magic": "cffaedfe",
+        "sha256": "89df48b21f3a01b51d942ff510c08640c49da59addd0ada67d63d5e075f377d6"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 16,
+    "seconds": 7.56
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlaySupport.framework/CarPlaySupport",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlaySupport/CarPlaySupport",
+        "size": 3618328,
+        "magic": "cffaedfe",
+        "sha256": "fa585dfb0d55e6d9b6812ecdc16fe0fcce1850e739fe06b6fc5a218496ff6706"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 282,
+    "seconds": 11.39
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlayUI.framework/CarPlayUI",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlayUI/CarPlayUI",
+        "size": 4411472,
+        "magic": "cffaedfe",
+        "sha256": "e8f7784a6e441c27e75f789db419c8cbc04a078dbc8cc43c2b5e59ea6e2e324e"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 158,
+    "seconds": 11.2
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CarPlayUIServices.framework/CarPlayUIServices",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CarPlayUIServices/CarPlayUIServices",
+        "size": 711776,
+        "magic": "cffaedfe",
+        "sha256": "7ef794574cd6d5a1b502afbb89f4c3fa520281341e5dd696eb4fbf4dafa630cd"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 156,
+    "seconds": 8.22
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CoreAccessories.framework/CoreAccessories",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CoreAccessories/CoreAccessories",
+        "size": 509336,
+        "magic": "cffaedfe",
+        "sha256": "91069cd7279bdb0f4d813ef432d8865482452861e69a943d240b2bc772e0cb20"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 23,
+    "seconds": 6.8
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/CoreAccessoriesFeatures.framework/CoreAccessoriesFeatures",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/CoreAccessoriesFeatures/CoreAccessoriesFeatures",
+        "size": 89296,
+        "magic": "cffaedfe",
+        "sha256": "20425ce9312f0c5f54a85f902c3e7aef1b87029b896f3a067ce4f93718754924"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 3,
+    "seconds": 6.99
+  },
+  {
+    "image": "/System/Library/PrivateFrameworks/IAP.framework/IAP",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/IAP/IAP",
+        "size": 314784,
+        "magic": "cffaedfe",
+        "sha256": "2b3ed91346ecbda05c1c303475504c1b9f5fde35e917961eed059e6f0c1b06e6"
+      }
+    ],
+    "headers_exit": 0,
+    "header_files": 7,
+    "seconds": 5.39
+  },
+  {
+    "image": "/usr/lib/swift/libswiftCarPlay.dylib",
+    "extract_exit": 0,
+    "files": [
+      {
+        "path": "extracted/24A446/binaries/libswiftCarPlay.dylib/libswiftCarPlay.dylib",
+        "size": 51616,
+        "magic": "cffaedfe",
+        "sha256": "18d0572d5791681abb99c525d7982a2bb3f8aa2d86678d31322683a8b5852c98"
+      }
+    ],
+    "seconds": 1.82
+  }
+]

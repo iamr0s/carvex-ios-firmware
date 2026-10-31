@@ -1,0 +1,201 @@
+[
+  {
+    "component": "Platform-Bluetooth",
+    "command": [
+      "ipsw",
+      "dyld",
+      "macho",
+      "/mnt/d/ios-carplay/extracted/24A446/dyld/dyld_shared_cache_arm64e",
+      "/System/Library/CoreAccessories/PlugIns/Platform/Platform-Bluetooth.platform/Platform-Bluetooth",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 35871,
+    "seconds": 3.09
+  },
+  {
+    "component": "AccessoryiAP2Shim",
+    "command": [
+      "ipsw",
+      "dyld",
+      "macho",
+      "/mnt/d/ios-carplay/extracted/24A446/dyld/dyld_shared_cache_arm64e",
+      "/System/Library/PrivateFrameworks/AccessoryiAP2Shim.framework/AccessoryiAP2Shim",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 116439,
+    "seconds": 3.64
+  },
+  {
+    "component": "CoreAccessories",
+    "command": [
+      "ipsw",
+      "dyld",
+      "macho",
+      "/mnt/d/ios-carplay/extracted/24A446/dyld/dyld_shared_cache_arm64e",
+      "/System/Library/PrivateFrameworks/CoreAccessories.framework/CoreAccessories",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 324705,
+    "seconds": 2.13
+  },
+  {
+    "component": "AirPlaySupport",
+    "command": [
+      "ipsw",
+      "dyld",
+      "macho",
+      "/mnt/d/ios-carplay/extracted/24A446/dyld/dyld_shared_cache_arm64e",
+      "/System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 661136,
+    "seconds": 3.19
+  },
+  {
+    "component": "IAP",
+    "command": [
+      "ipsw",
+      "dyld",
+      "macho",
+      "/mnt/d/ios-carplay/extracted/24A446/dyld/dyld_shared_cache_arm64e",
+      "/System/Library/PrivateFrameworks/IAP.framework/IAP",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 158236,
+    "seconds": 1.93
+  },
+  {
+    "component": "CarKit",
+    "command": [
+      "ipsw",
+      "dyld",
+      "macho",
+      "/mnt/d/ios-carplay/extracted/24A446/dyld/dyld_shared_cache_arm64e",
+      "/System/Library/PrivateFrameworks/CarKit.framework/CarKit",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 605901,
+    "seconds": 4.18
+  },
+  {
+    "component": "AirPlaySender",
+    "command": [
+      "ipsw",
+      "dyld",
+      "macho",
+      "/mnt/d/ios-carplay/extracted/24A446/dyld/dyld_shared_cache_arm64e",
+      "/System/Library/PrivateFrameworks/AirPlaySender.framework/AirPlaySender",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 2175256,
+    "seconds": 11.39
+  },
+  {
+    "component": "ACCCarPlayService",
+    "command": [
+      "ipsw",
+      "macho",
+      "info",
+      "/mnt/d/ios-carplay/extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessories.framework/XPCServices/ACCCarPlayService.xpc/ACCCarPlayService",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 82538,
+    "seconds": 1.38
+  },
+  {
+    "component": "iapd",
+    "command": [
+      "ipsw",
+      "macho",
+      "info",
+      "/mnt/d/ios-carplay/extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/IAP.framework/Support/iapd",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 332922,
+    "seconds": 2.85
+  },
+  {
+    "component": "carkitd",
+    "command": [
+      "ipsw",
+      "macho",
+      "info",
+      "/mnt/d/ios-carplay/extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/carkitd",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 680557,
+    "seconds": 7.96
+  },
+  {
+    "component": "caraccessoryd",
+    "command": [
+      "ipsw",
+      "macho",
+      "info",
+      "/mnt/d/ios-carplay/extracted/24A446/components/24A446__iPhone18,1/root/usr/libexec/caraccessoryd",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 806849,
+    "seconds": 5.64
+  },
+  {
+    "component": "accessoryd",
+    "command": [
+      "ipsw",
+      "macho",
+      "info",
+      "/mnt/d/ios-carplay/extracted/24A446/components/24A446__iPhone18,1/root/System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd",
+      "--symbols",
+      "--objc",
+      "--loads",
+      "--strings"
+    ],
+    "exit": 0,
+    "bytes": 4405759,
+    "seconds": 17.87
+  }
+]

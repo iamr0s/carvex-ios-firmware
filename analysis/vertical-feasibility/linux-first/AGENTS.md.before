@@ -1,0 +1,114 @@
+# CarPlay Phone HOST project instructions
+
+## Objective
+
+Produce the platform-independent, event-driven C11-style PSEUDOCODE Phone HOST described in
+`docs/wireless-phone-host/project-goal.md`. Work in `D:\ios-carplay` using existing
+WSL Ubuntu-24.04. Other historical project directories are read-only.
+
+User changed the goal to pseudocode. New primary artifacts belong in `pseudocode/`:
+Include explanatory Chinese comments covering inputs, conditions, data ownership,
+failure handling and evidence/OPEN boundaries, rather than bare function skeletons.
+readable protocol/state/data handling with per-rule provenance and explicit OPEN
+operations. Existing `reference/` executable C remains an experimental validation
+baseline; do not expand runtime APIs merely to satisfy pseudocode delivery.
+Syntax checks of pseudocode are not execution/interoperability evidence. Do not
+invent wire values, private enums or accepting trust providers for completeness.
+
+After each completed substage, report where the overall workflow has reached,
+which parts remain, and the next/current active work. A scoped control predicate
+completion must not be reported as completion of all Bluetooth/iAP2 or auth.
+
+Prioritize the head unit's protocol interfaces, state transitions, and external /
+internal data processing: Bluetooth/iAP2, Wi-Fi endpoint handoff, AirPlay security
+and control, video/audio/microphone/input, then full lifecycle interoperability.
+Use `reference/reports/project-status.json` and the latest per-rule evidence to
+locate current progress. Complete the next prerequisite transaction before claiming
+the dependent stage is ready.
+
+## Evidence and implementation
+
+- Cache queries: use `tools/ipsw-research/query-phone-decompiler.py` first.
+  Run `python3 tools/ipsw-research/query-phone-decompiler.py index` after the
+  initial cache and each added batch (refresh cache-union index first when
+  necessary). Query by message ID/address and depth-one context; do not reread
+  all C outputs for each message. Report actual query commands, addresses,
+  raw/source hashes, evidence paths and unresolved items. Label graph edges
+  as cached-assembly direct BL, external B tail call or unresolved indirect
+  dispatch. Literal/name hits alone do not establish a protocol mapping.
+- Latest workflow: batch-extract/decompile relevant firmware components and
+  cache real C-style decompiler output with source/function addresses, original
+  bytes and assembly links. Reuse the cache while reviewing message flows;
+  avoid repeated isolated decompilation. Raw decompiler text is unreviewed
+  research material, not annotated core code or independent protocol proof.
+  Bind cache identity to source/tool/script/options hashes and record failures.
+- User priority update: first inventory Phone HOST/head-unit wire messages by
+  connection state, then verify direction, trigger, field encoding/parsing,
+  response correlation and state changes. Prefer raw captures; only reverse
+  engineer targeted firmware when captures cannot establish these behaviors.
+  Defer system-internal work unrelated to peer messages. A complete inventory
+  checklist does not mean the protocol or all listed candidates are confirmed.
+  Clarification: captures are partial. Build the completeness inventory from
+  current-firmware message registries/dispatchers and handlers, then validate
+  wire bytes/order with captures. Do not restrict the inventory to observed IDs
+  or postpone message-handler reverse engineering for uncaptured branches.
+- Derive firmware-only rules independently from 24A446 original bytes/call context.
+  Capture observations remain scoped to their own build/connection epoch and
+  must not silently become current 24A446 rules. Freeze independent capture or
+  firmware results before C changes and historical comparison.
+  Reuse scoped confirmed addresses and tools, but do not infer rules from old C,
+  old documentation, or a simulator. Snapshot existing artifacts, freeze new rules
+  and original-instruction results, then compare old materials and implement C.
+- Preserve earlier independent freezes and their tools. New research gets a new
+  output directory; never rerun a writer against a frozen round.
+- Distinguish static evidence, bounded original execution, versioned runtime
+  observations, and local engineering policies / OPEN. Record binary hashes,
+  addresses, raw bytes, inputs, substitutions, endpoint, and test scope.
+- Restore protocol-essential semantics. OS Bluetooth/Wi-Fi/socket operations
+  belong to adapters. Apple private queues, XPC layouts, and driver internals are
+  research dependencies only when they affect peer-visible behavior or security.
+- Never invent unknown protocol enums, security inputs, or provider contracts.
+  Accepting verifier stubs are simulator-only and cannot close production trust.
+- Preserve the old experimental profile. New local primitives do not enable the
+  current profile. Reevaluate gates against complete required protocol contracts,
+  without requiring every Apple private implementation detail.
+- Separate restored, implemented, offline-tested, and live-verified status. No
+  current capture or vehicle validation may be inferred from synthetic success.
+
+## Verification
+
+Use original-instruction boundary/counterexample comparisons where applicable,
+independent capture/vector replay, meaningful module tests, full CTest, and
+ASan/UBSan after integrated changes. Explain which operations were not executed.
+
+From the project root in WSL:
+
+```sh
+python3 tools/ipsw-research/verify-reference.py
+```
+
+This writes `reference/reports/verification.json`. Follow current source hashes
+and the per-round integrity reports. Explicitly list remaining protocol/material
+gaps and real vehicle first-frame/audio/microphone/input/reconnect status.
+
+## Model and context budget (user preference)
+
+- Default delegated routine work (test execution, inventories, documentation and
+  mechanical changes) to `gpt-6-luna` with `low` reasoning. Use `medium` only when
+  routine work requires substantive code changes or diagnosis.
+- Use `gpt-6.1-sol` with `medium` reasoning for independent ARM64/call-chain
+  recovery and protocol/state-machine implementation. Escalate a specific hard
+  ambiguity to `high`; do not default to xhigh/max/ultra or Astra.
+- Start subagents with `fork_turns="none"`, a concise scoped brief, exact inputs,
+  allowed output paths and a completion criterion. Do not copy the full chat.
+- Prefer one active worker; use a second only for clearly independent work with
+  nonoverlapping inputs/outputs that avoids duplicated research.
+- Execute deterministic parsing, vector generation and testing with scripts.
+  Return compact summaries and artifact paths instead of large dumps.
+- Reuse existing frozen evidence and completed work. Do not rerun successful
+  checks without source changes or a concrete unresolved concern. Keep required
+  final verification, evidence boundaries and security checks intact.
+- On a model usage-limit error, record partial outputs and stop retrying that
+  model. A different model is not assumed to bypass an account-wide limit.
+- These defaults govern agent-controlled delegations. Do not claim the current
+  chat's model was changed without a supported setting change and confirmation.

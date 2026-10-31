@@ -1,0 +1,1 @@
+{"artifact": {"path": "feature/features.db", "type": "feature"}, "featureConfig": {"signalConfig": {"carPlay": {}}}, "featureFlag": "LivableSources", "name": "carPlaySignal", "type": "signal", "update": {"viewListeners": [{"name": "handleMap", "requiredSource": true, "schedule": "none"}]}}

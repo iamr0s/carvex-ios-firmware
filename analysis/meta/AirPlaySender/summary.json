@@ -1,0 +1,35 @@
+{
+  "path": "D:\\carplay-phone\\firmware\\extracted\\24A446\\binaries\\AirPlaySender\\AirPlaySender",
+  "size": 4397312,
+  "sha256": "304b8a4a688028f58fc851ec700c905a49f17132aaa9dc04acd93a8bd50cd63f",
+  "magic": "0xfeedfacf",
+  "cputype": 16777228,
+  "cpusubtype": 2147483650,
+  "filetype": 6,
+  "ncmds": 45,
+  "sizeofcmds": 6568,
+  "flags": "0x2100085",
+  "uuid": "2d49b39b-fb65-366b-9ab5-6995e5e0febf",
+  "encryption": null,
+  "entry": null,
+  "segment_count": 7,
+  "section_count": 39,
+  "function_starts": 11443,
+  "symtab": {
+    "symoff": 3413296,
+    "nsyms": 16928,
+    "stroff": 3700704,
+    "strsize": 696608
+  },
+  "symbol_count": 14277,
+  "sect_create_date": null,
+  "text_section": {
+    "segment": "__TEXT",
+    "section": "__text",
+    "addr": 9958947448,
+    "size": 2375824,
+    "fileoff": 6776,
+    "align": 2,
+    "flags": 2147484672
+  }
+}

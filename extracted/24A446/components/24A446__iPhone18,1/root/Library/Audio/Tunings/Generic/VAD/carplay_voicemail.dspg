@@ -1,0 +1,23 @@
+graphName carplay_voicemail
+
+; I/O
+in in
+out out
+
+
+; Boxes
+box NFP nfnp 1 1 ; Non Finite Protection
+box AUControlFreak_1 (aufx cfrk appl) 1 1
+box AUControlFreak_2 (aufx cfrk appl) 1 1
+
+
+; Formats
+format inputFormat (48000 2)
+format outputFormat (48000 2)
+
+
+; Wires
+wire (in 0) (NFP 0) inputFormat
+wire (NFP 0) (AUControlFreak_1 0) inputFormat
+wire (AUControlFreak_1 0) (AUControlFreak_2 0) inputFormat
+wire (AUControlFreak_2 0) (out 0) outputFormat

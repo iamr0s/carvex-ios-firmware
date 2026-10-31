@@ -1,0 +1,1767 @@
+{
+  "cases": [
+    {
+      "case": "23G90",
+      "capture_sha256": "5152eb20b94a89698d96c542e8a5303cb9069d8745481b6d1b9f57ac3e04ba7d",
+      "observations": [
+        {
+          "occurrence": "23G90:0",
+          "id": "1d00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3189,
+              "offset": 132156,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:1",
+          "id": "1d01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3196,
+              "offset": 132368,
+              "length": 247
+            },
+            {
+              "record": 3219,
+              "offset": 133437,
+              "length": 110
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:2",
+          "id": "1d02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3224,
+              "offset": 133710,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:3",
+          "id": "aa00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3237,
+              "offset": 134105,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:4",
+          "id": "aa06",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3268,
+              "offset": 135210,
+              "length": 42
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:5",
+          "id": "aa00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3272,
+              "offset": 135361,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:6",
+          "id": "aa01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3400,
+              "offset": 140050,
+              "length": 247
+            },
+            {
+              "record": 3401,
+              "offset": 140323,
+              "length": 256
+            },
+            {
+              "record": 3402,
+              "offset": 140604,
+              "length": 114
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:7",
+          "id": "aa02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3404,
+              "offset": 140787,
+              "length": 42
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:8",
+          "id": "aa03",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3463,
+              "offset": 142932,
+              "length": 74
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:9",
+          "id": "aa05",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3464,
+              "offset": 143050,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:10",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3497,
+              "offset": 143877,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:11",
+          "id": "4e0d",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3544,
+              "offset": 145542,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:12",
+          "id": "4e0e",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3550,
+              "offset": 145729,
+              "length": 57
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:13",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3552,
+              "offset": 145856,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "23G90:14",
+          "id": "5703",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            12,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 2,
+          "provenance": [
+            {
+              "record": 3760,
+              "offset": 177656,
+              "length": 44
+            }
+          ]
+        }
+      ],
+      "qualification": "Capture order only; different connection/link generations not joined into one flow; no implicit response links"
+    },
+    {
+      "case": "22H374-latest",
+      "capture_sha256": "5d8d9b40912368f78830eebab7092d83aa75ec6cfb1c7acd0aa3551981135ea1",
+      "observations": [
+        {
+          "occurrence": "22H374-latest:0",
+          "id": "aa00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 365,
+              "offset": 13234,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:1",
+          "id": "aa01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 367,
+              "offset": 13296,
+              "length": 918
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:2",
+          "id": "aa02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 368,
+              "offset": 14249,
+              "length": 30
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:3",
+          "id": "aa03",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 419,
+              "offset": 15785,
+              "length": 138
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:4",
+          "id": "aa05",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 422,
+              "offset": 16055,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:5",
+          "id": "1d00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 424,
+              "offset": 16116,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:6",
+          "id": "1d01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 427,
+              "offset": 16198,
+              "length": 303
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:7",
+          "id": "1d02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 428,
+              "offset": 16536,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:8",
+          "id": "4e0c",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 429,
+              "offset": 16577,
+              "length": 47
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:9",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 429,
+              "offset": 16634,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:10",
+          "id": "4e09",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 430,
+              "offset": 16675,
+              "length": 21
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:11",
+          "id": "5703",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 435,
+              "offset": 16825,
+              "length": 58
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:12",
+          "id": "4e0d",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 438,
+              "offset": 16964,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:13",
+          "id": "4e0e",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 439,
+              "offset": 17010,
+              "length": 57
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:14",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 440,
+              "offset": 17102,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-latest:15",
+          "id": "5703",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 445,
+              "offset": 17237,
+              "length": 58
+            }
+          ]
+        }
+      ],
+      "qualification": "Capture order only; different connection/link generations not joined into one flow; no implicit response links"
+    },
+    {
+      "case": "22H374-archive",
+      "capture_sha256": "c16d1a9a410c4cba38b07d50185920b7e0c13151df49b39535cc4a67ed6e0601",
+      "observations": [
+        {
+          "occurrence": "22H374-archive:0",
+          "id": "aa00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1954,
+              "offset": 69162,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:1",
+          "id": "aa01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1956,
+              "offset": 69224,
+              "length": 656
+            },
+            {
+              "record": 1957,
+              "offset": 69906,
+              "length": 262
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:2",
+          "id": "aa02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1959,
+              "offset": 70224,
+              "length": 30
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:3",
+          "id": "aa03",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1963,
+              "offset": 70351,
+              "length": 138
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:4",
+          "id": "aa05",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1964,
+              "offset": 70524,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:5",
+          "id": "1d00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1966,
+              "offset": 70585,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:6",
+          "id": "1d01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1970,
+              "offset": 70743,
+              "length": 303
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:7",
+          "id": "1d02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1972,
+              "offset": 71102,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:8",
+          "id": "4e0c",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1974,
+              "offset": 71163,
+              "length": 47
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:9",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 1975,
+              "offset": 71245,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:10",
+          "id": "5703",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2002,
+              "offset": 71833,
+              "length": 58
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:11",
+          "id": "4e0d",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2051,
+              "offset": 73319,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:12",
+          "id": "4e09",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2052,
+              "offset": 73365,
+              "length": 21
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:13",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2061,
+              "offset": 73611,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:14",
+          "id": "4e0e",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2063,
+              "offset": 73672,
+              "length": 57
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:15",
+          "id": "5703",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            2
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2088,
+              "offset": 74257,
+              "length": 58
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:16",
+          "id": "aa00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53239,
+              "offset": 2774108,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:17",
+          "id": "aa01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53245,
+              "offset": 2774391,
+              "length": 66
+            },
+            {
+              "record": 53246,
+              "offset": 2774474,
+              "length": 852
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:18",
+          "id": "aa02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53247,
+              "offset": 2775361,
+              "length": 30
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:19",
+          "id": "aa03",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53290,
+              "offset": 2777267,
+              "length": 138
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:20",
+          "id": "aa05",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53303,
+              "offset": 2778053,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:21",
+          "id": "1d00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53303,
+              "offset": 2778069,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:22",
+          "id": "1d01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53326,
+              "offset": 2778780,
+              "length": 303
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:23",
+          "id": "1d02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53347,
+              "offset": 2780067,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:24",
+          "id": "4e0c",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53350,
+              "offset": 2780204,
+              "length": 47
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:25",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53351,
+              "offset": 2780286,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:26",
+          "id": "5703",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53369,
+              "offset": 2781101,
+              "length": 58
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:27",
+          "id": "4e0d",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53641,
+              "offset": 2794321,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:28",
+          "id": "4e0e",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53641,
+              "offset": 2794342,
+              "length": 57
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:29",
+          "id": "5702",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53643,
+              "offset": 2794454,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:30",
+          "id": "4e09",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53643,
+              "offset": 2794470,
+              "length": 21
+            }
+          ]
+        },
+        {
+          "occurrence": "22H374-archive:31",
+          "id": "5703",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            3
+          ],
+          "link_epoch": 4,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 53660,
+              "offset": 2795286,
+              "length": 58
+            }
+          ]
+        }
+      ],
+      "qualification": "Capture order only; different connection/link generations not joined into one flow; no implicit response links"
+    },
+    {
+      "case": "21G93",
+      "capture_sha256": "7aad46c8937c22832a6633e7cf30938098011f84af1626268b86ac733415606f",
+      "observations": [
+        {
+          "occurrence": "21G93:0",
+          "id": "1d00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2304,
+              "offset": 87464,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:1",
+          "id": "1d01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2319,
+              "offset": 88159,
+              "length": 533
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:2",
+          "id": "1d02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2325,
+              "offset": 88871,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:3",
+          "id": "aa00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2326,
+              "offset": 88912,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:4",
+          "id": "aa06",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2346,
+              "offset": 89849,
+              "length": 26
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:5",
+          "id": "aa02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2347,
+              "offset": 89910,
+              "length": 42
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:6",
+          "id": "aa03",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2406,
+              "offset": 92578,
+              "length": 74
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:7",
+          "id": "aa05",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2407,
+              "offset": 92687,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:8",
+          "id": "4e0c",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2408,
+              "offset": 92728,
+              "length": 47
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:9",
+          "id": "4e0b",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2412,
+              "offset": 92897,
+              "length": 29
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:10",
+          "id": "4e0a",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2412,
+              "offset": 92936,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:11",
+          "id": "4e09",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2413,
+              "offset": 92984,
+              "length": 27
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:12",
+          "id": "4300",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2625,
+              "offset": 111761,
+              "length": 75
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:13",
+          "id": "4300",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2629,
+              "offset": 111936,
+              "length": 75
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:14",
+          "id": "4300",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2682,
+              "offset": 119912,
+              "length": 75
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:15",
+          "id": "4300",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2702,
+              "offset": 121030,
+              "length": 75
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:16",
+          "id": "4300",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 1,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2762,
+              "offset": 145828,
+              "length": 75
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:17",
+          "id": "1d00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2919,
+              "offset": 200501,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:18",
+          "id": "1d01",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2931,
+              "offset": 200853,
+              "length": 533
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:19",
+          "id": "1d02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2932,
+              "offset": 201421,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:20",
+          "id": "aa00",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2933,
+              "offset": 201462,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:21",
+          "id": "aa06",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2937,
+              "offset": 201568,
+              "length": 26
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:22",
+          "id": "aa02",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2938,
+              "offset": 201629,
+              "length": 42
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:23",
+          "id": "aa03",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2942,
+              "offset": 201786,
+              "length": 74
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:24",
+          "id": "aa05",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2943,
+              "offset": 201895,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:25",
+          "id": "4e0c",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2944,
+              "offset": 201936,
+              "length": 47
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:26",
+          "id": "4e0a",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2945,
+              "offset": 202018,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:27",
+          "id": "4e09",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2946,
+              "offset": 202066,
+              "length": 27
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:28",
+          "id": "4e0b",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2947,
+              "offset": 202128,
+              "length": 29
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:29",
+          "id": "4300",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2952,
+              "offset": 202287,
+              "length": 75
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:30",
+          "id": "4301",
+          "direction": "PEER_TO_PHONE",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 2958,
+              "offset": 202520,
+              "length": 161
+            }
+          ]
+        },
+        {
+          "occurrence": "21G93:31",
+          "id": "4300",
+          "direction": "PHONE_TO_PEER",
+          "connection": [
+            11,
+            1
+          ],
+          "link_epoch": 3,
+          "session": 1,
+          "provenance": [
+            {
+              "record": 3325,
+              "offset": 248617,
+              "length": 75
+            }
+          ]
+        }
+      ],
+      "qualification": "Capture order only; different connection/link generations not joined into one flow; no implicit response links"
+    }
+  ]
+}

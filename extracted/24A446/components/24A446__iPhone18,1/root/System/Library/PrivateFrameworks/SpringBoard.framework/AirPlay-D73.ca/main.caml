@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 23 22" contentsFormat="RGBA8" name="Root Layer" position="11.5 11">
+    <sublayers>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 69 66" contentsFormat="RGBA8" name="scaler" position="11.5 11" transform="scale(0.33333, 0.33333, 1)">
+	<sublayers>
+	  <CALayer id="#1" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 57 66" contentsFormat="RGBA8" name="fader" opacity="1" position="28.5 33">
+	    <sublayers>
+	      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 69 66" contentsFormat="RGBA8" hidden="0" name="airplay" position="34 33">
+		<sublayers>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" borderColor="0.1091 0.6905 1.027" borderWidth="5.9279" bounds="0 0 63.468505859375 41.326232910156" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="14" name="Layer 7" position="35.352996826172 37.648071289062"/>
+		  <CAShapeLayer lineCap="round" lineJoin="round" lineWidth="9.3" path="19.357336180177 8.606257160523 m 35.237833404364 26.727560741496 l 51.215756991889 8.606257160523 l h" strokeColor="0 0 0" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 69 66" contentsFormat="RGBA8" name="Shape Layer 2" position="34.4 34.4" transform="scale(1.174, 1.174, 1)">
+		    <fillColor opacity="0" value="0 0 0"/>
+		  </CAShapeLayer>
+		  <CAShapeLayer fillColor="0.1091 0.6905 1.027" lineCap="round" lineJoin="round" lineWidth="9.3" path="19.357336180177 8.606257160523 m 35.237833404364 26.727560741496 l 51.215756991889 8.606257160523 l h" strokeColor="0.1091 0.6905 1.027" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 69 66" contentsFormat="RGBA8" name="Shape Layer 1" position="34.5 28.7" transform="scale(0.747, 0.747, 1)"/>
+		</sublayers>
+	      </CALayer>
+	    </sublayers>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+    <states>
+      <LKState name="breathe">
+	<elements>
+	  <LKStateSetValue targetId="#1" keyPath="opacity">
+	    <value type="real" value="0.7"/>
+	  </LKStateSetValue>
+	</elements>
+      </LKState>
+    </states>
+    <stateTransitions>
+      <LKStateTransition fromState="*" toState="breathe">
+	<elements>
+	  <LKStateTransitionElement key="opacity" targetId="#1">
+	    <animation type="CABasicAnimation" keyPath="opacity" autoreverses="1" duration="1" fillMode="backwards" repeatCount="inf" timingFunction="easeInEaseOut" CUI_autoreversingDuration="2">
+	      <animationType/>
+	    </animation>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+      <LKStateTransition fromState="breathe" toState="*">
+	<elements>
+	  <LKStateTransitionElement key="opacity" targetId="#1">
+	    <animation type="CASpringAnimation" damping="50" mass="2" stiffness="300" velocity="0" mica_autorecalculatesDuration="1" keyPath="opacity" duration="0.8" fillMode="backwards"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+    </stateTransitions>
+  </CALayer>
+</caml>

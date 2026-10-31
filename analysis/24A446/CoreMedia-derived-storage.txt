@@ -1,0 +1,5 @@
+IMAGE
+-----
+ > /System/Library/Frameworks/CoreMedia.framework/CoreMedia (__TEXT.__text)
+
+0x18ee2f3ac: _CMBaseObjectGetDerivedStorage
